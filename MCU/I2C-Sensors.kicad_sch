@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "24c60b29-0072-4289-a18d-c0bd3e72dc40")
 	(paper "A4")
 	(lib_symbols)
@@ -542,11 +542,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "3dae0571-a617-4475-ac43-9ed32fe297f9")
 		(property "Sheetname" "IMU"
 			(at 152.4 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,6 +558,8 @@
 		)
 		(property "Sheetfile" "IMU.kicad_sch"
 			(at 152.4 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,11 +628,13 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 0 0 0 0)
 		)
 		(uuid "fcc9fb91-e115-4885-8021-39aaea5b0ad4")
 		(property "Sheetname" "PressureSensor"
 			(at 101.6 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -638,6 +644,8 @@
 		)
 		(property "Sheetfile" "PressureSensor.kicad_sch"
 			(at 101.6 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
