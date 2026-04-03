@@ -2504,7 +2504,7 @@
 			(uuid "b6849011-02f0-4bbb-b1aa-77e794c2b8f1")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "D801")
 					(unit 1)
@@ -2606,7 +2606,7 @@
 			(uuid "435014ae-7870-477d-a7b1-2e4bc0704b14")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "L801")
 					(unit 1)
@@ -2710,7 +2710,7 @@
 			(uuid "e69f9a97-9ccf-4903-a2d8-a30adda7d59d")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "R802")
 					(unit 1)
@@ -2814,7 +2814,7 @@
 			(uuid "7f895c1f-3489-4e19-bb30-8e2fa8dbc210")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "BT801")
 					(unit 1)
@@ -2918,7 +2918,7 @@
 			(uuid "e2b02a3c-2ff7-4c34-8d75-bb2ff06276db")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "C803")
 					(unit 1)
@@ -3022,7 +3022,7 @@
 			(uuid "c99418bc-de65-4769-83c8-eb5653a703f3")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "J801")
 					(unit 1)
@@ -3126,7 +3126,7 @@
 			(uuid "184f2fec-6ea1-41ba-8b9e-ceadb8d5903d")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "C802")
 					(unit 1)
@@ -3296,7 +3296,7 @@
 			(uuid "8d050550-3e19-4c85-ad67-0ee2fd0f9b3a")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "U801")
 					(unit 1)
@@ -3400,7 +3400,7 @@
 			(uuid "d2af8b1f-31c0-450a-82dd-e066bc531fa5")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "R803")
 					(unit 1)
@@ -3504,7 +3504,7 @@
 			(uuid "b560e379-8789-419b-b55d-8d7ca44e2b53")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "JP801")
 					(unit 1)
@@ -3606,7 +3606,7 @@
 			(uuid "8a6fbc5f-ebac-4a57-b502-6d6cf3667e80")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "R801")
 					(unit 1)
@@ -3710,7 +3710,7 @@
 			(uuid "419bdaa8-0828-42a8-8256-f24cbb84e3b1")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "C801")
 					(unit 1)
@@ -3788,7 +3788,7 @@
 			(uuid "67ea4bda-d433-4aec-91d2-07b73855cdde")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/6481ab64-8292-49b8-99b9-8b8d441c7ed0"
 					(reference "#FLG0801")
 					(unit 1)

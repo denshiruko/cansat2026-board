@@ -392,7 +392,7 @@
 			)
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c"
 					(page "7")
 				)
@@ -478,7 +478,7 @@
 			)
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c"
 					(page "6")
 				)

@@ -663,133 +663,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
 		(at 162.56 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0434f5ce-c234-46e3-824d-5c133c75150a")
-	)
-	(junction
-		(at 177.8 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7eea85a9-0a0e-4358-ad09-635d0c433772")
 	)
 	(junction
 		(at 116.84 81.28)
@@ -1004,16 +883,6 @@
 		(uuid "0997e3eb-646c-4188-b009-b5f753c41232")
 	)
 	(label "GND"
-		(at 177.8 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "21dcc1b3-a3a3-4002-ac11-e0ab229ec542")
-	)
-	(label "GND"
 		(at 162.56 91.44 180)
 		(effects
 			(font
@@ -1078,6 +947,17 @@
 		)
 		(uuid "94e352e0-c45f-4cb5-8d35-b7b2d1c144ad")
 	)
+	(hierarchical_label "MPWR"
+		(shape input)
+		(at 177.8 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b63e5676-592f-4d1b-840f-9d6f348928f2")
+	)
 	(hierarchical_label "BIN2"
 		(shape input)
 		(at 114.3 104.14 180)
@@ -1088,84 +968,6 @@
 			(justify right)
 		)
 		(uuid "e0affcc2-0886-4595-87c9-ef931a4c32c6")
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 177.8 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cc1d617-43a5-4d5e-8539-287001dcfb4a")
-		(property "Reference" "#FLG0401"
-			(at 177.8 79.375 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 177.8 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 177.8 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48c907f4-25a2-4439-b436-e78eda869ca0")
-		)
-		(instances
-			(project cansat2026
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
-					(reference "#FLG0401")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
@@ -1263,113 +1065,9 @@
 			(uuid "da615f96-9710-433d-9559-435ae52bc17d")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "J403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 182.88 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5749485a-5d51-48ad-83fc-96582b320782")
-		(property "Reference" "J401"
-			(at 184.15 81.2799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M_Power_Conn"
-			(at 184.15 83.8199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 182.88 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 182.88 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 182.88 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 182.88 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dc980e3f-a315-4df6-b721-88408493acf8")
-		)
-		(pin "2"
-			(uuid "ca752a67-73ee-4f95-80b6-e6327ed29b90")
-		)
-		(instances
-			(project cansat2026
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
-					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -1504,7 +1202,7 @@
 			(uuid "3734a927-0c0e-4f89-bcd4-cea3476e21e9")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "U401")
 					(unit 1)
@@ -1607,7 +1305,7 @@
 			(uuid "ae48f729-d733-4770-8c0c-8f5873de68ce")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "J402")
 					(unit 1)
@@ -1711,7 +1409,7 @@
 			(uuid "fba38501-bf55-4028-81f9-a12c95bae9ab")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "C401")
 					(unit 1)
@@ -1815,7 +1513,7 @@
 			(uuid "46cf8554-ad3b-41ce-b513-5f37faa5bb17")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "C402")
 					(unit 1)

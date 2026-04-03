@@ -629,13 +629,50 @@
       {
         "filename": "cansat2026.kicad_sch",
         "name": "cansat2026",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "bf092721-05bb-4932-a328-528d8d2db6b5"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C101-105,R101-112,U101-102",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "bf092721-05bb-4932-a328-528d8d2db6b5",
+      "cansat2026"
+    ],
+    [
+      "886056d2-5282-44d2-b476-bdbecbe7b2be",
+      "Power"
+    ],
+    [
+      "f1a775cd-8d9d-4cb7-a988-5baf29908aff",
+      "BMS"
+    ],
+    [
+      "677c7cab-135e-4675-a1c6-e0f4681489b7",
+      "MD"
+    ],
+    [
+      "aa5cb7d0-df1f-4bc0-a855-31204212d19c",
+      "I2C Sensors"
+    ],
+    [
+      "fcc9fb91-e115-4885-8021-39aaea5b0ad4",
+      "PressureSensor"
+    ],
+    [
+      "3dae0571-a617-4475-ac43-9ed32fe297f9",
+      "IMU"
+    ],
+    [
+      "6481ab64-8292-49b8-99b9-8b8d441c7ed0",
+      "GPS"
+    ],
+    [
+      "51402aa8-1c6c-4ca5-bb0d-7d0f87165c63",
+      "MCU"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

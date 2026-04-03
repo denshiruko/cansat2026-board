@@ -446,7 +446,7 @@
 			(uuid "13286c88-090d-4988-ae63-50c53d879285")
 		)
 		(instances
-			(project cansat2026
+			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c/3dae0571-a617-4475-ac43-9ed32fe297f9"
 					(reference "U701")
 					(unit 1)
