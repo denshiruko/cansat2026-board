@@ -740,7 +740,7 @@
 			(uuid "55b571ab-458a-4a1f-956a-459615bf811e")
 		)
 		(instances
-			(project "MCU"
+			(project cansat2026
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c/fcc9fb91-e115-4885-8021-39aaea5b0ad4"
 					(reference "JP601")
 					(unit 1)
@@ -834,7 +834,7 @@
 			(uuid "2915f575-cf5e-48f1-8209-c5e6857a2c68")
 		)
 		(instances
-			(project "MCU"
+			(project cansat2026
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c/fcc9fb91-e115-4885-8021-39aaea5b0ad4"
 					(reference "U601")
 					(unit 1)

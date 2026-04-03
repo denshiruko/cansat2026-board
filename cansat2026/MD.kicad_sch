@@ -1159,7 +1159,7 @@
 			(uuid "48c907f4-25a2-4439-b436-e78eda869ca0")
 		)
 		(instances
-			(project "MCU"
+			(project cansat2026
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "#FLG0401")
 					(unit 1)
@@ -1263,7 +1263,7 @@
 			(uuid "da615f96-9710-433d-9559-435ae52bc17d")
 		)
 		(instances
-			(project "MCU"
+			(project cansat2026
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "J403")
 					(unit 1)
@@ -1367,7 +1367,7 @@
 			(uuid "ca752a67-73ee-4f95-80b6-e6327ed29b90")
 		)
 		(instances
-			(project "MCU"
+			(project cansat2026
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "J401")
 					(unit 1)
@@ -1504,7 +1504,7 @@
 			(uuid "3734a927-0c0e-4f89-bcd4-cea3476e21e9")
 		)
 		(instances
-			(project "MCU"
+			(project cansat2026
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "U401")
 					(unit 1)
@@ -1607,7 +1607,7 @@
 			(uuid "ae48f729-d733-4770-8c0c-8f5873de68ce")
 		)
 		(instances
-			(project "MCU"
+			(project cansat2026
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "J402")
 					(unit 1)
@@ -1711,7 +1711,7 @@
 			(uuid "fba38501-bf55-4028-81f9-a12c95bae9ab")
 		)
 		(instances
-			(project "MCU"
+			(project cansat2026
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "C401")
 					(unit 1)
@@ -1815,7 +1815,7 @@
 			(uuid "46cf8554-ad3b-41ce-b513-5f37faa5bb17")
 		)
 		(instances
-			(project "MCU"
+			(project cansat2026
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "C402")
 					(unit 1)

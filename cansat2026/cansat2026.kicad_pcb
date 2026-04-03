@@ -2627,7 +2627,7 @@
 		(property ki_fp_filters "microSD*")
 		(path "/b3aa2d33-4a85-4ed1-a1ad-06738d3f86d3")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4007,7 +4007,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/78c8b1ff-5009-4bb4-bda1-e3688fd913c8")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -4795,7 +4795,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/43ea1cb1-baef-4d96-bb50-5cc3496d8d26")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -5337,7 +5337,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3035c24f-a6a2-458b-b89b-d7773da656ce")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -6690,7 +6690,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5dee12a2-9f06-4c17-b4b2-20df888a8256")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9655,7 +9655,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/99b34217-d710-4f7a-bf73-4c34939e2d48")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -9927,7 +9927,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/15e053bb-8bdd-4d67-bca6-803aea4734b8")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -10286,7 +10286,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/59682eeb-4807-4ae0-8c4b-b10aba7029fc")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -11305,7 +11305,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/11af66e1-ea6b-4b6a-9545-aa7212718f63")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -14241,7 +14241,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f0d93626-bcfe-4640-aa80-e255eaa50fc2")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -15312,7 +15312,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1dc2936a-dc24-47c2-8b43-36c800ff4965")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16333,7 +16333,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/a6bf2e45-f329-4fb3-b0be-8325f89ba750")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -16924,7 +16924,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/38447afa-13ca-42ee-8c37-5699a7909114")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -18244,7 +18244,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/60fa0639-1497-4feb-8dab-4f1529f5a2e5")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -19292,7 +19292,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/b181c315-64e5-4e47-a309-cf56f0f78764")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20581,7 +20581,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/c046cb46-c2b5-4c47-a418-2fcdcf895b13")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -20852,7 +20852,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/93a2260d-b04c-4a33-a574-bfbd5e405a72")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -23648,7 +23648,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/7aea73a9-d416-453d-be54-4a9f4cfe0855")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -26123,7 +26123,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1c1212ca-c3ea-484d-bee7-0211550ac2b0")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27288,7 +27288,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/04bece0c-fa08-4996-98a0-193bc1e3d5a0")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -27830,7 +27830,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f3da28f1-38df-475d-942f-f5970f824ec8")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -30467,7 +30467,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1513c2d4-b92e-42ff-bc0c-339ae1410a8d")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -31265,7 +31265,7 @@
 		)
 		(path "/2cd6db8f-7504-43ea-b32c-77fc92b531b2")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -32596,7 +32596,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/b34cb7c8-b67a-4408-9184-22553789f9f5")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -33543,7 +33543,7 @@
 		)
 		(path "/226e30c2-a587-43f7-bfb2-6e1fe8f0e1c5")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35068,7 +35068,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/561aedb7-2652-4050-864c-07d69d57c55f")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -35818,7 +35818,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/6f3e2cc6-bc57-46dd-aa9d-422d45e4b4ba")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36345,7 +36345,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e9a40f30-74bf-499b-8c87-c806e7c473bb")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -36888,7 +36888,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1d41b6f9-80bc-40dc-918d-cd518c1e38e2")
 		(sheetname "/")
-		(sheetfile "MCU.kicad_sch")
+		(sheetfile "cansat2026.kicad_sch")
 		(units
 			(unit
 				(name "A")
