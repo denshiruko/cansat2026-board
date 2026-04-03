@@ -722,441 +722,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x08_Socket"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x08_Socket"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x08, script generated"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_01x08_Socket_1_1"
-				(polyline
-					(pts
-						(xy -1.27 7.62) (xy -0.508 7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy -0.508 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -10.16) (xy -0.508 -10.16)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 7.112)
-					(mid -0.5058 7.62)
-					(end 0 8.128)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 4.572)
-					(mid -0.5058 5.08)
-					(end 0 5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.032)
-					(mid -0.5058 2.54)
-					(end 0 3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.508)
-					(mid -0.5058 0)
-					(end 0 0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -3.048)
-					(mid -0.5058 -2.54)
-					(end 0 -2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -5.588)
-					(mid -0.5058 -5.08)
-					(end 0 -4.572)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -8.128)
-					(mid -0.5058 -7.62)
-					(end 0 -7.112)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -10.668)
-					(mid -0.5058 -10.16)
-					(end 0 -9.652)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Micro_SD_Card_Det_Hirose_DM3AT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1545,7 +1110,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3599,163 +3164,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 31.75 88.9)
+		(at 111.76 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "00da4b70-9501-4af8-86e4-ad62b3b00422")
+		(uuid "0f6921e9-b409-4f92-a360-b82b922cce97")
 	)
 	(junction
-		(at 66.04 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a9b62b6-8c49-47d8-9387-ece86bcb63f4")
-	)
-	(junction
-		(at 53.34 71.12)
+		(at 30.48 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1142182c-d58d-4a75-b4a4-d42f86e62c0f")
-	)
-	(junction
-		(at 68.58 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "159087ad-adb4-4844-949f-8b42bafb76b9")
-	)
-	(junction
-		(at 162.56 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f1928a0-f04a-4531-8da8-985abb57ea7f")
 	)
 	(junction
 		(at 238.76 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1fb3bc62-2236-4488-b8f5-016911768dcd")
-	)
-	(junction
-		(at 66.04 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2941cb34-49f1-43e5-b305-44faf569ee7c")
 	)
 	(junction
 		(at 81.28 26.67)
@@ -3768,30 +3194,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b533bc9-e87a-47da-8dd7-ce6f40832be8")
-	)
-	(junction
-		(at 106.68 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2cc8b6d6-af0f-44b9-a8a3-8c3742143fc4")
-	)
-	(junction
-		(at 142.24 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fef4631-0ee8-41e8-be7d-40aaa9b3f275")
-	)
-	(junction
-		(at 66.04 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "406d673c-986e-4c20-845d-1b463a38aff3")
-	)
-	(junction
-		(at 160.02 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4088ad8e-a995-4d87-aa31-968861dccec0")
 	)
 	(junction
 		(at 228.6 139.7)
@@ -3812,36 +3214,6 @@
 		(uuid "52728dba-4662-4cca-a119-c26c32610585")
 	)
 	(junction
-		(at 157.48 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5432ae32-40ab-4b06-bae7-ce883061bc86")
-	)
-	(junction
-		(at 31.75 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5601bc7e-af6a-4588-912d-8ff0a0c96cdf")
-	)
-	(junction
-		(at 106.68 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b9c9e0e-5e12-41aa-8899-7fd338cf8141")
-	)
-	(junction
-		(at 111.76 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f348bb1-b3c7-460b-bb2c-2129ab615f97")
-	)
-	(junction
-		(at 66.04 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64e0328e-f2b7-4924-9007-dbfad45ee438")
-	)
-	(junction
 		(at 208.28 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3860,37 +3232,13 @@
 		(uuid "72d379f6-0033-410b-85df-6cd9eaf8b38d")
 	)
 	(junction
-		(at 142.24 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78f0546e-4391-466a-bd27-2e004a0dd1c7")
-	)
-	(junction
-		(at 111.76 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8127f7e2-9f87-4d0c-a179-b840a66478b1")
-	)
-	(junction
-		(at 106.68 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8cdb3755-33d7-4d66-af15-962e0f27e462")
-	)
-	(junction
-		(at 144.78 170.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e3c9e0f-6e23-4374-a733-02022397f968")
-	)
-	(junction
 		(at 195.58 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90e25085-6818-47ec-a424-5f25de595e44")
 	)
 	(junction
-		(at 144.78 162.56)
+		(at 144.78 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92445a98-524d-4b01-95f9-1c5fceb56fc7")
@@ -3902,16 +3250,10 @@
 		(uuid "99cf4f42-8d05-4181-bb3d-f968fe35bef6")
 	)
 	(junction
-		(at 109.22 137.16)
+		(at 142.24 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a3d75c51-d3d8-475e-9fc0-5ee4abaca56a")
-	)
-	(junction
-		(at 142.24 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a59d9ecb-49d2-4dee-9242-f974f33033ea")
+		(uuid "a6bf6651-8e5b-43b9-a44b-9d8d20ffcedc")
 	)
 	(junction
 		(at 208.28 139.7)
@@ -3926,19 +3268,13 @@
 		(uuid "b51aa2ef-38f7-42e8-b545-9832f0bde13a")
 	)
 	(junction
-		(at 157.48 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb2eabad-3f06-4f90-8f69-cee7e17b5e30")
-	)
-	(junction
-		(at 142.24 165.1)
+		(at 142.24 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc18420d-3e34-4a44-bfe9-f81500b58603")
 	)
 	(junction
-		(at 52.07 68.58)
+		(at 29.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf55c58a-981f-421e-aad4-7e93ac8e8abe")
@@ -3956,40 +3292,10 @@
 		(uuid "ccc02606-5c2a-4ab1-a01e-4d53fc98d048")
 	)
 	(junction
-		(at 66.04 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce2b6095-a1a0-4162-8b02-19137b4d8b39")
-	)
-	(junction
-		(at 31.75 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d00b89b7-c5cb-4e65-9c99-43785135a62c")
-	)
-	(junction
 		(at 256.54 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d93426e4-9bf2-4b9d-b3ee-8ee0c309a545")
-	)
-	(junction
-		(at 162.56 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd0549b8-c709-4d83-9b94-6334f497c56c")
-	)
-	(junction
-		(at 144.78 185.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd0a4773-f4b1-43d7-973c-fc4b3d4f5cf0")
-	)
-	(junction
-		(at 157.48 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e44af473-5500-4e38-928c-d1e2454fda71")
 	)
 	(junction
 		(at 81.28 34.29)
@@ -3998,22 +3304,10 @@
 		(uuid "e7078093-252d-4d5d-92f4-ccf720299c7e")
 	)
 	(junction
-		(at 144.78 177.8)
+		(at 144.78 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9341e42-dbfd-4121-8514-eaa54ee3577c")
-	)
-	(junction
-		(at 104.14 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa21333a-2c26-4fd2-a639-87b3dd08750a")
-	)
-	(junction
-		(at 162.56 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdc66677-6def-4cf9-855e-5e274e836cb7")
+		(uuid "fad26c7b-6577-496b-b554-a28f50f553b6")
 	)
 	(no_connect
 		(at 175.26 58.42)
@@ -4128,6 +3422,10 @@
 		(uuid "d48882a1-74ff-4c39-9048-017de5f9ccf9")
 	)
 	(no_connect
+		(at 152.4 76.2)
+		(uuid "de919afe-5884-4143-826f-8eea5b56c729")
+	)
+	(no_connect
 		(at 266.7 50.8)
 		(uuid "eaed6489-2a04-4705-b1b7-8a4b36869d19")
 	)
@@ -4143,23 +3441,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 149.86) (xy 101.6 149.86)
+			(xy 78.74 175.26) (xy 81.28 175.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "02f92c2b-3de4-4d64-be9b-22fea3134036")
-	)
-	(wire
-		(pts
-			(xy 35.56 124.46) (xy 27.94 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03bf1990-929c-4fb3-aa9e-566ed676ef48")
+		(uuid "0120c00b-1dde-4bd8-865d-dfb40b1034ff")
 	)
 	(wire
 		(pts
@@ -4183,16 +3471,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 152.4) (xy 160.02 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07f62560-af97-4d66-8033-76242079ccaf")
-	)
-	(wire
-		(pts
 			(xy 106.68 35.56) (xy 106.68 26.67)
 		)
 		(stroke
@@ -4203,17 +3481,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 127) (xy 106.68 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aadca22-298b-429c-8f26-c272ce5c39a6")
-	)
-	(wire
-		(pts
-			(xy 53.34 71.12) (xy 50.8 71.12)
+			(xy 30.48 83.82) (xy 27.94 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4223,7 +3491,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 172.72) (xy 147.32 172.72)
+			(xy 142.24 182.88) (xy 147.32 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4233,53 +3501,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 160.02) (xy 68.58 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc9136d-4a9b-4d38-981d-69c9b7789b92")
-	)
-	(wire
-		(pts
-			(xy 109.22 175.26) (xy 109.22 162.56)
+			(xy 109.22 175.26) (xy 109.22 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0c3f7aee-f664-4f23-96f0-a30e78677217")
-	)
-	(wire
-		(pts
-			(xy 144.78 177.8) (xy 147.32 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ef01542-2bfa-4c1d-b84e-e4e38b4b243f")
-	)
-	(wire
-		(pts
-			(xy 35.56 121.92) (xy 27.94 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10b968a9-305d-4cc2-8a99-bbfa457c17a6")
-	)
-	(wire
-		(pts
-			(xy 31.75 93.98) (xy 31.75 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12fe7de0-513e-4875-a456-a109429ce4c5")
 	)
 	(wire
 		(pts
@@ -4303,7 +3531,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 172.72) (xy 142.24 180.34)
+			(xy 142.24 182.88) (xy 142.24 190.5)
 		)
 		(stroke
 			(width 0)
@@ -4313,27 +3541,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 142.24) (xy 157.48 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19a07099-ee96-45ed-8ee7-1d577a207633")
-	)
-	(wire
-		(pts
-			(xy 66.04 127) (xy 66.04 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c4eeceb-2736-448b-8c19-6b93f7a6d51b")
-	)
-	(wire
-		(pts
-			(xy 35.56 96.52) (xy 27.94 96.52)
+			(xy 73.66 139.7) (xy 76.2 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4343,7 +3551,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 165.1) (xy 142.24 172.72)
+			(xy 142.24 175.26) (xy 142.24 182.88)
 		)
 		(stroke
 			(width 0)
@@ -4363,13 +3571,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 144.78) (xy 162.56 144.78)
+			(xy 167.64 147.32) (xy 170.18 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22d91b38-cde1-4e88-bae6-003a45b61ef5")
+		(uuid "21bc33d2-60b3-4b76-a8f4-71c5e60a5e3e")
 	)
 	(wire
 		(pts
@@ -4383,26 +3591,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 142.24) (xy 114.3 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23801f75-ffd6-4dbc-9a31-93a98f8ee8a8")
-	)
-	(wire
-		(pts
-			(xy 66.04 147.32) (xy 66.04 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24c55dae-c182-4713-acb5-05e5e10a4d5a")
-	)
-	(wire
-		(pts
 			(xy 220.98 35.56) (xy 220.98 26.67)
 		)
 		(stroke
@@ -4413,7 +3601,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 86.36) (xy 50.8 86.36)
+			(xy 31.75 99.06) (xy 27.94 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4433,53 +3621,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 149.86) (xy 68.58 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a02aaac-7e85-4ec0-b787-424307b38be3")
-	)
-	(wire
-		(pts
-			(xy 142.24 195.58) (xy 142.24 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a283764-e103-4429-9cd6-c3d6ed6dbce5")
-	)
-	(wire
-		(pts
-			(xy 35.56 91.44) (xy 27.94 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa124c7-48ce-4bb2-96d8-62a8d842cf12")
-	)
-	(wire
-		(pts
-			(xy 144.78 162.56) (xy 144.78 170.18)
+			(xy 144.78 172.72) (xy 144.78 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2bece7d9-e76d-44e0-8682-15f844329a64")
-	)
-	(wire
-		(pts
-			(xy 63.5 139.7) (xy 76.2 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d40ecb1-ee34-4631-b3e7-df6277f94813")
 	)
 	(wire
 		(pts
@@ -4523,23 +3671,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 127) (xy 167.64 127)
+			(xy 166.37 132.08) (xy 170.18 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "338feed5-b1e7-4a30-8fc1-375ee9151dce")
-	)
-	(wire
-		(pts
-			(xy 100.33 127) (xy 106.68 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3515cde7-474c-4584-836e-cff83664fbab")
 	)
 	(wire
 		(pts
@@ -4563,16 +3701,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 106.68) (xy 27.94 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37897627-3e2e-48a5-ae0d-10beff8f98a4")
-	)
-	(wire
-		(pts
 			(xy 78.74 26.67) (xy 81.28 26.67)
 		)
 		(stroke
@@ -4583,16 +3711,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 132.08) (xy 66.04 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39444d7c-6b4e-4498-92d2-576eba1204df")
-	)
-	(wire
-		(pts
 			(xy 238.76 149.86) (xy 238.76 147.32)
 		)
 		(stroke
@@ -4600,16 +3718,6 @@
 			(type default)
 		)
 		(uuid "3a9c7427-6c39-44df-a120-9dc019d858e5")
-	)
-	(wire
-		(pts
-			(xy 78.74 175.26) (xy 81.28 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e308ca8-d020-4887-a947-7f0e200ca252")
 	)
 	(wire
 		(pts
@@ -4633,63 +3741,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 160.02) (xy 66.04 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4320d7f2-cd26-4bdb-a097-178f7ccc88fd")
-	)
-	(wire
-		(pts
-			(xy 106.68 144.78) (xy 114.3 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4690afed-a709-4933-8183-9ea7d6a01daa")
-	)
-	(wire
-		(pts
-			(xy 52.07 81.28) (xy 50.8 81.28)
+			(xy 29.21 93.98) (xy 27.94 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "46cb26fc-7fd5-414e-a786-5cb34ea7af9e")
-	)
-	(wire
-		(pts
-			(xy 144.78 193.04) (xy 144.78 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4728ea2c-e225-41bc-b01e-3120c1128944")
-	)
-	(wire
-		(pts
-			(xy 104.14 160.02) (xy 104.14 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c47e7c-09d1-48b8-b13c-6249eec4e425")
-	)
-	(wire
-		(pts
-			(xy 76.2 132.08) (xy 73.66 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4805f70e-b75e-41df-8b4b-7cdd92009aa9")
 	)
 	(wire
 		(pts
@@ -4713,17 +3771,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 152.4) (xy 160.02 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a5ea774-5715-448c-a432-ef34fdbd472a")
-	)
-	(wire
-		(pts
-			(xy 111.76 165.1) (xy 111.76 180.34)
+			(xy 111.76 175.26) (xy 111.76 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4733,17 +3781,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 180.34) (xy 81.28 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c3bdf48-3d87-4444-86fd-b9f21739f89e")
-	)
-	(wire
-		(pts
-			(xy 147.32 162.56) (xy 144.78 162.56)
+			(xy 147.32 172.72) (xy 144.78 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4753,17 +3791,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 83.82) (xy 31.75 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5131855d-4577-4cd8-bed5-83939ecdf38a")
-	)
-	(wire
-		(pts
-			(xy 35.56 86.36) (xy 27.94 86.36)
+			(xy 73.66 134.62) (xy 76.2 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4773,27 +3801,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 25.4) (xy 54.61 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d6fe00-d070-466a-b137-2ca258445764")
-	)
-	(wire
-		(pts
-			(xy 76.2 134.62) (xy 71.12 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "558ed386-f1cb-48a1-88d9-7597f8661ea6")
-	)
-	(wire
-		(pts
-			(xy 109.22 162.56) (xy 144.78 162.56)
+			(xy 109.22 172.72) (xy 144.78 172.72)
 		)
 		(stroke
 			(width 0)
@@ -4803,47 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 111.76) (xy 27.94 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "573f62a0-5dbd-46b0-b886-7ea134ffc554")
-	)
-	(wire
-		(pts
-			(xy 68.58 144.78) (xy 76.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57413e67-a1f6-4a8c-95f3-daa47b97786b")
-	)
-	(wire
-		(pts
-			(xy 106.68 139.7) (xy 106.68 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5841191a-f61d-4983-ac5b-0394fdef77f8")
-	)
-	(wire
-		(pts
-			(xy 162.56 132.08) (xy 162.56 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a15d1e2-f067-4dc5-b21f-6ade5fb1f281")
-	)
-	(wire
-		(pts
-			(xy 144.78 170.18) (xy 147.32 170.18)
+			(xy 144.78 180.34) (xy 147.32 180.34)
 		)
 		(stroke
 			(width 0)
@@ -4873,7 +3841,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 165.1) (xy 142.24 165.1)
+			(xy 147.32 175.26) (xy 142.24 175.26)
 		)
 		(stroke
 			(width 0)
@@ -4883,23 +3851,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 187.96) (xy 147.32 187.96)
+			(xy 78.74 177.8) (xy 81.28 177.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "624f54da-0543-44e4-91a1-b6d432416c6c")
-	)
-	(wire
-		(pts
-			(xy 101.6 147.32) (xy 104.14 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6263ce7f-4904-4f86-a450-a908c76671f8")
+		(uuid "6397da8b-22cc-4fad-891b-db2a2cbdc758")
 	)
 	(wire
 		(pts
@@ -4913,36 +3871,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 142.24) (xy 66.04 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65489cc5-c36d-4749-b9de-5a88feee7aa6")
-	)
-	(wire
-		(pts
-			(xy 144.78 144.78) (xy 157.48 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66242da1-0ab9-4b32-a853-8beef24b8502")
-	)
-	(wire
-		(pts
-			(xy 162.56 149.86) (xy 170.18 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67ffd902-5b84-4949-8911-35a2eb3253bb")
-	)
-	(wire
-		(pts
 			(xy 35.56 55.88) (xy 27.94 55.88)
 		)
 		(stroke
@@ -4950,26 +3878,6 @@
 			(type default)
 		)
 		(uuid "6842480b-85e5-4be7-ab1c-1960b3d0829e")
-	)
-	(wire
-		(pts
-			(xy 167.64 161.29) (xy 162.56 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6864b47a-e4da-4b23-8365-4ad6b80349f4")
-	)
-	(wire
-		(pts
-			(xy 144.78 185.42) (xy 147.32 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6af3f9c3-5643-46aa-afb8-d6ac3d0967be")
 	)
 	(wire
 		(pts
@@ -4983,16 +3891,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 99.06) (xy 31.75 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6de74eb8-c639-4b4e-aee2-e22e94624b6b")
-	)
-	(wire
-		(pts
 			(xy 246.38 127) (xy 256.54 127)
 		)
 		(stroke
@@ -5000,16 +3898,6 @@
 			(type default)
 		)
 		(uuid "6f5c87ff-a5bc-4ec9-9624-36b165ad0ab0")
-	)
-	(wire
-		(pts
-			(xy 162.56 144.78) (xy 162.56 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9c4bd7-a007-4325-9d7b-1a6ea162252d")
 	)
 	(wire
 		(pts
@@ -5033,17 +3921,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 139.7) (xy 106.68 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "745fca1d-70c0-4359-9b13-2eb7d77ad234")
-	)
-	(wire
-		(pts
-			(xy 147.32 195.58) (xy 142.24 195.58)
+			(xy 147.32 190.5) (xy 142.24 190.5)
 		)
 		(stroke
 			(width 0)
@@ -5063,23 +3941,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 134.62) (xy 165.1 129.54)
+			(xy 167.64 139.7) (xy 170.18 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79aea7f9-72ee-42ec-ad67-1e8297c638f4")
-	)
-	(wire
-		(pts
-			(xy 73.66 132.08) (xy 73.66 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d56ce71-4427-4650-a913-bd2c96c9b4fd")
+		(uuid "7d537690-f45c-4fef-9c31-9f346bdfbeae")
 	)
 	(wire
 		(pts
@@ -5093,17 +3961,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 149.86) (xy 68.58 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80f0a8ec-763e-423d-bac2-3d0bcc886b4a")
-	)
-	(wire
-		(pts
-			(xy 54.61 71.12) (xy 53.34 71.12)
+			(xy 31.75 83.82) (xy 30.48 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5120,16 +3978,6 @@
 			(type default)
 		)
 		(uuid "832d63ed-f092-4f57-9787-066daf1d9ba3")
-	)
-	(wire
-		(pts
-			(xy 160.02 161.29) (xy 160.02 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "839cd9dd-899e-46eb-a7c9-fc808edb0009")
 	)
 	(wire
 		(pts
@@ -5153,57 +4001,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 134.62) (xy 63.5 134.62)
+			(xy 167.64 149.86) (xy 170.18 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86b2f045-1940-46cc-ac5f-d8cedd188f16")
+		(uuid "866c6a5a-e91c-4fe4-832a-95e81a9d40e8")
 	)
 	(wire
 		(pts
-			(xy 101.6 160.02) (xy 104.14 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "874558cd-4468-4ff2-ba6a-c137111d0b2c")
-	)
-	(wire
-		(pts
-			(xy 73.66 160.02) (xy 68.58 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c28d59-886c-4a9e-b88d-1abc6b64c01c")
-	)
-	(wire
-		(pts
-			(xy 35.56 109.22) (xy 27.94 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c490cc8-deab-4265-8e09-7352b29b8dd2")
-	)
-	(wire
-		(pts
-			(xy 31.75 88.9) (xy 31.75 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cd4633a-4049-4ec6-bddf-ccdf36e26535")
-	)
-	(wire
-		(pts
-			(xy 54.61 68.58) (xy 52.07 68.58)
+			(xy 31.75 81.28) (xy 29.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5223,16 +4031,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 139.7) (xy 170.18 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "910bc384-e1d1-4fd7-a256-3e641342c66e")
-	)
-	(wire
-		(pts
 			(xy 81.28 26.67) (xy 93.98 26.67)
 		)
 		(stroke
@@ -5243,7 +4041,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 137.16) (xy 114.3 137.16)
+			(xy 111.76 137.16) (xy 114.3 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5253,7 +4051,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 81.28) (xy 27.94 81.28)
+			(xy 73.66 132.08) (xy 76.2 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5263,7 +4061,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 68.58) (xy 50.8 68.58)
+			(xy 29.21 81.28) (xy 27.94 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5283,7 +4081,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 193.04) (xy 144.78 193.04)
+			(xy 147.32 187.96) (xy 144.78 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5323,67 +4121,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 132.08) (xy 66.04 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ce190d0-67ff-4d81-a16b-104856c5f9be")
-	)
-	(wire
-		(pts
-			(xy 144.78 139.7) (xy 157.48 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9eaa276f-9081-4a8a-a1d8-5ca37059fe1e")
-	)
-	(wire
-		(pts
-			(xy 100.33 121.92) (xy 111.76 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a30e8e1a-bbfc-413a-90f8-87fcb099505e")
-	)
-	(wire
-		(pts
-			(xy 101.6 137.16) (xy 109.22 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3b4c274-6039-40db-af5c-2b15c32e6591")
-	)
-	(wire
-		(pts
-			(xy 142.24 180.34) (xy 147.32 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6372c59-fe49-4956-ad9b-8f768479ea51")
-	)
-	(wire
-		(pts
-			(xy 27.94 93.98) (xy 31.75 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6fbabe6-4c38-4954-9c70-55bd5c64d9c1")
-	)
-	(wire
-		(pts
-			(xy 53.34 71.12) (xy 53.34 83.82)
+			(xy 30.48 83.82) (xy 30.48 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5393,43 +4131,13 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 124.46) (xy 63.5 124.46)
+			(xy 111.76 142.24) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9018a9b-ff9d-4e1e-9310-fd9f0bb02b95")
-	)
-	(wire
-		(pts
-			(xy 160.02 147.32) (xy 170.18 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a97dc6cd-c6b9-49c1-b75a-a2470ce654ae")
-	)
-	(wire
-		(pts
-			(xy 27.94 25.4) (xy 54.61 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa957193-3797-43e1-a142-f05be43c8935")
-	)
-	(wire
-		(pts
-			(xy 66.04 152.4) (xy 63.5 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abae1771-1489-4ff8-b0c7-6c69213b3198")
+		(uuid "aaa783ab-3677-48d8-82e1-3b090969dc79")
 	)
 	(wire
 		(pts
@@ -5443,33 +4151,13 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 160.02) (xy 66.04 160.02)
+			(xy 73.66 144.78) (xy 76.2 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac3fadfe-3c4d-4eb6-b943-a443a32b8766")
-	)
-	(wire
-		(pts
-			(xy 63.5 127) (xy 66.04 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acfc3664-554e-4c64-b0cd-0f99cc812e5a")
-	)
-	(wire
-		(pts
-			(xy 27.94 22.86) (xy 44.45 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ade79296-77ad-4e45-98c9-75d3195e04e3")
+		(uuid "aef779e9-4478-4688-9788-410ca6032261")
 	)
 	(wire
 		(pts
@@ -5483,66 +4171,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 147.32) (xy 104.14 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0edb33f-cb1a-4013-a1e1-3510f44c8d9e")
-	)
-	(wire
-		(pts
-			(xy 162.56 149.86) (xy 162.56 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b23d24c4-44b9-47c9-abc7-66c1ee20591a")
-	)
-	(wire
-		(pts
-			(xy 71.12 134.62) (xy 71.12 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4c58d59-8c38-4f8e-97c0-0606613f80fb")
-	)
-	(wire
-		(pts
-			(xy 68.58 137.16) (xy 68.58 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b501eb11-2ccc-498b-9151-f8488793082b")
-	)
-	(wire
-		(pts
-			(xy 68.58 137.16) (xy 76.2 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b578b32d-aceb-4249-9acd-2894b9d7ded3")
-	)
-	(wire
-		(pts
-			(xy 144.78 177.8) (xy 144.78 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b59daac1-d9dc-4bfe-8224-258dcf1a123e")
-	)
-	(wire
-		(pts
 			(xy 195.58 34.29) (xy 208.28 34.29)
 		)
 		(stroke
@@ -5553,7 +4181,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 147.32) (xy 76.2 147.32)
+			(xy 73.66 147.32) (xy 76.2 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5563,13 +4191,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 127) (xy 167.64 132.08)
+			(xy 73.66 137.16) (xy 76.2 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b7e82a5b-0eb7-4d73-8921-8ff439084fe1")
+		(uuid "b80118cd-599e-4c1a-bb1d-3c35d0c4f532")
 	)
 	(wire
 		(pts
@@ -5580,46 +4208,6 @@
 			(type default)
 		)
 		(uuid "ba0c2de7-137f-47c8-9fdc-51f9ee07691b")
-	)
-	(wire
-		(pts
-			(xy 31.75 83.82) (xy 31.75 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc4203b9-f0da-44b8-a9ff-f6d1a454137a")
-	)
-	(wire
-		(pts
-			(xy 78.74 177.8) (xy 81.28 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcaf6d2e-657e-4b2b-a15d-7e713a8ba24d")
-	)
-	(wire
-		(pts
-			(xy 66.04 137.16) (xy 66.04 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd4e7535-e5e4-4253-8045-ca6e906152c1")
-	)
-	(wire
-		(pts
-			(xy 157.48 132.08) (xy 162.56 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "befbea5c-6e13-42f0-a237-bebe9c7c0608")
 	)
 	(wire
 		(pts
@@ -5653,26 +4241,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 144.78) (xy 106.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c456610b-113d-44b3-9c9f-02c4818a1eca")
-	)
-	(wire
-		(pts
-			(xy 157.48 142.24) (xy 170.18 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4c9669a-b937-453a-a56f-ae48152a094e")
-	)
-	(wire
-		(pts
 			(xy 218.44 139.7) (xy 228.6 139.7)
 		)
 		(stroke
@@ -5683,27 +4251,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 119.38) (xy 35.56 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c641f10a-2fbe-4285-8053-5e5946e210af")
-	)
-	(wire
-		(pts
-			(xy 167.64 132.08) (xy 170.18 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6eac370-44ad-46f0-96e8-d1d8b7f4348d")
-	)
-	(wire
-		(pts
-			(xy 111.76 165.1) (xy 142.24 165.1)
+			(xy 111.76 175.26) (xy 142.24 175.26)
 		)
 		(stroke
 			(width 0)
@@ -5723,47 +4271,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 160.02) (xy 106.68 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caa28db7-cdb1-4958-af5e-03e75df39b7c")
-	)
-	(wire
-		(pts
-			(xy 109.22 124.46) (xy 109.22 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb5b0fb2-3edb-4ffa-bf26-87255f4c4725")
-	)
-	(wire
-		(pts
-			(xy 63.5 142.24) (xy 66.04 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbec8aa0-8fbb-4a29-92f6-15a1bfbed869")
-	)
-	(wire
-		(pts
-			(xy 111.76 134.62) (xy 114.3 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cca53cdb-ef6c-4132-9781-e388cc743013")
-	)
-	(wire
-		(pts
-			(xy 144.78 185.42) (xy 144.78 177.8)
+			(xy 144.78 180.34) (xy 144.78 187.96)
 		)
 		(stroke
 			(width 0)
@@ -5773,23 +4281,13 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 73.66) (xy 50.8 73.66)
+			(xy 31.75 86.36) (xy 27.94 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cee389dd-630a-4b20-a30e-c1976eb99749")
-	)
-	(wire
-		(pts
-			(xy 27.94 88.9) (xy 31.75 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d045a43a-e411-4754-a72b-249b8bf11e8e")
 	)
 	(wire
 		(pts
@@ -5803,13 +4301,13 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 134.62) (xy 165.1 134.62)
+			(xy 78.74 180.34) (xy 81.28 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dbc5878f-0de6-438f-b704-b1fa5253f1dd")
+		(uuid "d65b4252-c367-4334-adf3-c2ba4b7182c3")
 	)
 	(wire
 		(pts
@@ -5823,33 +4321,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 187.96) (xy 142.24 180.34)
+			(xy 111.76 144.78) (xy 114.3 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dd3dfadb-56e3-475d-a2eb-eafbc97b2084")
-	)
-	(wire
-		(pts
-			(xy 71.12 129.54) (xy 63.5 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfc7ce66-8fdb-487e-adf0-f2e2a651d3e0")
-	)
-	(wire
-		(pts
-			(xy 63.5 137.16) (xy 66.04 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7009c91-e9a8-4449-9f02-a996c648e4fc")
+		(uuid "e03bbc52-92b7-4572-a8e4-cfb0bd6db1ac")
 	)
 	(wire
 		(pts
@@ -5873,33 +4351,13 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 124.46) (xy 109.22 124.46)
+			(xy 167.64 142.24) (xy 170.18 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb4b2674-04e1-4cb6-b056-b55417784a90")
-	)
-	(wire
-		(pts
-			(xy 157.48 161.29) (xy 160.02 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb51aaa8-d693-4d10-b4f4-58f4f177afa9")
-	)
-	(wire
-		(pts
-			(xy 31.75 99.06) (xy 27.94 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecc85eb0-23d0-418b-bb80-bf15c1bea1de")
+		(uuid "edc39716-b5d8-4052-80db-889a9e259277")
 	)
 	(wire
 		(pts
@@ -5923,17 +4381,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 121.92) (xy 111.76 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef5c2b2a-dbf6-4f61-9a2c-839b509bc729")
-	)
-	(wire
-		(pts
-			(xy 54.61 73.66) (xy 54.61 86.36)
+			(xy 31.75 86.36) (xy 31.75 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5943,27 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 154.94) (xy 162.56 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4af6f49-6b37-47c5-9d52-8994f2b1da51")
-	)
-	(wire
-		(pts
-			(xy 162.56 154.94) (xy 162.56 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6db7d6d-22f2-4588-a8fe-9cec5b6a5337")
-	)
-	(wire
-		(pts
-			(xy 53.34 83.82) (xy 50.8 83.82)
+			(xy 30.48 96.52) (xy 27.94 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5973,7 +4401,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 68.58) (xy 52.07 81.28)
+			(xy 29.21 81.28) (xy 29.21 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5983,17 +4411,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 160.02) (xy 106.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8870464-b0e9-493e-8c78-4460f9b08367")
-	)
-	(wire
-		(pts
-			(xy 165.1 129.54) (xy 157.48 129.54)
+			(xy 166.37 134.62) (xy 170.18 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +4421,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 134.62) (xy 111.76 134.62)
+			(xy 111.76 134.62) (xy 114.3 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6042,14 +4460,24 @@
 		(uuid "02c380fa-711f-49ca-bdf0-2d86de3e41f3")
 	)
 	(label "MA2"
-		(at 35.56 86.36 0)
+		(at 73.66 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "04173bef-a16b-4b7b-a2d1-c9682e667200")
+	)
+	(label "I2C1SDA"
+		(at 111.76 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "072f1ef2-3a36-4eed-a559-b57a6fb54ea7")
 	)
 	(label "SPI2MOSI"
 		(at 228.6 149.86 180)
@@ -6082,14 +4510,14 @@
 		(uuid "0f784c60-cb4f-49f4-89be-6a695350805b")
 	)
 	(label "GND"
-		(at 35.56 99.06 0)
+		(at 111.76 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "11286756-909e-4966-91ff-ea62e407af27")
+		(uuid "0f7e0924-f182-4f1a-b2da-567891e2c09c")
 	)
 	(label "MCU_CAM_GPIO0"
 		(at 266.7 55.88 0)
@@ -6102,7 +4530,7 @@
 		(uuid "14170474-af98-493e-924f-5b1c331f96d3")
 	)
 	(label "U1TXD"
-		(at 134.62 127 180)
+		(at 166.37 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6142,7 +4570,7 @@
 		(uuid "1dd054ec-957d-41a5-91e0-d1c6440be5d8")
 	)
 	(label "I2C1SDA"
-		(at 54.61 68.58 0)
+		(at 31.75 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6202,24 +4630,14 @@
 		(uuid "283402f9-abf6-4737-9132-6330057bbeb2")
 	)
 	(label "MB2"
-		(at 35.56 96.52 0)
+		(at 73.66 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2aec3a7b-2177-477f-b7b4-e1a3aa4874c9")
-	)
-	(label "FP"
-		(at 35.56 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c2b299d-cd28-4f64-86a5-8cebcba937e6")
 	)
 	(label "SPI2MOSI"
 		(at 21.59 173.99 180)
@@ -6231,16 +4649,6 @@
 		)
 		(uuid "2f920de3-c6d8-4789-a7fe-4e4dec606cf0")
 	)
-	(label "CdS"
-		(at 152.4 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "303b6d4c-f105-4832-b983-3c07c8b53094")
-	)
 	(label "MCU_CAM_U0RXD"
 		(at 266.7 43.18 0)
 		(effects
@@ -6251,16 +4659,6 @@
 		)
 		(uuid "30476040-eca9-42e2-a53d-4e29278db9f9")
 	)
-	(label "VCC"
-		(at 35.56 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "350f6bc5-c3c8-42cb-8b7e-5845e8df84b1")
-	)
 	(label "GPIO0"
 		(at 35.56 40.64 0)
 		(effects
@@ -6270,16 +4668,6 @@
 			(justify left bottom)
 		)
 		(uuid "36072067-394d-40fe-b471-7b148d2b6648")
-	)
-	(label "PC_Sep"
-		(at 35.56 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "36161798-e3a9-4132-8b00-345ff1ee38be")
 	)
 	(label "CAM_PIN_XCLK"
 		(at 175.26 48.26 180)
@@ -6300,6 +4688,16 @@
 			(justify left bottom)
 		)
 		(uuid "3c7be4ab-90a0-4a86-8dc2-b75315d63f48")
+	)
+	(label "I2C1SCL"
+		(at 167.64 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f498437-b482-4e22-b304-100b47f73d41")
 	)
 	(label "SD_DAT2"
 		(at 21.59 168.91 180)
@@ -6391,6 +4789,16 @@
 		)
 		(uuid "4f85e3f2-efd2-4811-af61-a432887a8f83")
 	)
+	(label "PC_Sep"
+		(at 78.74 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5154d6c8-dafc-4bfa-be8b-cd62c78e7741")
+	)
 	(label "CAM_PIN_D6"
 		(at 40.64 143.51 0)
 		(effects
@@ -6411,15 +4819,15 @@
 		)
 		(uuid "53cb1375-12f7-4e74-85fb-4a6c2675e0ec")
 	)
-	(label "CdS"
-		(at 35.56 106.68 0)
+	(label "GND"
+		(at 167.64 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "5644894d-799b-4938-8900-1182307159c1")
+		(uuid "53dbf837-7dc0-4bac-898c-42e01242766a")
 	)
 	(label "I2C2SCL"
 		(at 266.7 137.16 180)
@@ -6461,6 +4869,16 @@
 		)
 		(uuid "5b4b5938-40dd-42a8-9d20-28d25eb05993")
 	)
+	(label "I2C1SDA"
+		(at 167.64 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5bb31c19-37e8-4e94-8112-e4228e4afcda")
+	)
 	(label "MB1"
 		(at 152.4 71.12 0)
 		(effects
@@ -6470,6 +4888,16 @@
 			(justify left bottom)
 		)
 		(uuid "5ca6a2b8-03d0-49ac-a3f2-9bf1f7d877c2")
+	)
+	(label "VCC"
+		(at 111.76 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5fcfdd46-f5e5-45ab-8420-6e9a18d16668")
 	)
 	(label "GND"
 		(at 106.68 119.38 180)
@@ -6490,6 +4918,16 @@
 			(justify left bottom)
 		)
 		(uuid "5ffb3a59-aaa4-4d16-b70a-e8a2463c2000")
+	)
+	(label "VCC"
+		(at 167.64 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "617ac03b-0db0-42a4-88e7-e2c2d00841ce")
 	)
 	(label "SPI2MISO"
 		(at 21.59 184.15 180)
@@ -6572,12 +5010,12 @@
 		(uuid "6dd13ddc-fbc9-4ccd-b29b-36597dd79698")
 	)
 	(label "MA1"
-		(at 35.56 81.28 0)
+		(at 73.66 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6f053171-5117-4ec4-a717-c7a6f9d45e8b")
 	)
@@ -6602,7 +5040,7 @@
 		(uuid "71772269-6501-48e8-949f-04ece01c52ae")
 	)
 	(label "I2C1SCL"
-		(at 54.61 71.12 0)
+		(at 31.75 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6701,6 +5139,26 @@
 		)
 		(uuid "83f7ac81-c2af-4db9-ad90-0ecb674f80f5")
 	)
+	(label "Motor_P_EN"
+		(at 78.74 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8da9cb3c-6b19-48e1-bcb8-22233c1a480d")
+	)
+	(label "FP"
+		(at 78.74 175.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8e0bbad2-4e2e-4e2a-afe1-4994e598a64f")
+	)
 	(label "I2C1SCL"
 		(at 246.38 137.16 180)
 		(effects
@@ -6790,16 +5248,6 @@
 			(justify right bottom)
 		)
 		(uuid "9d22ae0c-ccec-4609-bdcf-e9b2883b41bb")
-	)
-	(label "VCC"
-		(at 35.56 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e21f1df-671f-470b-9968-b24770c0555c")
 	)
 	(label "CAM_PIN_D0"
 		(at 266.7 83.82 0)
@@ -6932,7 +5380,7 @@
 		(uuid "b56421d5-d708-4711-a373-10f79403533d")
 	)
 	(label "GND"
-		(at 54.61 73.66 0)
+		(at 31.75 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6940,16 +5388,6 @@
 			(justify left bottom)
 		)
 		(uuid "b585dc1c-f441-4a00-a642-23497ba4838a")
-	)
-	(label "Motor_P_EN"
-		(at 35.56 121.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b62521e7-95b6-4e5c-9940-36c5860d4820")
 	)
 	(label "VCC"
 		(at 193.04 26.67 180)
@@ -7051,13 +5489,23 @@
 		)
 		(uuid "c33120bb-770f-429f-9a7b-ce546d86394b")
 	)
-	(label "MB1"
-		(at 35.56 91.44 0)
+	(label "VCC"
+		(at 73.66 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
+		)
+		(uuid "c5b3e294-e98d-4e39-a1d5-fb30df5f2e4a")
+	)
+	(label "MB1"
+		(at 73.66 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
 		(uuid "c83e2bf9-8151-474b-9454-dbc8a9353f78")
 	)
@@ -7090,6 +5538,16 @@
 			(justify left bottom)
 		)
 		(uuid "d10fde3f-83f0-4e41-aacd-1d21868bcb6e")
+	)
+	(label "GND"
+		(at 73.66 147.32 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d18a7a25-3732-4d2c-904e-8df80fe24a7d")
 	)
 	(label "SD_DAT2"
 		(at 208.28 149.86 180)
@@ -7151,6 +5609,16 @@
 		)
 		(uuid "da3947fb-c19e-4b35-9d83-1da282ad52a9")
 	)
+	(label "GND"
+		(at 147.32 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dac9b9bd-9a1e-4339-b8a4-1105019190d2")
+	)
 	(label "U0TXD"
 		(at 35.56 33.02 0)
 		(effects
@@ -7201,18 +5669,8 @@
 		)
 		(uuid "e9948418-5c67-4481-b81e-5a99aeecbdb2")
 	)
-	(label "GND"
-		(at 35.56 25.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ef1ef979-3713-4a8a-9521-06258541427c")
-	)
 	(label "U1RXD"
-		(at 134.62 129.54 180)
+		(at 166.37 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7221,15 +5679,25 @@
 		)
 		(uuid "f3acdc9e-328d-4373-be5f-77fb563a03ca")
 	)
-	(label "GND"
-		(at 35.56 111.76 0)
+	(label "I2C1SCL"
+		(at 111.76 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f50289d4-1ce1-42c6-ac9b-cab6c4f4d60e")
+	)
+	(label "VCC"
+		(at 147.32 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f6a2c9d9-1535-4f09-80f4-fa7429ed1e32")
+		(uuid "f6b9d9b5-6334-45ce-9a8d-4dd89385ea0c")
 	)
 	(label "VCC"
 		(at 27.94 133.35 180)
@@ -7240,16 +5708,6 @@
 			(justify right bottom)
 		)
 		(uuid "f7481fa6-9d60-4083-af0f-f8e6ed177c73")
-	)
-	(label "GND"
-		(at 134.62 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f7ce4bd3-4aef-4bd4-9e64-631d1e75637f")
 	)
 	(label "CAM_PIN_PWDN"
 		(at 40.64 153.67 0)
@@ -7419,559 +5877,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 73.66 177.8 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05bff9d3-6a74-4115-9035-9b2d98867bf3")
-		(property "Reference" "J123"
-			(at 74.295 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power_EN"
-			(at 74.295 172.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 73.66 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 73.66 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 73.66 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 73.66 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 73.66 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 73.66 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 73.66 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7277452b-7b00-4b68-8d2b-2afb9d06c506")
-		)
-		(pin "1"
-			(uuid "559fd18d-3d81-4f85-992e-a5099ca2def9")
-		)
-		(pin "3"
-			(uuid "dc81ba5f-3991-4526-bb9c-783c5b5fcb3f")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J123")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 22.86 22.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05e1d821-461d-4663-ba17-17f169c071f5")
-		(property "Reference" "J101"
-			(at 23.495 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power_Conn"
-			(at 23.495 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 22.86 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 22.86 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 22.86 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 22.86 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 22.86 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 22.86 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 22.86 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3934ed8-771c-4e7d-9615-c26efd3540e5")
-		)
-		(pin "2"
-			(uuid "eb4748ac-de88-4671-bbe4-671ead9745cd")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 22.86 121.92 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06f3b03b-de19-4633-a704-c568334f205c")
-		(property "Reference" "J109"
-			(at 23.495 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power_EN_Conn"
-			(at 23.495 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 22.86 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 22.86 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 22.86 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 22.86 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 22.86 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 22.86 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 22.86 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8c644f08-3ff5-4667-81e3-05e6f25c21b0")
-		)
-		(pin "1"
-			(uuid "8f6f83ac-199f-4c43-8a37-c5e215d4bc88")
-		)
-		(pin "3"
-			(uuid "8f08cd9d-5ae0-4395-8bf0-7b48cdd3dd53")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 152.4 142.24 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07296500-8e21-4010-8a18-3b972f18014b")
-		(property "Reference" "J116"
-			(at 153.035 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2C_Conn"
-			(at 153.035 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 152.4 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 152.4 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 152.4 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 152.4 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 152.4 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 152.4 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9ff7e7ff-a422-4807-8005-d7e669b7264f")
-		)
-		(pin "1"
-			(uuid "d562aa2b-b68d-453a-816d-a9f18bbdcb02")
-		)
-		(pin "3"
-			(uuid "d0e8beb8-f16f-453e-b421-c61e05c82245")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 48.26 43.18 0)
 		(unit 1)
@@ -8110,146 +6015,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 95.25 124.46 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14fbe316-e238-4709-9591-4f05ac8a2ef0")
-		(property "Reference" "J110"
-			(at 95.885 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2C_Conn"
-			(at 95.885 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 95.25 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 95.25 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 95.25 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 95.25 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 95.25 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 95.25 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 95.25 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3f82de06-3731-4d23-ab91-c0b442f813ae")
-		)
-		(pin "1"
-			(uuid "39affe37-e47a-46fb-91f5-365eb17f5eed")
-		)
-		(pin "3"
-			(uuid "77139ef3-78b1-42b3-9e90-076ba731b1fd")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 45.72 83.82 0)
+		(at 22.86 96.52 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8261,7 +6027,7 @@
 		(fields_autoplaced yes)
 		(uuid "1513c2d4-b92e-42ff-bc0c-339ae1410a8d")
 		(property "Reference" "J106"
-			(at 46.355 76.2 0)
+			(at 23.495 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8271,7 +6037,7 @@
 			)
 		)
 		(property "Value" "I2C_Conn"
-			(at 46.355 78.74 0)
+			(at 23.495 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8281,7 +6047,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 45.72 83.82 0)
+			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8292,7 +6058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 83.82 0)
+			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8303,7 +6069,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 45.72 83.82 0)
+			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8314,7 +6080,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 45.72 83.82 0)
+			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8325,7 +6091,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 45.72 83.82 0)
+			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8336,7 +6102,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 45.72 83.82 0)
+			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8347,7 +6113,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 45.72 83.82 0)
+			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8358,7 +6124,7 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 45.72 83.82 0)
+			(at 22.86 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9197,160 +6963,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x08_Socket")
-		(at 22.86 88.9 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29525e6f-e564-436c-811e-60b9e15f5166")
-		(property "Reference" "J107"
-			(at 23.495 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor_Conn"
-			(at 23.495 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
-			(at 22.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 22.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 22.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 22.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 22.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 22.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 22.86 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a5474ed8-d033-4e87-8641-870841c979c3")
-		)
-		(pin "2"
-			(uuid "3d31d95a-9024-4f25-b775-95e5ca17cb8b")
-		)
-		(pin "4"
-			(uuid "81435cad-f313-4ff8-be34-141062315b00")
-		)
-		(pin "5"
-			(uuid "e9b30e58-6401-4e39-bd0a-24627a5ad735")
-		)
-		(pin "3"
-			(uuid "0286a4fd-8020-44a6-836d-aabbcc7fd658")
-		)
-		(pin "8"
-			(uuid "a0c9e015-17f4-453a-8538-c8ecf80d5b98")
-		)
-		(pin "6"
-			(uuid "d54e369c-8ec9-4d90-8f87-e5166d83de1a")
-		)
-		(pin "7"
-			(uuid "a7ced04f-9b2b-4a50-83af-af18be4a0ea1")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_Espressif:ESP32-S3-WROOM-1")
 		(at 220.98 76.2 0)
 		(unit 1)
@@ -9605,143 +7217,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 139.7 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f137a73-34b4-4c8b-bf53-4b831bc0ce23")
-		(property "Reference" "J111"
-			(at 139.065 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "UART_Conn"
-			(at 139.065 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 139.7 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8080d127-28c1-4bd2-9397-d7fe577aeb27")
-		)
-		(pin "1"
-			(uuid "72b8bf8e-0ae2-4dbf-987b-1d4918154ee1")
-		)
-		(pin "3"
-			(uuid "438441a8-f88e-4eb7-b163-2f206d88436b")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 248.92 143.51 0)
 		(unit 1)
@@ -9880,7 +7355,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 152.4 162.56 0)
+		(at 152.4 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9891,7 +7366,7 @@
 		(fields_autoplaced yes)
 		(uuid "38447afa-13ca-42ee-8c37-5699a7909114")
 		(property "Reference" "J121"
-			(at 153.67 162.5599 0)
+			(at 153.67 172.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9902,7 +7377,7 @@
 			)
 		)
 		(property "Value" "MCU_Power"
-			(at 153.67 165.0999 0)
+			(at 153.67 175.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9913,7 +7388,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 152.4 162.56 0)
+			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9924,7 +7399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 162.56 0)
+			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9935,7 +7410,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 152.4 162.56 0)
+			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9946,7 +7421,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 152.4 162.56 0)
+			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9957,7 +7432,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 152.4 162.56 0)
+			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,7 +7443,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 152.4 162.56 0)
+			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9979,7 +7454,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 152.4 162.56 0)
+			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9990,7 +7465,7 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 152.4 162.56 0)
+			(at 152.4 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10010,84 +7485,6 @@
 			(project "MCU"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
 					(reference "J121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 44.45 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3995c13c-65ac-416e-b406-41033d65cc29")
-		(property "Reference" "#FLG0101"
-			(at 44.45 20.955 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 44.45 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 44.45 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a074af4f-d2c1-40f1-8081-27f8fcfc9958")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "#FLG0101")
 					(unit 1)
 				)
 			)
@@ -10225,84 +7622,6 @@
 			(project "MCU"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
 					(reference "R107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 157.48 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "498bbb70-e05f-40bb-bc3a-b374fd71fbe8")
-		(property "Reference" "#FLG0107"
-			(at 157.48 159.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 157.48 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 157.48 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2214acf7-0d0e-4a72-b33c-d7e08a352d78")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "#FLG0107")
 					(unit 1)
 				)
 			)
@@ -10447,7 +7766,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 152.4 170.18 0)
+		(at 152.4 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10458,7 +7777,7 @@
 		(fields_autoplaced yes)
 		(uuid "59682eeb-4807-4ae0-8c4b-b10aba7029fc")
 		(property "Reference" "J122"
-			(at 153.67 170.1799 0)
+			(at 153.67 180.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10469,7 +7788,7 @@
 			)
 		)
 		(property "Value" "MCU_Power"
-			(at 153.67 172.7199 0)
+			(at 153.67 182.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10480,7 +7799,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 152.4 170.18 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10491,7 +7810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 170.18 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10502,7 +7821,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 152.4 170.18 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10513,7 +7832,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 152.4 170.18 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10524,7 +7843,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 152.4 170.18 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10535,7 +7854,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 152.4 170.18 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10546,7 +7865,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 152.4 170.18 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +7876,7 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 152.4 170.18 0)
+			(at 152.4 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10857,223 +8176,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 167.64 161.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "61861a25-e9b7-4916-a764-3748f2a845c0")
-		(property "Reference" "#FLG0108"
-			(at 167.64 159.385 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 167.64 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 167.64 161.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8916ad19-487e-422a-85ed-fa067ed06c41")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "#FLG0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 152.4 193.04 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a73d2c6-748b-4a79-83f8-3b2bb7c07d95")
-		(property "Reference" "J128"
-			(at 153.67 193.0399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCU_Power"
-			(at 153.67 195.5799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 152.4 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 152.4 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 152.4 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 152.4 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 152.4 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 152.4 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "6025fefe-3905-4fe4-921f-94a569455b53")
-		)
-		(pin "1"
-			(uuid "98125de2-fab3-4428-a52d-f902162eb854")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J128")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 45.72 71.12 0)
+		(at 22.86 83.82 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11085,7 +8189,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f3e2cc6-bc57-46dd-aa9d-422d45e4b4ba")
 		(property "Reference" "J105"
-			(at 46.355 63.5 0)
+			(at 23.495 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11095,7 +8199,7 @@
 			)
 		)
 		(property "Value" "I2C_Conn"
-			(at 46.355 66.04 0)
+			(at 23.495 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11105,7 +8209,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 45.72 71.12 0)
+			(at 22.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11116,7 +8220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 71.12 0)
+			(at 22.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11127,7 +8231,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 45.72 71.12 0)
+			(at 22.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11138,7 +8242,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 45.72 71.12 0)
+			(at 22.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11149,7 +8253,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 45.72 71.12 0)
+			(at 22.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11160,7 +8264,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 45.72 71.12 0)
+			(at 22.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11171,7 +8275,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 45.72 71.12 0)
+			(at 22.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11182,7 +8286,7 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 45.72 71.12 0)
+			(at 22.86 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11485,220 +8589,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 63.5 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a88c0c1-ca93-4909-b23b-38a83529a0e0")
-		(property "Reference" "#FLG0105"
-			(at 63.5 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 63.5 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 63.5 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 63.5 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d4e4908-f1db-411d-97dd-6e81b9f211c9")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "#FLG0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 152.4 152.4 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bf4e777-9739-482c-aa64-8e72e2cf54d7")
-		(property "Reference" "J120"
-			(at 153.035 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power_Conn"
-			(at 153.035 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 152.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 152.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 152.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 152.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 152.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 152.4 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9cc5cb83-e59a-4c04-b491-6ea2c15779df")
-		)
-		(pin "2"
-			(uuid "7a37562e-2a44-44ea-871e-1de8bce4c9e5")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 228.6 143.51 0)
 		(unit 1)
@@ -11836,84 +8726,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 101.6 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95df838f-1d37-4623-afb6-592f7fecb4db")
-		(property "Reference" "#FLG0103"
-			(at 101.6 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 101.6 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 101.6 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f4c7479d-ef4b-4c3a-8b75-5fee9dbe453e")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "#FLG0103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 208.28 130.81 0)
 		(unit 1)
@@ -12045,263 +8857,6 @@
 			(project "MCU"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
 					(reference "R102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 96.52 147.32 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a85df8f-e902-4496-b57b-c59cc1a1d2ad")
-		(property "Reference" "J118"
-			(at 97.155 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power_Conn"
-			(at 97.155 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 96.52 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 96.52 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 96.52 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 96.52 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 96.52 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 96.52 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 96.52 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e814f6b4-3738-412a-95df-83b852a74016")
-		)
-		(pin "2"
-			(uuid "c1250e3b-3560-42dc-821e-d11cbba6ace6")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J118")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x08_Socket")
-		(at 58.42 132.08 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a0fa9fb8-8dae-43a3-82e7-756ee35c09dc")
-		(property "Reference" "J113"
-			(at 59.055 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "M_PWM"
-			(at 59.055 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B8B-XH-A_1x08_P2.50mm_Vertical"
-			(at 58.42 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 58.42 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 58.42 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 58.42 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "6337f931-99be-4096-bba3-6b8fab932849")
-		)
-		(pin "1"
-			(uuid "efa1c3e6-ea14-403c-a2df-d9412cd910da")
-		)
-		(pin "7"
-			(uuid "16d11d8f-46bf-43fc-9ea3-6f018de42e1b")
-		)
-		(pin "2"
-			(uuid "0a1fbd54-1aa4-472b-ba4f-97a286899ae6")
-		)
-		(pin "4"
-			(uuid "48e5c590-dc9a-42f8-9981-e8cd8f5ffce0")
-		)
-		(pin "5"
-			(uuid "447c9432-32f1-4e2e-9aae-eb12dc3a33c8")
-		)
-		(pin "6"
-			(uuid "9f6ffb87-5151-4773-a965-d98bb76b2d4b")
-		)
-		(pin "3"
-			(uuid "ef72a1b3-53d5-420a-bebd-eab75c2c34ea")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J113")
 					(unit 1)
 				)
 			)
@@ -12447,143 +9002,6 @@
 			(project "MCU"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
 					(reference "J103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 152.4 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aec48602-697f-47b0-8cdd-7c8a7b63e614")
-		(property "Reference" "J125"
-			(at 153.67 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCU_Power"
-			(at 153.67 180.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 152.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 152.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 152.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 152.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 152.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 152.4 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a6e3e80c-4f6a-41c9-8be4-f4787deb5e6f")
-		)
-		(pin "1"
-			(uuid "5398f84b-0bfa-477b-961f-c4535dae3234")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J125")
 					(unit 1)
 				)
 			)
@@ -13053,7 +9471,7 @@
 		(pin "9"
 			(uuid "6189fc62-8b87-415c-8d58-13fc3b11cb08")
 		)
-		(pin "11"
+		(pin "SH"
 			(uuid "d616479f-fe7a-4577-9c5c-9d50c679d313")
 		)
 		(pin "5"
@@ -13066,223 +9484,6 @@
 			(project "MCU"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
 					(reference "J126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 22.86 109.22 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4fc7963-0e14-4f3f-a38b-27d6de876ef6")
-		(property "Reference" "J108"
-			(at 23.495 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CdS_Conn"
-			(at 23.495 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 22.86 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 22.86 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 22.86 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 22.86 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 22.86 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 22.86 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 22.86 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1e47458d-3232-4744-9a2c-2038cb175f46")
-		)
-		(pin "1"
-			(uuid "7918a3fe-c18b-40b1-abf9-902ad6e01801")
-		)
-		(pin "3"
-			(uuid "413b3bd5-d4cc-4de9-8ba5-c5da4137b598")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 54.61 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9990ef4-d584-4ec5-a4f6-45c344c76256")
-		(property "Reference" "#FLG0102"
-			(at 54.61 20.955 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 54.61 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 54.61 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8868a67c-c230-450d-8777-9fb1436a551c")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "#FLG0102")
 					(unit 1)
 				)
 			)
@@ -13420,716 +9621,6 @@
 			(project "MCU"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
 					(reference "C103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 152.4 129.54 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0e9e3f1-8c5a-4bf0-8239-096fc7db3147")
-		(property "Reference" "J112"
-			(at 153.035 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GPS_UART_Conn"
-			(at 153.035 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 152.4 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eb0259ac-ee47-4f61-979b-0c117ba3410f")
-		)
-		(pin "1"
-			(uuid "c3b5cb13-810c-4280-872a-d9b1ff5f468d")
-		)
-		(pin "3"
-			(uuid "c000794a-b986-4d1f-b023-1e64fba13ddd")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J112")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 96.52 137.16 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c621ac5b-9a51-4eed-89db-d52efe726197")
-		(property "Reference" "J114"
-			(at 97.155 129.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2C_Conn"
-			(at 97.155 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 96.52 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 96.52 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 96.52 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 96.52 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 96.52 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 96.52 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 96.52 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "eaf9511b-a5c7-4225-9568-4772e27f2922")
-		)
-		(pin "1"
-			(uuid "c0970230-b10e-483c-9c94-defef9641a19")
-		)
-		(pin "3"
-			(uuid "f14305c0-78f3-4dbd-bd87-b894641a0ef0")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x03_Socket")
-		(at 139.7 142.24 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf730a93-99ed-4b64-beaf-8003d71e55f9")
-		(property "Reference" "J115"
-			(at 140.335 134.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "I2C_Conn"
-			(at 140.335 137.16 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
-			(at 139.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 139.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 139.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 139.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 139.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 139.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 139.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ecb1d335-f0a3-4630-98bd-68c967492dda")
-		)
-		(pin "1"
-			(uuid "8b609fac-ab1a-4080-ac46-db687afd6e10")
-		)
-		(pin "3"
-			(uuid "9d72a190-144a-4299-b414-1a8647f395e0")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 73.66 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d3937620-fc46-4748-a9ab-5a751dc59459")
-		(property "Reference" "#FLG0106"
-			(at 73.66 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 73.66 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 73.66 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b0c6044-1b01-4b8f-8402-4f50eed55ed5")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "#FLG0106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 152.4 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5271e1e-fb72-47b9-8fb6-ae62f3eeb101")
-		(property "Reference" "J127"
-			(at 153.67 185.4199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCU_Power"
-			(at 153.67 187.9599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 152.4 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5ab37736-a1bb-42ad-90be-9d412c39cb7c")
-		)
-		(pin "1"
-			(uuid "4808c182-6887-4020-aa3f-604c8c0b9e17")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J127")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 111.76 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d71c4913-cf40-47a0-92dd-3e30c9bce41b")
-		(property "Reference" "#FLG0104"
-			(at 111.76 158.115 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 111.76 154.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 111.76 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "027fc44c-5fc4-4d7f-967a-e0f21127fc84")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "#FLG0104")
 					(unit 1)
 				)
 			)
@@ -14542,142 +10033,6 @@
 			(project "MCU"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
 					(reference "C101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 58.42 149.86 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd9bde09-75eb-476c-8a10-d1d63879b43b")
-		(property "Reference" "J119"
-			(at 59.055 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Power_Conn"
-			(at 59.055 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 58.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 58.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 58.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 58.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 58.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 58.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 58.42 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f77559f8-4138-423e-8e44-5646aef2574c")
-		)
-		(pin "2"
-			(uuid "fb64d35c-cb14-4c94-8e63-56c3cedf55ac")
-		)
-		(instances
-			(project "MCU"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J119")
 					(unit 1)
 				)
 			)
