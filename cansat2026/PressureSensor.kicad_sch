@@ -5,6 +5,161 @@
 	(uuid "554b5698-7b8b-48e4-8fbb-2d31eea7fbc7")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_3_Bridged12"
 			(pin_names
 				(offset 0)
@@ -256,14 +411,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project:AE-BME280"
+		(symbol "Sensor_Pressure:MS5611-01BA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 2.54 0)
+				(at -6.35 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -272,8 +427,8 @@
 					)
 				)
 			)
-			(property "Value" "AE-BME280"
-				(at 6.858 2.54 0)
+			(property "Value" "MS5611-01BA"
+				(at 7.62 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -282,19 +437,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Project:AE-BME280"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://akizukidenshi.com/goodsaffix/AE-BME280_manu_v1.1.pdf"
-				(at 0 2.54 0)
+			(property "Footprint" "Package_LGA:LGA-8_3x5mm_P1.25mm"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -304,8 +448,8 @@
 					)
 				)
 			)
-			(property "Description" ""
-				(at 0 2.54 0)
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -315,22 +459,57 @@
 					)
 				)
 			)
-			(symbol "AE-BME280_1_1"
+			(property "Description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "pressure SPI I2C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LGA*3x5mm*P1.25mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MS5611-01BA_0_1"
 				(rectangle
-					(start 2.54 1.27)
-					(end 16.51 -11.43)
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
 					(stroke
-						(width 0)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
+			)
+			(symbol "MS5611-01BA_1_1"
 				(pin power_in line
-					(at 12.7 3.81 270)
+					(at 0 10.16 270)
 					(length 2.54)
-					(name "VCC"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -345,10 +524,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 12.7 -13.97 90)
+				(pin input line
+					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "GND"
+					(name "PS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -363,10 +542,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 -7.62 0)
+				(pin power_in line
+					(at 0 -10.16 90)
 					(length 2.54)
-					(name "CSB"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -381,10 +560,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -2.54 0)
+				(pin input line
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "SDA"
+					(name "CSB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -400,9 +579,10 @@
 					)
 				)
 				(pin input line
-					(at 0 -10.16 0)
+					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "SDO"
+					(hide yes)
+					(name "CSB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -417,10 +597,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 0 0 0)
+				(pin output line
+					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "SCL"
+					(name "SDO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -435,31 +615,107 @@
 						)
 					)
 				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SDI/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
 	(junction
-		(at 107.95 76.2)
+		(at 119.38 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "21c4aa99-2298-44eb-a32f-3ea254e29ffe")
+		(uuid "1ace8679-268b-44bb-8ad9-e01087c16c4f")
 	)
 	(junction
-		(at 107.95 101.6)
+		(at 106.68 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a739db35-534b-40e8-9a0f-c1cff133dc6c")
+		(uuid "6717c344-8c31-4d5e-971c-41a18c5eff62")
 	)
 	(junction
-		(at 111.76 76.2)
+		(at 116.84 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f81645ee-7183-485b-b2c9-eb59e7f64598")
+		(uuid "8cab33b3-d6b2-40b5-89be-ce91d31f695e")
+	)
+	(junction
+		(at 109.22 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfa508ab-f37b-48f4-b6a6-9ed401e445b4")
+	)
+	(no_connect
+		(at 116.84 86.36)
+		(uuid "e0e59aa6-385e-47c6-adac-da0188089a71")
 	)
 	(wire
 		(pts
-			(xy 101.6 83.82) (xy 114.3 83.82)
+			(xy 119.38 101.6) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07527539-eed4-4aeb-8384-59b5a33f8cdd")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 116.84 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b63e2c5-0b36-461c-ac8b-4bf860b91822")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.2) (xy 109.22 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fe63ba-8ba5-4300-80ff-aba73085d824")
+	)
+	(wire
+		(pts
+			(xy 101.6 91.44) (xy 116.84 91.44)
 		)
 		(stroke
 			(width 0)
@@ -469,27 +725,37 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 76.2) (xy 111.76 76.2)
+			(xy 127 99.06) (xy 127 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4402a45e-71c7-49f9-8cd2-388cc58279e6")
+		(uuid "415f46a0-eee4-4bc8-821a-245c3b65b38d")
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 107.95 76.2)
+			(xy 106.68 83.82) (xy 106.68 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "464808d8-de96-4abe-ad84-ff2209745cda")
+		(uuid "5bb8cf60-c755-49f8-9e9e-d20ce15aff2a")
 	)
 	(wire
 		(pts
-			(xy 101.6 86.36) (xy 114.3 86.36)
+			(xy 127 76.2) (xy 127 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a358ba-43cf-4bc0-b15e-8eb712a8f4f4")
+	)
+	(wire
+		(pts
+			(xy 101.6 88.9) (xy 116.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -499,87 +765,57 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 93.98) (xy 114.3 93.98)
+			(xy 106.68 76.2) (xy 109.22 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "727881dd-e1a9-47fc-aeb4-25439bd502a1")
+		(uuid "77de049f-d996-4090-8865-509f8aabf176")
 	)
 	(wire
 		(pts
-			(xy 114.3 91.44) (xy 111.76 91.44)
+			(xy 116.84 76.2) (xy 127 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86d0647a-c13a-4c62-9a32-a00b2987ae13")
+		(uuid "7efbcf02-8ced-430c-b85d-cdc9151ddad0")
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 107.95 76.2)
+			(xy 114.3 96.52) (xy 114.3 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f808a64-bb0b-4933-afd1-c4c0487cbb13")
+		(uuid "8a16ffc9-8b96-419f-b7c5-978be6a76a57")
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 107.95 101.6)
+			(xy 114.3 93.98) (xy 116.84 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8fa93062-22ab-444a-b18c-b7247e6e62ae")
+		(uuid "ace1f266-0eb3-461f-8836-71249cd18c84")
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 127 97.79)
+			(xy 119.38 100.33) (xy 119.38 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bbdf3cd0-3c6a-490b-ad4f-3715e8b2fa1d")
+		(uuid "ae2c7355-de94-48a4-bf10-8d2c375a6836")
 	)
 	(wire
 		(pts
-			(xy 107.95 99.06) (xy 107.95 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bcaffdbf-17fb-4f82-8e95-58dfa0b15b99")
-	)
-	(wire
-		(pts
-			(xy 127 80.01) (xy 127 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cae19a29-c651-406f-b1af-106a81cee14c")
-	)
-	(wire
-		(pts
-			(xy 111.76 76.2) (xy 111.76 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3b7b495-e76e-4c17-869d-c697d4ed88d7")
-	)
-	(wire
-		(pts
-			(xy 107.95 101.6) (xy 127 101.6)
+			(xy 101.6 101.6) (xy 119.38 101.6)
 		)
 		(stroke
 			(width 0)
@@ -589,7 +825,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 127 76.2)
+			(xy 101.6 76.2) (xy 106.68 76.2)
 		)
 		(stroke
 			(width 0)
@@ -597,9 +833,29 @@
 		)
 		(uuid "e11437dd-d8b1-414b-9de7-78e5cabda08e")
 	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 116.84 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e64d59a6-2898-4166-8646-4607cd2c7f0a")
+	)
+	(label "GND"
+		(at 106.68 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e13095d7-88d8-4a37-8db4-25a0f02b2591")
+	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 101.6 83.82 180)
+		(at 101.6 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -621,7 +877,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
-		(at 101.6 86.36 180)
+		(at 101.6 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -642,8 +898,119 @@
 		(uuid "e3861305-000f-4caa-9e8d-c42d3709805c")
 	)
 	(symbol
+		(lib_id "Sensor_Pressure:MS5611-01BA")
+		(at 127 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa4bb5f-0851-4ea0-bc50-7b056ddee320")
+		(property "Reference" "U601"
+			(at 135.89 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MS5611-01BA"
+			(at 135.89 90.1699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_LGA:LGA-8_3x5mm_P1.25mm"
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English"
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Barometric pressure sensor, 10cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 127 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "6c903b09-c125-41ef-9588-fcf1c4d463c0")
+		)
+		(pin "2"
+			(uuid "1454113c-b079-4461-96b4-564a9c82da73")
+		)
+		(pin "1"
+			(uuid "0aa607a4-7d31-4a8c-8124-9f09c5681da1")
+		)
+		(pin "3"
+			(uuid "601601b8-2114-4d38-a669-8b088fa9bdae")
+		)
+		(pin "5"
+			(uuid "84fc52e0-359f-4440-a248-05394ce074c3")
+		)
+		(pin "4"
+			(uuid "ea437c93-c734-4114-b2f2-f0f100aefcca")
+		)
+		(pin "7"
+			(uuid "b29696f8-97fc-4ee2-87a5-11ca2eb8aed2")
+		)
+		(pin "6"
+			(uuid "9692d4b1-0c5f-4255-849d-1c744d9838cb")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c/fcc9fb91-e115-4885-8021-39aaea5b0ad4"
+					(reference "U601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_3_Bridged12")
-		(at 107.95 93.98 90)
+		(at 114.3 100.33 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -652,31 +1019,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "165eb530-005b-480a-83d7-f6c6aa1fa1ae")
+		(uuid "a17c3716-21cb-407b-aeda-e6175a5d8d05")
 		(property "Reference" "JP601"
-			(at 105.41 92.7099 90)
+			(at 114.3 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "I2C Addr"
-			(at 105.41 95.2499 90)
+			(at 114.3 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels"
-			(at 107.95 93.98 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -687,7 +1052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 93.98 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -698,7 +1063,7 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
-			(at 107.95 93.98 0)
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -709,7 +1074,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 107.95 93.98 90)
+			(at 114.3 100.33 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -720,7 +1085,18 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 107.95 93.98 90)
+			(at 114.3 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 114.3 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -731,13 +1107,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "43c34cb2-2dcd-4086-bccf-641d421fcadc")
+			(uuid "cb90f55c-2eb3-4bb3-8bc0-7af3dcde3f9f")
 		)
 		(pin "3"
-			(uuid "267e7818-d4fe-47a8-a823-9aec01636923")
+			(uuid "61b48e11-e54a-4d91-88e2-feb9ac2a7336")
 		)
 		(pin "2"
-			(uuid "55b571ab-458a-4a1f-956a-459615bf811e")
+			(uuid "41c011d3-1b86-4ee4-979e-75aa375cf008")
 		)
 		(instances
 			(project "cansat2026"
@@ -749,8 +1125,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Project:AE-BME280")
-		(at 114.3 83.82 0)
+		(lib_id "Device:C")
+		(at 106.68 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -759,9 +1135,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6556bf20-7f19-435c-9ea0-f7d487a260ee")
-		(property "Reference" "U601"
-			(at 132.08 87.6299 0)
+		(uuid "a28f9237-18fd-4946-b40f-19cd6b1eb3a1")
+		(property "Reference" "C601"
+			(at 110.49 78.7399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -771,8 +1147,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AE-BME280"
-			(at 132.08 90.1699 0)
+		(property "Value" "100nF"
+			(at 110.49 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -782,8 +1158,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:AE-BME280"
-			(at 114.3 81.28 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 107.6452 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -793,8 +1169,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://akizukidenshi.com/goodsaffix/AE-BME280_manu_v1.1.pdf"
-			(at 114.3 81.28 0)
+		(property "Datasheet" ""
+			(at 106.68 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -804,8 +1180,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 114.3 81.28 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 106.68 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -815,28 +1191,82 @@
 				)
 			)
 		)
-		(pin "5"
-			(uuid "af203d06-8950-4c51-b788-69974d136a73")
+		(property "Sim.Device" ""
+			(at 106.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "1"
-			(uuid "d7118a8d-479e-4546-88b5-549022aebdb6")
+		(property "Sim.Pins" ""
+			(at 106.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "4"
-			(uuid "29c7735b-f34f-495a-81bf-748013c2fb93")
+		(property "Sim.Type" ""
+			(at 106.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin "3"
-			(uuid "a1b4cb6b-caed-465b-8c77-e31fdfdb426d")
+		(property "LCSC Part" "C1525"
+			(at 106.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" ""
+			(at 106.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 106.68 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "2"
-			(uuid "86697efa-3cce-469b-a263-63028e5d509c")
+			(uuid "e1df9e34-1d00-43c3-9028-cfeadf66761d")
 		)
-		(pin "6"
-			(uuid "2915f575-cf5e-48f1-8209-c5e6857a2c68")
+		(pin "1"
+			(uuid "d655d165-4d52-4903-8351-4d06737fdf5e")
 		)
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c/fcc9fb91-e115-4885-8021-39aaea5b0ad4"
-					(reference "U601")
+					(reference "C601")
 					(unit 1)
 				)
 			)

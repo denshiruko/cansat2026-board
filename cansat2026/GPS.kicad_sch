@@ -2497,6 +2497,17 @@
 				)
 			)
 		)
+		(property "DigiKey Part" ""
+			(at 114.3 143.51 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3159d2a9-20cc-47cb-84c9-dfcda5b6b0d1")
 		)
@@ -2589,6 +2600,17 @@
 			)
 		)
 		(property "Mouser Part" "710-7447860127G"
+			(at 194.31 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
 			(at 194.31 76.2 90)
 			(hide yes)
 			(show_name no)
@@ -2703,6 +2725,17 @@
 				)
 			)
 		)
+		(property "DigiKey Part" ""
+			(at 92.71 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "059460ef-e584-43a5-ac4b-de25fbc0b123")
 		)
@@ -2797,6 +2830,17 @@
 			)
 		)
 		(property "Mouser Part" ""
+			(at 114.3 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
 			(at 114.3 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -2911,6 +2955,17 @@
 				)
 			)
 		)
+		(property "DigiKey Part" ""
+			(at 134.62 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9fee3fb5-5564-4e9b-8d88-912c93da9b1e")
 		)
@@ -3005,6 +3060,17 @@
 			)
 		)
 		(property "Mouser Part" ""
+			(at 208.28 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
 			(at 208.28 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3119,6 +3185,17 @@
 				)
 			)
 		)
+		(property "DigiKey Part" ""
+			(at 177.8 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "eb89590e-7ba5-4c68-8a2d-705a4b8982b0")
 		)
@@ -3213,6 +3290,17 @@
 			)
 		)
 		(property "Mouser Part" "377-NEO-M9N-00B "
+			(at 139.7 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
 			(at 139.7 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3393,6 +3481,17 @@
 				)
 			)
 		)
+		(property "DigiKey Part" ""
+			(at 114.3 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9cbc2f0f-e5d3-49bb-ae97-9a66e0c5b325")
 		)
@@ -3487,6 +3586,17 @@
 			)
 		)
 		(property "Mouser Part" ""
+			(at 107.95 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
 			(at 107.95 114.3 90)
 			(hide yes)
 			(show_name no)
@@ -3599,6 +3709,17 @@
 				)
 			)
 		)
+		(property "DigiKey Part" ""
+			(at 168.91 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9250427c-6822-4a88-8e25-3e7462f1fadc")
 		)
@@ -3693,6 +3814,17 @@
 			)
 		)
 		(property "Mouser Part" ""
+			(at 114.3 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
 			(at 114.3 80.01 0)
 			(hide yes)
 			(show_name no)

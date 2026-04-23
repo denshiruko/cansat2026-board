@@ -1,0 +1,4770 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e3b9655e-01d4-4526-a8fb-d9a203b8471a")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FPGA_Lattice:ICE5LP1K-SG48"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -8.89 -29.21 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ICE5LP1K-SG48"
+				(at 0 -31.75 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+				(at 0 -34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+				(at -10.16 25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "FPGA programmable logic"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "QFN*1EP*7x7mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ICE5LP1K-SG48_1_1"
+				(rectangle
+					(start -7.62 25.4)
+					(end 7.62 -27.94)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 12.7 0)
+					(length 2.54)
+					(name "IOT_37a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 15.24 0)
+					(length 2.54)
+					(name "IOT_36b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "IOT_39a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "IOT_38b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IOT_41a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IOT_42b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IOT_43a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "VCCIO_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IOT_44b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "IOT_46b_G0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "IOT_48b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "IOT_45a_G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "IOT_50b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -20.32 0)
+					(length 2.54)
+					(name "RGB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -22.86 0)
+					(length 2.54)
+					(name "RGB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -10.16 -25.4 0)
+					(length 2.54)
+					(name "RGB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -17.78 0)
+					(length 2.54)
+					(name "IOT_51a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "IOT_49a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICE5LP1K-SG48_2_1"
+				(rectangle
+					(start -10.16 25.4)
+					(end 10.16 -25.4)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
+					(name "IOB_13b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 12.7 17.78 180)
+					(length 2.54)
+					(name "CDONE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "~{CRESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 7.62 0)
+					(length 2.54)
+					(name "IOB_16a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "IOB_18a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "IOB_20a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "IOB_22a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "IOB_24a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "IOB_32a_SPI_SO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -20.32 0)
+					(length 2.54)
+					(name "IOB_34a_SPI_SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -22.86 0)
+					(length 2.54)
+					(name "IOB_35b_SPI_SS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "IOB_33b_SPI_SI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "IOB_31b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "IOB_29b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "IOB_25b_G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "IOB_23b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 27.94 270)
+					(length 2.54)
+					(name "SPI_VCCIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICE5LP1K-SG48_3_1"
+				(rectangle
+					(start -7.62 15.24)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 17.78 270)
+					(length 2.54)
+					(name "VCCIO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "IOB_6a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "IOB_9b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "IOB_8a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "IOB_3b_G6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "IOB_5b"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IOB_0a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IOB_2a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "IOB_4a"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ICE5LP1K-SG48_4_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VPP_2V5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCCPLL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 10.16 270)
+					(length 2.54)
+					(hide yes)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 177.8 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "008d3e9c-1936-4f54-b0da-475531e15bb0")
+	)
+	(junction
+		(at 111.76 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0868740f-dbe6-4155-b8e6-0bbc62406bbb")
+	)
+	(junction
+		(at 139.7 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c1a8663-8be6-4b56-a3ed-50de3650dff3")
+	)
+	(junction
+		(at 189.23 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "230c7028-4c47-4577-96f8-0b17676cf0c5")
+	)
+	(junction
+		(at 100.33 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4629483b-5208-4563-9202-b92d4b4f4771")
+	)
+	(junction
+		(at 177.8 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5355c894-5657-4cc9-91fa-552f5eb90392")
+	)
+	(junction
+		(at 177.8 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84267f46-e79b-48a7-8d8f-9348bb54e6a9")
+	)
+	(junction
+		(at 189.23 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88475870-d62b-4fce-9ff5-3e1f18d7cf1e")
+	)
+	(junction
+		(at 88.9 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9788df1-bc33-43fc-8db9-90901efa7dad")
+	)
+	(junction
+		(at 38.1 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a99d4ede-0b96-4b69-8033-9874c353d096")
+	)
+	(junction
+		(at 177.8 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5fbff64-9936-45dc-93f9-e8d8a5f7080f")
+	)
+	(junction
+		(at 151.13 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba0557ab-18c5-4ea7-9bd2-874fae1d7744")
+	)
+	(junction
+		(at 49.53 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbd36f06-73e4-466b-9d87-eef07b5883eb")
+	)
+	(junction
+		(at 189.23 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e021b888-515c-40be-81b3-44461ed2a001")
+	)
+	(junction
+		(at 127 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5e805eb-ccb6-45fb-a1aa-9ac37cbc63d1")
+	)
+	(junction
+		(at 96.52 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f63370da-4bca-4986-8c96-aa9182b20c5e")
+	)
+	(junction
+		(at 177.8 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbc59b17-0f0c-4292-916f-ecf1f7b0d228")
+	)
+	(no_connect
+		(at 48.26 114.3)
+		(uuid "1b6e4b5b-00f3-4f75-9647-d150f6a4b14b")
+	)
+	(no_connect
+		(at 99.06 99.06)
+		(uuid "3aef0883-927d-4f01-8dc6-1513b530d5ba")
+	)
+	(no_connect
+		(at 48.26 111.76)
+		(uuid "3fef6b6a-e9ff-4373-a842-4100b74e605e")
+	)
+	(no_connect
+		(at 48.26 104.14)
+		(uuid "44b5e69a-48ba-47b9-b10f-ca59a89053ab")
+	)
+	(no_connect
+		(at 48.26 106.68)
+		(uuid "6584390a-a660-46e0-a630-79013ad66adf")
+	)
+	(no_connect
+		(at 99.06 91.44)
+		(uuid "6d872e3a-6881-44b5-9e77-36457b52e8b5")
+	)
+	(no_connect
+		(at 149.86 73.66)
+		(uuid "6fc59d5e-80df-4090-98be-0caeb6952702")
+	)
+	(no_connect
+		(at 48.26 101.6)
+		(uuid "7415b3e8-3ec8-401b-a239-fa18bc92594b")
+	)
+	(no_connect
+		(at 99.06 101.6)
+		(uuid "78d4d55f-47c4-4b69-9051-9e15467cbff8")
+	)
+	(no_connect
+		(at 99.06 88.9)
+		(uuid "7e3c7bbd-3057-486b-81f2-1dc75ad774ad")
+	)
+	(no_connect
+		(at 149.86 86.36)
+		(uuid "9e6c9288-1f10-4b0e-bf59-58954e20b824")
+	)
+	(no_connect
+		(at 99.06 83.82)
+		(uuid "a55ec849-cba6-400d-9b67-30c5a3beab64")
+	)
+	(no_connect
+		(at 48.26 109.22)
+		(uuid "a7ffb919-68d2-4ae4-806c-61123faa44bd")
+	)
+	(no_connect
+		(at 99.06 78.74)
+		(uuid "a82303d3-ed7d-469d-8a9c-d79c8dfc7d2c")
+	)
+	(no_connect
+		(at 99.06 93.98)
+		(uuid "b1655337-be3c-48c6-941f-bd77b1c4e5d2")
+	)
+	(no_connect
+		(at 149.86 81.28)
+		(uuid "b5fd4913-9e8f-4d06-bb12-7a522d84b746")
+	)
+	(no_connect
+		(at 149.86 78.74)
+		(uuid "c2e90d4f-0f1f-4d32-9540-51b051036ba9")
+	)
+	(no_connect
+		(at 99.06 86.36)
+		(uuid "d4115b9c-807f-4e17-ae82-3874e086771a")
+	)
+	(no_connect
+		(at 99.06 81.28)
+		(uuid "dbe1e8dd-5290-42c5-8480-8808ec308ab4")
+	)
+	(no_connect
+		(at 149.86 83.82)
+		(uuid "dc9939f9-11d1-45e0-8132-d193629f608b")
+	)
+	(no_connect
+		(at 149.86 91.44)
+		(uuid "e3afdd33-1c27-4299-b132-d38e942c8747")
+	)
+	(no_connect
+		(at 149.86 88.9)
+		(uuid "e9f3a60d-a0a0-4598-8fc8-868aa07138f8")
+	)
+	(no_connect
+		(at 149.86 76.2)
+		(uuid "f31692ef-8801-46a5-ac0b-6b2a7465f4a3")
+	)
+	(wire
+		(pts
+			(xy 208.28 60.96) (xy 208.28 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "023fc94d-63c9-421f-a68b-9bc9206ce06a")
+	)
+	(wire
+		(pts
+			(xy 127 71.12) (xy 124.46 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d86017-f554-412a-8aed-dba83b214e74")
+	)
+	(wire
+		(pts
+			(xy 177.8 50.8) (xy 189.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6ea23e-e8d7-4b07-9ea0-ad9169011fc7")
+	)
+	(wire
+		(pts
+			(xy 139.7 50.8) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c655e55-a9d5-4317-a774-4fa836fc9669")
+	)
+	(wire
+		(pts
+			(xy 160.02 60.96) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11995071-8cb5-4103-9ff5-dc70563780dd")
+	)
+	(wire
+		(pts
+			(xy 177.8 55.88) (xy 189.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12e8b82e-074b-486f-9621-6106c316509d")
+	)
+	(wire
+		(pts
+			(xy 165.1 25.4) (xy 167.64 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168f7b68-d89b-4012-9a4c-0d9c96a1c463")
+	)
+	(wire
+		(pts
+			(xy 177.8 38.1) (xy 189.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a719c20-4a56-4a7e-b9ba-f9aa583723a0")
+	)
+	(wire
+		(pts
+			(xy 172.72 25.4) (xy 177.8 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f18885d-e4b4-4e77-8d4a-4aae6206c4b0")
+	)
+	(wire
+		(pts
+			(xy 177.8 43.18) (xy 189.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f07c91-3c23-40e9-8faf-0d7f8c63314a")
+	)
+	(wire
+		(pts
+			(xy 129.54 71.12) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa03d76-48ee-489c-a1d8-e1ff14430a7b")
+	)
+	(wire
+		(pts
+			(xy 38.1 58.42) (xy 38.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f3a62cc-0347-4062-9f93-071257a83e90")
+	)
+	(wire
+		(pts
+			(xy 189.23 50.8) (xy 205.74 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fabd9ac-5ebb-410b-aefa-67f231399d79")
+	)
+	(wire
+		(pts
+			(xy 96.52 60.96) (xy 111.76 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f249ba7-2376-49fb-98fc-a9610cf830bf")
+	)
+	(wire
+		(pts
+			(xy 177.8 30.48) (xy 189.23 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4625b73b-8b04-48a3-9b34-ec3db41d92ab")
+	)
+	(wire
+		(pts
+			(xy 88.9 50.8) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4635de92-3543-4c38-afc8-68abb69adc01")
+	)
+	(wire
+		(pts
+			(xy 189.23 25.4) (xy 210.82 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c8289d-9944-4e21-9578-23ec7b598f41")
+	)
+	(wire
+		(pts
+			(xy 177.8 33.02) (xy 177.8 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f1929c4-f90f-4b39-bb64-9053a1de79f4")
+	)
+	(wire
+		(pts
+			(xy 58.42 60.96) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d01496-969b-449e-9413-1f4f8839df63")
+	)
+	(wire
+		(pts
+			(xy 38.1 55.88) (xy 49.53 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67569c40-9130-42e2-bbb0-2546c7d05961")
+	)
+	(wire
+		(pts
+			(xy 160.02 50.8) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e10fac6-3613-4460-a5dd-80d2564f3482")
+	)
+	(wire
+		(pts
+			(xy 165.1 38.1) (xy 165.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77edd46c-2e78-49d4-958e-ceda71002e5d")
+	)
+	(wire
+		(pts
+			(xy 205.74 50.8) (xy 205.74 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7da3dde1-f246-4b28-98bf-41117fd64e56")
+	)
+	(wire
+		(pts
+			(xy 208.28 83.82) (xy 208.28 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7db3ca99-f544-4f9b-bd35-b6efcbe9ca80")
+	)
+	(wire
+		(pts
+			(xy 177.8 45.72) (xy 177.8 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa0fc9c-fb90-46e8-bd0a-f54a61932301")
+	)
+	(wire
+		(pts
+			(xy 96.52 71.12) (xy 99.06 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d0e994-4225-475d-9491-60f5abaef797")
+	)
+	(wire
+		(pts
+			(xy 165.1 38.1) (xy 177.8 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d9d764b-8d84-4f9d-8ff2-7a922b445818")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eb9f81d-c126-463a-bd35-29a602a2faf6")
+	)
+	(wire
+		(pts
+			(xy 139.7 55.88) (xy 151.13 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90c7175a-f4eb-4c34-83ad-3d760f08905c")
+	)
+	(wire
+		(pts
+			(xy 96.52 66.04) (xy 96.52 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92bb094d-7d1b-4e4c-a589-bc0a66b28610")
+	)
+	(wire
+		(pts
+			(xy 139.7 58.42) (xy 139.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad56392-c859-4038-9b83-4a83c42f802c")
+	)
+	(wire
+		(pts
+			(xy 111.76 50.8) (xy 100.33 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af994674-e84e-4613-a5a2-3dfe591a4918")
+	)
+	(wire
+		(pts
+			(xy 88.9 55.88) (xy 100.33 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81b24f4-740c-42ec-ae4d-7e17bbaf7fbb")
+	)
+	(wire
+		(pts
+			(xy 210.82 25.4) (xy 210.82 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c85caa05-1ed5-456b-8fa3-261efec81e4e")
+	)
+	(wire
+		(pts
+			(xy 38.1 50.8) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caba6599-173e-4bbb-a5b2-663af3a04881")
+	)
+	(wire
+		(pts
+			(xy 177.8 25.4) (xy 189.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce2e21e0-881b-4f0f-8c3b-809121a0cfcc")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.96) (xy 111.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18c7821-1f0b-45b6-a9c3-2970603ec40d")
+	)
+	(wire
+		(pts
+			(xy 88.9 58.42) (xy 88.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfd5c27-7eba-474f-91e3-37c2cc796d84")
+	)
+	(wire
+		(pts
+			(xy 111.76 60.96) (xy 127 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf63874-a7e4-46d6-ba63-99334e24b0da")
+	)
+	(wire
+		(pts
+			(xy 93.98 71.12) (xy 96.52 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8780780-3a2e-460a-80e6-1e153763374b")
+	)
+	(wire
+		(pts
+			(xy 127 66.04) (xy 127 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb364e1f-8470-41b3-82bd-bd4939eba3bf")
+	)
+	(wire
+		(pts
+			(xy 177.8 58.42) (xy 177.8 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb36fe74-83ab-4388-ac37-5baa693ab35a")
+	)
+	(wire
+		(pts
+			(xy 208.28 38.1) (xy 189.23 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa25e482-8682-4670-a1eb-6517ec3ec1a6")
+	)
+	(label "GND"
+		(at 208.28 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3318100f-d45d-4569-9d12-f61541e8af6f")
+	)
+	(label "GND"
+		(at 139.7 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "670f931c-bf8c-4fa7-baac-7eb1ad4bcc91")
+	)
+	(label "GND"
+		(at 177.8 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75697e92-d812-4edb-a64a-dd262cf45888")
+	)
+	(label "GND"
+		(at 88.9 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9172e720-1fba-4b0c-b9d7-f7ee48a6aec7")
+	)
+	(label "GND"
+		(at 177.8 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a22450e3-ce61-4bd8-807e-bec1e8eb26ff")
+	)
+	(label "3.3V"
+		(at 88.9 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0dfd6f4-9861-462e-b83c-5f03041b5adc")
+	)
+	(label "GND"
+		(at 177.8 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9abdf88-d3f3-48b2-9ecb-1b22b6245c89")
+	)
+	(label "3.3V"
+		(at 139.7 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef0f32e9-c15b-4e4b-9b66-7f9b23deeabd")
+	)
+	(label "3.3V"
+		(at 177.8 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe52b192-c37e-412d-8a86-4e324b67f7c0")
+	)
+	(hierarchical_label "SPI_SO"
+		(shape output)
+		(at 99.06 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "172e46ee-dc1d-4244-99f4-a31612f65b3c")
+	)
+	(hierarchical_label "SPI_SS"
+		(shape input)
+		(at 99.06 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22e03ac2-eafd-44f4-8c1e-d6d28358ed7a")
+	)
+	(hierarchical_label "CDONE"
+		(shape output)
+		(at 129.54 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "243e31a7-c0bf-4c9c-9316-d6da1c63feaa")
+	)
+	(hierarchical_label "CAM_PIN_D2"
+		(shape input)
+		(at 48.26 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "27b3b7da-3a9e-48dd-9796-5259c2f5798c")
+	)
+	(hierarchical_label "CAM_PIN_D6"
+		(shape input)
+		(at 48.26 88.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f5abd70-da8c-44b3-a8e0-15ae1221b279")
+	)
+	(hierarchical_label "CAM_PIN_XCLK"
+		(shape output)
+		(at 48.26 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "36c1e625-bfde-43a3-a9e5-223c7b5e88ad")
+	)
+	(hierarchical_label "1.2V"
+		(shape input)
+		(at 165.1 25.4 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cb2c666-4a76-462d-bced-29eb553880fb")
+	)
+	(hierarchical_label "CAM_PIN_D7"
+		(shape input)
+		(at 48.26 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3e0dd2b5-1551-437b-9a55-a3ef963920b8")
+	)
+	(hierarchical_label "~{CRESET}"
+		(shape input)
+		(at 93.98 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "477540f2-e054-4b0f-86ad-616c699af22f")
+	)
+	(hierarchical_label "3.3V"
+		(shape input)
+		(at 38.1 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6794acf7-0ea8-49d5-b0dc-658d26c19636")
+	)
+	(hierarchical_label "CAM_PIN_D5"
+		(shape input)
+		(at 48.26 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6984c1a8-d817-4903-b454-bf26932eb810")
+	)
+	(hierarchical_label "SPI_SCK"
+		(shape input)
+		(at 99.06 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b29063c-9d64-40e7-a800-a33749634518")
+	)
+	(hierarchical_label "CAM_PIN_D4"
+		(shape input)
+		(at 48.26 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f084581-4a68-4b4c-bbe7-84fa31249be1")
+	)
+	(hierarchical_label "SPI_SI"
+		(shape input)
+		(at 99.06 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73e757f3-2daf-41f4-a3ad-f3171e806e10")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 38.1 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c6ef631-59f9-472e-823e-9f43d26350e3")
+	)
+	(hierarchical_label "CAM_PIN_D3"
+		(shape input)
+		(at 48.26 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f889375-0a04-498e-9e6e-43bb0612fca6")
+	)
+	(hierarchical_label "CAM_PIN_HREF"
+		(shape input)
+		(at 48.26 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aca6fc0f-fb4e-46cf-8006-ed2cd44aa160")
+	)
+	(hierarchical_label "CAM_PIN_VSYNC"
+		(shape input)
+		(at 99.06 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df3f6092-18bc-4011-b520-7df7a2164d61")
+	)
+	(hierarchical_label "CAM_PIN_PCLK"
+		(shape input)
+		(at 48.26 93.98 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef61330e-3026-46d7-b3bc-876d13169a22")
+	)
+	(hierarchical_label "CAM_PIN_D0"
+		(shape input)
+		(at 48.26 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fece967e-a72a-44f0-aa94-26f4d1914324")
+	)
+	(hierarchical_label "CAM_PIN_D1"
+		(shape input)
+		(at 48.26 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ffad7d46-f266-40b6-b8be-2f6deb9fb927")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 189.23 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1462acea-58f0-4925-8d96-75ce1f3d75cf")
+		(property "Reference" "C1012"
+			(at 191.77 52.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 191.77 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 189.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 189.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 189.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 189.23 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8ee30c1-650f-41ed-b656-c6b3318e941e")
+		)
+		(pin "2"
+			(uuid "74f3cb7b-f7a8-4678-a7b1-eda1581e4534")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "18b48f70-dbee-48a1-ac52-097e47a0ec3e")
+		(property "Reference" "R1003"
+			(at 129.54 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 129.54 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25890"
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 127 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae9d3752-1101-41b1-a0ee-3892410e2680")
+		)
+		(pin "1"
+			(uuid "c66650e5-22d4-4fa0-98c3-6f24dbfa1db5")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "R1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 189.23 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19b032ee-9086-4f64-9619-8bb5b56d8a48")
+		(property "Reference" "C1004"
+			(at 191.77 39.3762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 191.77 41.9162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 189.23 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 189.23 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 189.23 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 189.23 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f88c291c-ecbe-4b51-8440-3a135222b910")
+		)
+		(pin "2"
+			(uuid "497b9a2b-66f1-493d-9acc-55b2cf1ef21c")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1004")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 88.9 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19ede9ed-b19f-4854-bac0-151901cb1001")
+		(property "Reference" "C1007"
+			(at 91.44 52.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 91.44 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 88.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 88.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23733"
+			(at 88.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 88.9 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae7f63d6-fd33-4f7c-98fd-ffb657771780")
+		)
+		(pin "2"
+			(uuid "bbe5aa93-bd20-4a35-8724-0308a290e738")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 139.7 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d1f1637-e36b-4c37-af9a-d6942b5f78cd")
+		(property "Reference" "C1009"
+			(at 142.24 52.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 142.24 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23733"
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 139.7 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c65464a2-16cc-4661-83de-af1803825f4e")
+		)
+		(pin "2"
+			(uuid "035a8e72-86f9-480c-8fa8-ccff48b30892")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1009")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 100.33 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ac02eef-eae3-4b83-8432-fc1d8e4b9dc1")
+		(property "Reference" "C1008"
+			(at 102.87 52.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 102.87 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 100.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 100.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 100.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 100.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8db2cdb2-0e99-43f9-947d-58cbea3e53d0")
+		)
+		(pin "2"
+			(uuid "3d99aa8f-8f77-4bdf-bcbe-ffb0b220155e")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 38.1 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4218e3f0-121d-433d-ace8-e5de96109745")
+		(property "Reference" "C1005"
+			(at 40.64 52.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 40.64 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 38.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 38.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23733"
+			(at 38.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 38.1 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5aed058e-5a2e-450c-a8b7-29a390abb7d6")
+		)
+		(pin "2"
+			(uuid "b083befe-67db-4d8f-b1d6-5286614af6e4")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 177.8 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47138b38-7a71-42a2-8d45-5381e5fa8d92")
+		(property "Reference" "C1001"
+			(at 180.34 26.6762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 180.34 29.2162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23733"
+			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 177.8 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21d21273-ddf9-43da-b74f-4af52088e20c")
+		)
+		(pin "2"
+			(uuid "b420d870-6fae-4d36-8b6a-e01208b055bc")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE5LP1K-SG48")
+		(at 208.28 71.12 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cc3272e-af00-4c0a-8e53-82db8597c677")
+		(property "Reference" "U1001"
+			(at 214.63 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICE5LP1K-SG48"
+			(at 214.63 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at 208.28 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 198.12 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
+			(at 208.28 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 208.28 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "32"
+			(uuid "5b614931-d86e-4e49-bf30-bba1db892e67")
+		)
+		(pin "26"
+			(uuid "17f65d07-4c42-405c-8c01-221d946f216d")
+		)
+		(pin "10"
+			(uuid "e5c8d82a-ff52-457c-a506-6f25ba92af9d")
+		)
+		(pin "12"
+			(uuid "44b7beac-a805-4e66-9105-58f2cfc43089")
+		)
+		(pin "14"
+			(uuid "71be6a08-e389-4d5c-b357-fc7c48f5fc81")
+		)
+		(pin "33"
+			(uuid "389ddcea-e5c3-4344-ac25-ecba0c910c9d")
+		)
+		(pin "39"
+			(uuid "3263462d-597b-4c9f-8286-cdb17754cca0")
+		)
+		(pin "34"
+			(uuid "fa608637-ff83-48dc-9796-5a9a0d7c8a55")
+		)
+		(pin "41"
+			(uuid "35e22bfb-3d85-42ea-bb23-38eb9246aada")
+		)
+		(pin "19"
+			(uuid "f3060dcf-fce6-4202-bd32-50d765c02566")
+		)
+		(pin "8"
+			(uuid "1e333e2d-08f1-4e05-96ad-1d18b42919d5")
+		)
+		(pin "35"
+			(uuid "cdebd78b-24f9-4f68-9639-ec173787aa32")
+		)
+		(pin "42"
+			(uuid "e04d542a-d49e-45bd-9d0b-4d1475542241")
+		)
+		(pin "25"
+			(uuid "3aeb6ad1-3053-4b71-935c-a810c2daf193")
+		)
+		(pin "36"
+			(uuid "09b92005-d18d-46af-a402-cd145ceac42f")
+		)
+		(pin "37"
+			(uuid "91a853a8-bfcc-4ba6-84ca-28665589c34a")
+		)
+		(pin "43"
+			(uuid "2d7b5d71-6d13-4047-bde6-70cdc3202bf1")
+		)
+		(pin "6"
+			(uuid "687a38c5-ea29-411c-9cc9-8fe6eaae220d")
+		)
+		(pin "31"
+			(uuid "ac58f19e-3f83-48fa-8560-7b83e5eabb78")
+		)
+		(pin "23"
+			(uuid "609b3dbb-31c5-4d7c-ab06-9e9727cbf4c9")
+		)
+		(pin "27"
+			(uuid "f9f959b1-ae0a-45b1-9da0-d202f6044d30")
+		)
+		(pin "28"
+			(uuid "38fcf125-bd51-4437-a734-a8f4aa57b3ac")
+		)
+		(pin "38"
+			(uuid "1c0dcd02-964a-4708-a9ff-a53b3be26afb")
+		)
+		(pin "40"
+			(uuid "e9f55962-8c61-4201-b864-0462b3ee6498")
+		)
+		(pin "7"
+			(uuid "409a8946-05fc-4947-a220-07f736245348")
+		)
+		(pin "9"
+			(uuid "bc50681f-63e5-49d1-8634-40c5b7e73b1c")
+		)
+		(pin "11"
+			(uuid "d12b7937-7e0e-4c25-97ee-836df3d08972")
+		)
+		(pin "13"
+			(uuid "ebb20801-fc66-484e-bdb7-6f7a917ef9ec")
+		)
+		(pin "15"
+			(uuid "9e454c4a-1265-4e7d-b208-0956ce480cdc")
+		)
+		(pin "16"
+			(uuid "abdd659f-a0e1-4ec3-8639-0e9bf941750a")
+		)
+		(pin "17"
+			(uuid "fc45b78b-bf97-4fe8-b173-b3fe172a4925")
+		)
+		(pin "18"
+			(uuid "0fc8b140-e24f-405e-a59c-55681fc6fd91")
+		)
+		(pin "47"
+			(uuid "09f5f16c-f348-4e88-a610-d0898cdd8663")
+		)
+		(pin "2"
+			(uuid "94ad0528-68ae-49d7-b723-48706492ca1f")
+		)
+		(pin "1"
+			(uuid "af0352d0-0cd3-4874-95f8-51dc0ef8205e")
+		)
+		(pin "46"
+			(uuid "46afd2a8-895f-4937-a100-bdc9c7e67ff9")
+		)
+		(pin "21"
+			(uuid "525ef3d8-6c50-4747-961d-fe11682e4dc8")
+		)
+		(pin "5"
+			(uuid "9263b58f-1237-4150-88cf-3569fb6e23f2")
+		)
+		(pin "49"
+			(uuid "fd180784-3cfe-48a4-aafb-9dd5853b570d")
+		)
+		(pin "30"
+			(uuid "b2990310-5901-42ad-9553-78374ecc9abd")
+		)
+		(pin "3"
+			(uuid "4b2c6d02-0f81-42bd-8dfe-58b393adab62")
+		)
+		(pin "20"
+			(uuid "ae5564a5-b88b-48f1-8a00-0a755e56dd14")
+		)
+		(pin "44"
+			(uuid "13bcbc57-6dfd-4aa3-91ff-e8eb5d5ecc07")
+		)
+		(pin "22"
+			(uuid "278055ec-ecb3-4ce2-ace7-c114a3e55046")
+		)
+		(pin "48"
+			(uuid "aaaf3c52-66e5-445e-b663-f52b0cc4c23f")
+		)
+		(pin "4"
+			(uuid "a9a10916-adf7-42f7-a5a8-d19224bf15e5")
+		)
+		(pin "45"
+			(uuid "15174a0f-4615-497e-8d1a-ff87e6fcad86")
+		)
+		(pin "24"
+			(uuid "1422e5e3-fc54-4896-b7a0-4b6aeb4e25cd")
+		)
+		(pin "29"
+			(uuid "bdb92c44-80c2-4ea6-b87b-700f1019adb1")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "U1001")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 189.23 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4da59bc9-fce2-46fc-bab0-eb51802b9b8e")
+		(property "Reference" "C1002"
+			(at 191.77 26.6762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 191.77 29.2162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 189.23 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 189.23 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 189.23 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 189.23 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8224569-3482-4cf3-9fcd-6c997cf6bfbf")
+		)
+		(pin "2"
+			(uuid "0f4259e6-feae-4271-a426-66e998fb9122")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 177.8 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b22d5da-b79c-4cdb-a895-d30cc7402d41")
+		(property "Reference" "C1003"
+			(at 180.34 39.3762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 180.34 41.9162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 177.8 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 177.8 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23733"
+			(at 177.8 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 177.8 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a0c4fb4-d760-4b64-8c0f-4d8b42ba3ec5")
+		)
+		(pin "2"
+			(uuid "18b80eff-1660-4ddb-8469-479c3161a8ac")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1003")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE5LP1K-SG48")
+		(at 160.02 78.74 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78c5ab3b-0fe2-4096-bafd-97f91b513cab")
+		(property "Reference" "U1001"
+			(at 168.91 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICE5LP1K-SG48"
+			(at 168.91 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at 160.02 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 149.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
+			(at 160.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 160.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "32"
+			(uuid "5b614931-d86e-4e49-bf30-bba1db892e68")
+		)
+		(pin "26"
+			(uuid "17f65d07-4c42-405c-8c01-221d946f216e")
+		)
+		(pin "10"
+			(uuid "e5c8d82a-ff52-457c-a506-6f25ba92af9e")
+		)
+		(pin "12"
+			(uuid "44b7beac-a805-4e66-9105-58f2cfc4308a")
+		)
+		(pin "14"
+			(uuid "71be6a08-e389-4d5c-b357-fc7c48f5fc82")
+		)
+		(pin "33"
+			(uuid "389ddcea-e5c3-4344-ac25-ecba0c910c9e")
+		)
+		(pin "39"
+			(uuid "3263462d-597b-4c9f-8286-cdb17754cca1")
+		)
+		(pin "34"
+			(uuid "fa608637-ff83-48dc-9796-5a9a0d7c8a56")
+		)
+		(pin "41"
+			(uuid "35e22bfb-3d85-42ea-bb23-38eb9246aadb")
+		)
+		(pin "19"
+			(uuid "f3060dcf-fce6-4202-bd32-50d765c02567")
+		)
+		(pin "8"
+			(uuid "1e333e2d-08f1-4e05-96ad-1d18b42919d6")
+		)
+		(pin "35"
+			(uuid "cdebd78b-24f9-4f68-9639-ec173787aa33")
+		)
+		(pin "42"
+			(uuid "e04d542a-d49e-45bd-9d0b-4d1475542242")
+		)
+		(pin "25"
+			(uuid "3aeb6ad1-3053-4b71-935c-a810c2daf194")
+		)
+		(pin "36"
+			(uuid "09b92005-d18d-46af-a402-cd145ceac430")
+		)
+		(pin "37"
+			(uuid "91a853a8-bfcc-4ba6-84ca-28665589c34b")
+		)
+		(pin "43"
+			(uuid "2d7b5d71-6d13-4047-bde6-70cdc3202bf2")
+		)
+		(pin "6"
+			(uuid "687a38c5-ea29-411c-9cc9-8fe6eaae220e")
+		)
+		(pin "31"
+			(uuid "ac58f19e-3f83-48fa-8560-7b83e5eabb79")
+		)
+		(pin "23"
+			(uuid "609b3dbb-31c5-4d7c-ab06-9e9727cbf4ca")
+		)
+		(pin "27"
+			(uuid "f9f959b1-ae0a-45b1-9da0-d202f6044d31")
+		)
+		(pin "28"
+			(uuid "38fcf125-bd51-4437-a734-a8f4aa57b3ad")
+		)
+		(pin "38"
+			(uuid "1c0dcd02-964a-4708-a9ff-a53b3be26afc")
+		)
+		(pin "40"
+			(uuid "e9f55962-8c61-4201-b864-0462b3ee6499")
+		)
+		(pin "7"
+			(uuid "409a8946-05fc-4947-a220-07f736245349")
+		)
+		(pin "9"
+			(uuid "bc50681f-63e5-49d1-8634-40c5b7e73b1d")
+		)
+		(pin "11"
+			(uuid "d12b7937-7e0e-4c25-97ee-836df3d08973")
+		)
+		(pin "13"
+			(uuid "ebb20801-fc66-484e-bdb7-6f7a917ef9ed")
+		)
+		(pin "15"
+			(uuid "9e454c4a-1265-4e7d-b208-0956ce480cdd")
+		)
+		(pin "16"
+			(uuid "abdd659f-a0e1-4ec3-8639-0e9bf941750b")
+		)
+		(pin "17"
+			(uuid "fc45b78b-bf97-4fe8-b173-b3fe172a4926")
+		)
+		(pin "18"
+			(uuid "0fc8b140-e24f-405e-a59c-55681fc6fd92")
+		)
+		(pin "47"
+			(uuid "c5f036ba-7d1f-43da-8e75-0e636be81b1e")
+		)
+		(pin "2"
+			(uuid "9f37e8d3-411d-466f-a726-f02de2e41ef3")
+		)
+		(pin "1"
+			(uuid "05948025-41cf-43ad-9fc3-39d415416e7b")
+		)
+		(pin "46"
+			(uuid "9676f22f-d525-43e5-bc24-455e311acef5")
+		)
+		(pin "21"
+			(uuid "525ef3d8-6c50-4747-961d-fe11682e4dc9")
+		)
+		(pin "5"
+			(uuid "b5c1cbb2-37e7-4c3d-ba5a-1a667b0202f9")
+		)
+		(pin "49"
+			(uuid "e63053a2-ead5-4108-acd0-0207bf6b715e")
+		)
+		(pin "30"
+			(uuid "f7875b11-05c1-4e69-b015-ac0344140a6b")
+		)
+		(pin "3"
+			(uuid "48959dbc-0591-417c-baea-26399ea662b3")
+		)
+		(pin "20"
+			(uuid "ae5564a5-b88b-48f1-8a00-0a755e56dd15")
+		)
+		(pin "44"
+			(uuid "4c32809d-5a60-4b04-a47d-8bae2bade41c")
+		)
+		(pin "22"
+			(uuid "278055ec-ecb3-4ce2-ace7-c114a3e55047")
+		)
+		(pin "48"
+			(uuid "c3e2705d-aab2-4224-a53e-610ff7796dff")
+		)
+		(pin "4"
+			(uuid "9f3a7bca-b3db-4904-9e21-f9cd3d9fd51b")
+		)
+		(pin "45"
+			(uuid "a1d9fe4a-af4c-444b-9c4c-474617a654c9")
+		)
+		(pin "24"
+			(uuid "3f770edf-670e-49c6-aa20-a7d6879f6191")
+		)
+		(pin "29"
+			(uuid "eb004f77-8e54-4103-bbfd-c55e6b1e35b6")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "U1001")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 177.8 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a38cfa72-7429-4425-8b6b-ea712e7b0e70")
+		(property "Reference" "C1011"
+			(at 180.34 52.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 180.34 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 177.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 177.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23733"
+			(at 177.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 177.8 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4165d7f9-22a1-4bfa-96d6-6cd08222bfa7")
+		)
+		(pin "2"
+			(uuid "b78ac7cb-467e-47cb-8cbd-05ae897d6ee3")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE5LP1K-SG48")
+		(at 58.42 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b23509a7-5215-4fe4-825a-7580e7ab6e2c")
+		(property "Reference" "U1001"
+			(at 67.31 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICE5LP1K-SG48"
+			(at 67.31 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at 58.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 48.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
+			(at 58.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 58.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "32"
+			(uuid "42c0d2ee-3b57-4cab-99eb-a9b618fb0630")
+		)
+		(pin "26"
+			(uuid "4d6187ee-a3ad-4762-a7c8-50285fcd2ea0")
+		)
+		(pin "10"
+			(uuid "e5c8d82a-ff52-457c-a506-6f25ba92af9f")
+		)
+		(pin "12"
+			(uuid "44b7beac-a805-4e66-9105-58f2cfc4308b")
+		)
+		(pin "14"
+			(uuid "71be6a08-e389-4d5c-b357-fc7c48f5fc83")
+		)
+		(pin "33"
+			(uuid "1e9887b4-f169-4f48-b807-66b6b767a5ce")
+		)
+		(pin "39"
+			(uuid "00fdfc1c-46f0-4cad-9111-5e864416b7f0")
+		)
+		(pin "34"
+			(uuid "78c98513-3bca-4b8a-bcb5-a42c6d2509bc")
+		)
+		(pin "41"
+			(uuid "95bb4a24-3003-419f-ba42-27be6392e0d8")
+		)
+		(pin "19"
+			(uuid "f3060dcf-fce6-4202-bd32-50d765c02568")
+		)
+		(pin "8"
+			(uuid "1e333e2d-08f1-4e05-96ad-1d18b42919d7")
+		)
+		(pin "35"
+			(uuid "b6417e15-5b1d-4c4c-bbfa-e2fc7fd12882")
+		)
+		(pin "42"
+			(uuid "8e748b1d-8702-4440-8624-103bc172a58a")
+		)
+		(pin "25"
+			(uuid "e6c38307-d78b-4ac0-8595-22eae39432e5")
+		)
+		(pin "36"
+			(uuid "5926e125-b38e-4d61-9552-b8aba2b96e0e")
+		)
+		(pin "37"
+			(uuid "c6db7e84-3bb6-4230-9aff-ef7b8bf8f53a")
+		)
+		(pin "43"
+			(uuid "78b112d4-c5b6-4548-ba24-1321bc8d1583")
+		)
+		(pin "6"
+			(uuid "687a38c5-ea29-411c-9cc9-8fe6eaae220f")
+		)
+		(pin "31"
+			(uuid "5559516d-f79c-4f35-9084-fa2313ca03db")
+		)
+		(pin "23"
+			(uuid "28c0502f-a982-4104-8e3e-cf3734bf5b79")
+		)
+		(pin "27"
+			(uuid "1f43c03a-ce99-46f8-baae-1e01859a7c33")
+		)
+		(pin "28"
+			(uuid "ebaab73f-a51b-413c-b9fc-d17cfee7bdf2")
+		)
+		(pin "38"
+			(uuid "e3fa0353-57d9-4629-904e-5be5701a1af9")
+		)
+		(pin "40"
+			(uuid "8f1c2a78-4da1-46f8-be76-62e059093ca4")
+		)
+		(pin "7"
+			(uuid "409a8946-05fc-4947-a220-07f73624534a")
+		)
+		(pin "9"
+			(uuid "bc50681f-63e5-49d1-8634-40c5b7e73b1e")
+		)
+		(pin "11"
+			(uuid "d12b7937-7e0e-4c25-97ee-836df3d08974")
+		)
+		(pin "13"
+			(uuid "ebb20801-fc66-484e-bdb7-6f7a917ef9ee")
+		)
+		(pin "15"
+			(uuid "9e454c4a-1265-4e7d-b208-0956ce480cde")
+		)
+		(pin "16"
+			(uuid "abdd659f-a0e1-4ec3-8639-0e9bf941750c")
+		)
+		(pin "17"
+			(uuid "fc45b78b-bf97-4fe8-b173-b3fe172a4927")
+		)
+		(pin "18"
+			(uuid "0fc8b140-e24f-405e-a59c-55681fc6fd93")
+		)
+		(pin "47"
+			(uuid "09f5f16c-f348-4e88-a610-d0898cdd8665")
+		)
+		(pin "2"
+			(uuid "94ad0528-68ae-49d7-b723-48706492ca21")
+		)
+		(pin "1"
+			(uuid "af0352d0-0cd3-4874-95f8-51dc0ef82060")
+		)
+		(pin "46"
+			(uuid "46afd2a8-895f-4937-a100-bdc9c7e67ffb")
+		)
+		(pin "21"
+			(uuid "525ef3d8-6c50-4747-961d-fe11682e4dca")
+		)
+		(pin "5"
+			(uuid "b5c1cbb2-37e7-4c3d-ba5a-1a667b0202fa")
+		)
+		(pin "49"
+			(uuid "e63053a2-ead5-4108-acd0-0207bf6b715f")
+		)
+		(pin "30"
+			(uuid "f7875b11-05c1-4e69-b015-ac0344140a6c")
+		)
+		(pin "3"
+			(uuid "4b2c6d02-0f81-42bd-8dfe-58b393adab64")
+		)
+		(pin "20"
+			(uuid "ae5564a5-b88b-48f1-8a00-0a755e56dd16")
+		)
+		(pin "44"
+			(uuid "13bcbc57-6dfd-4aa3-91ff-e8eb5d5ecc09")
+		)
+		(pin "22"
+			(uuid "278055ec-ecb3-4ce2-ace7-c114a3e55048")
+		)
+		(pin "48"
+			(uuid "aaaf3c52-66e5-445e-b663-f52b0cc4c241")
+		)
+		(pin "4"
+			(uuid "a9a10916-adf7-42f7-a5a8-d19224bf15e7")
+		)
+		(pin "45"
+			(uuid "15174a0f-4615-497e-8d1a-ff87e6fcad88")
+		)
+		(pin "24"
+			(uuid "3f770edf-670e-49c6-aa20-a7d6879f6192")
+		)
+		(pin "29"
+			(uuid "eb004f77-8e54-4103-bbfd-c55e6b1e35b7")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "U1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 170.18 25.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc00daf1-fa1b-4a8b-879a-a009fc15fef3")
+		(property "Reference" "R1001"
+			(at 170.18 20.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 170.18 22.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 170.18 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 170.18 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25076"
+			(at 170.18 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 170.18 25.4 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96df1a37-2fb9-4448-8063-7eac060e2b38")
+		)
+		(pin "2"
+			(uuid "900050ad-5f73-4d8e-9723-c37515475179")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "R1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 151.13 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfb7c855-8eb0-4769-ab34-8dbc93ef3436")
+		(property "Reference" "C1010"
+			(at 153.67 52.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 153.67 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 151.13 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 151.13 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 151.13 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 151.13 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39125184-ce3f-442a-ae25-270447f74f78")
+		)
+		(pin "2"
+			(uuid "88c2af63-f8c2-43f4-a790-27c6cce18476")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE5LP1K-SG48")
+		(at 111.76 88.9 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9943fc0-c7c3-4653-b073-a32023527f94")
+		(property "Reference" "U1001"
+			(at 111.76 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ICE5LP1K-SG48"
+			(at 111.76 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 101.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
+			(at 111.76 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 111.76 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "32"
+			(uuid "5b614931-d86e-4e49-bf30-bba1db892e6a")
+		)
+		(pin "26"
+			(uuid "17f65d07-4c42-405c-8c01-221d946f2170")
+		)
+		(pin "10"
+			(uuid "e2be6751-c4e2-4cd3-8b51-43715dc58b1a")
+		)
+		(pin "12"
+			(uuid "f047db37-2b66-4b4b-9958-8805ba365487")
+		)
+		(pin "14"
+			(uuid "ea480f2a-7540-4ce3-b181-bf9a01b0fb31")
+		)
+		(pin "33"
+			(uuid "389ddcea-e5c3-4344-ac25-ecba0c910ca0")
+		)
+		(pin "39"
+			(uuid "3263462d-597b-4c9f-8286-cdb17754cca3")
+		)
+		(pin "34"
+			(uuid "fa608637-ff83-48dc-9796-5a9a0d7c8a58")
+		)
+		(pin "41"
+			(uuid "35e22bfb-3d85-42ea-bb23-38eb9246aadd")
+		)
+		(pin "19"
+			(uuid "5be4469b-9e4b-48e5-b449-11eed2c34ef5")
+		)
+		(pin "8"
+			(uuid "18358cba-18b7-437f-9068-d1be0c59b86e")
+		)
+		(pin "35"
+			(uuid "cdebd78b-24f9-4f68-9639-ec173787aa35")
+		)
+		(pin "42"
+			(uuid "e04d542a-d49e-45bd-9d0b-4d1475542244")
+		)
+		(pin "25"
+			(uuid "3aeb6ad1-3053-4b71-935c-a810c2daf196")
+		)
+		(pin "36"
+			(uuid "09b92005-d18d-46af-a402-cd145ceac432")
+		)
+		(pin "37"
+			(uuid "91a853a8-bfcc-4ba6-84ca-28665589c34d")
+		)
+		(pin "43"
+			(uuid "2d7b5d71-6d13-4047-bde6-70cdc3202bf4")
+		)
+		(pin "6"
+			(uuid "db8575df-b7cf-4c38-b15d-b86d16860dab")
+		)
+		(pin "31"
+			(uuid "ac58f19e-3f83-48fa-8560-7b83e5eabb7b")
+		)
+		(pin "23"
+			(uuid "609b3dbb-31c5-4d7c-ab06-9e9727cbf4cc")
+		)
+		(pin "27"
+			(uuid "f9f959b1-ae0a-45b1-9da0-d202f6044d33")
+		)
+		(pin "28"
+			(uuid "38fcf125-bd51-4437-a734-a8f4aa57b3af")
+		)
+		(pin "38"
+			(uuid "1c0dcd02-964a-4708-a9ff-a53b3be26afe")
+		)
+		(pin "40"
+			(uuid "e9f55962-8c61-4201-b864-0462b3ee649b")
+		)
+		(pin "7"
+			(uuid "6c25a6d2-aa46-4ec4-a01d-d25a40b8b953")
+		)
+		(pin "9"
+			(uuid "3ec1a152-9dba-48e0-81fe-cb1cd565bc8e")
+		)
+		(pin "11"
+			(uuid "3b7c190a-89b5-4fa7-9ed3-e6d4aee7a28a")
+		)
+		(pin "13"
+			(uuid "3ce7fc3f-9bb5-4773-9900-761fe6e5ea60")
+		)
+		(pin "15"
+			(uuid "caaef82b-2fdd-45d9-8cb8-aaa17aed69ea")
+		)
+		(pin "16"
+			(uuid "7f3e0b56-e191-4afc-9b89-1bd0c0759d52")
+		)
+		(pin "17"
+			(uuid "868ce162-e657-4a3d-9224-f9d383d2ff7e")
+		)
+		(pin "18"
+			(uuid "429bc306-b808-4718-b58c-7d062e125b8d")
+		)
+		(pin "47"
+			(uuid "09f5f16c-f348-4e88-a610-d0898cdd8666")
+		)
+		(pin "2"
+			(uuid "94ad0528-68ae-49d7-b723-48706492ca22")
+		)
+		(pin "1"
+			(uuid "af0352d0-0cd3-4874-95f8-51dc0ef82061")
+		)
+		(pin "46"
+			(uuid "46afd2a8-895f-4937-a100-bdc9c7e67ffc")
+		)
+		(pin "21"
+			(uuid "154b4eca-56ba-4bd4-8ffa-50206153772f")
+		)
+		(pin "5"
+			(uuid "b5c1cbb2-37e7-4c3d-ba5a-1a667b0202fb")
+		)
+		(pin "49"
+			(uuid "e63053a2-ead5-4108-acd0-0207bf6b7160")
+		)
+		(pin "30"
+			(uuid "f7875b11-05c1-4e69-b015-ac0344140a6d")
+		)
+		(pin "3"
+			(uuid "4b2c6d02-0f81-42bd-8dfe-58b393adab65")
+		)
+		(pin "20"
+			(uuid "27109371-f466-410d-9aa4-80154852c1da")
+		)
+		(pin "44"
+			(uuid "13bcbc57-6dfd-4aa3-91ff-e8eb5d5ecc0a")
+		)
+		(pin "22"
+			(uuid "d5aad2d5-8fb3-42f7-a3f3-26e6645e5842")
+		)
+		(pin "48"
+			(uuid "aaaf3c52-66e5-445e-b663-f52b0cc4c242")
+		)
+		(pin "4"
+			(uuid "a9a10916-adf7-42f7-a5a8-d19224bf15e8")
+		)
+		(pin "45"
+			(uuid "15174a0f-4615-497e-8d1a-ff87e6fcad89")
+		)
+		(pin "24"
+			(uuid "3f770edf-670e-49c6-aa20-a7d6879f6193")
+		)
+		(pin "29"
+			(uuid "eb004f77-8e54-4103-bbfd-c55e6b1e35b8")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "U1001")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 49.53 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec8b0357-6fcb-4cbc-8d1c-0d0b17433891")
+		(property "Reference" "C1006"
+			(at 52.07 52.0762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 52.07 54.6162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 49.53 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 49.53 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 49.53 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 49.53 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b1af61e-4b15-4c52-abc7-c7996f2efc6f")
+		)
+		(pin "2"
+			(uuid "1503a080-a6af-486d-9c72-b05cecb3485d")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "C1006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2aadd63-07e6-4398-ad89-3927412f24e1")
+		(property "Reference" "R1002"
+			(at 93.98 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 93.98 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25744"
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "65bf3ea4-1193-4902-86ee-67791ef10d4b")
+		)
+		(pin "1"
+			(uuid "00674f4b-00f8-4f17-a5c0-c3d9beaa5d86")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "R1002")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -981,7 +981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42c95f47-2b6f-49db-900f-30031c45be8c")
-		(property "Reference" "J403"
+		(property "Reference" "J402"
 			(at 171.45 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1058,6 +1058,17 @@
 				)
 			)
 		)
+		(property "DigiKey Part" ""
+			(at 170.18 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3477f29d-f73d-4564-94c7-ba537c069e24")
 		)
@@ -1067,7 +1078,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
-					(reference "J403")
+					(reference "J402")
 					(unit 1)
 				)
 			)
@@ -1162,6 +1173,17 @@
 				)
 			)
 		)
+		(property "DigiKey Part" ""
+			(at 139.7 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "e56c8a80-1da7-4bac-9ddd-b9c1a7c6fab2")
 		)
@@ -1221,7 +1243,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fb5caab-c1a0-49ae-9821-6809946e9dc0")
-		(property "Reference" "J402"
+		(property "Reference" "J401"
 			(at 171.45 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1298,6 +1320,17 @@
 				)
 			)
 		)
+		(property "DigiKey Part" ""
+			(at 170.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ce66d6ac-a227-4e7f-8493-bae1640a9aed")
 		)
@@ -1307,7 +1340,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
-					(reference "J402")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -1392,6 +1425,17 @@
 			)
 		)
 		(property "Mouser Part" ""
+			(at 116.84 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
 			(at 116.84 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -1496,6 +1540,17 @@
 			)
 		)
 		(property "Mouser Part" ""
+			(at 162.56 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
 			(at 162.56 85.09 0)
 			(hide yes)
 			(show_name no)
