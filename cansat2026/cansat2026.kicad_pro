@@ -731,7 +731,7 @@
           "group_by": false,
           "label": "DigiKey Part",
           "name": "DigiKey Part",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -739,7 +739,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -782,7 +782,7 @@
         "uuid": "bf092721-05bb-4932-a328-528d8d2db6b5"
       }
     ],
-    "used_designators": "U101-102,U201-205,U301-302,U401,U601-602,U701-702,U801,U901-903,U1001,C101-102,C201-223,C301-303,C401-402,C601,C701-702,C801-803,C901-906,C1001-1012,D801,BT801,L201-203,L801,R101-102,R201-212,R301-320,R801-803,R901-913,R1001-1003,#FLG201-203,#FLG301-306,#FLG801,JP601,JP701,JP801,J101-108,J201-202,J301-302,J401-402,J801,Q301-308",
+    "used_designators": "U101,U201-211,U301-303,U401-404,U601,U701,U801,U901-903,U1001,R101-102,R201-222,R301-320,R801-803,R901-918,R1001-1003,#FLG201-205,#FLG301-306,#FLG801,J101-108,J201,J301-302,J401-405,J801,D201,D801,D901-904,L201-207,L801,C101-102,C201-239,C301-303,C401-411,C601,C801-803,C901-906,C1001-1012,SW201-202,SW901,BT801,JP601,JP701,JP801,Q301-308,RV201-202",
     "variants": []
   },
   "sheets": [

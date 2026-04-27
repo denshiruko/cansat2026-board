@@ -7984,7 +7984,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" "C1525"
 			(at 213.36 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -9164,7 +9164,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C307331"
+		(property "LCSC Part" "C1525"
 			(at 213.36 77.47 0)
 			(hide yes)
 			(show_name no)
