@@ -8596,6 +8596,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C148077"
+			(at 101.6 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "12"
 			(uuid "7f8f7ea9-7c61-4871-b23b-69629c89b8ea")
 		)

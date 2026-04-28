@@ -3277,6 +3277,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 101.6) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14ab16c5-c4e1-4baa-90b0-2358cf474b0a")
+	)
+	(wire
+		(pts
 			(xy 58.42 99.06) (xy 58.42 124.46)
 		)
 		(stroke
@@ -3324,6 +3334,16 @@
 			(type default)
 		)
 		(uuid "18df0b70-2ed8-46f9-94e8-e9c19db3835d")
+	)
+	(wire
+		(pts
+			(xy 38.1 93.98) (xy 35.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5ecefe-5e46-46db-9011-606d73ac0f9f")
 	)
 	(wire
 		(pts
@@ -3387,6 +3407,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 96.52) (xy 35.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254f7cf9-1a97-43e7-947b-aceec8aa4cdb")
+	)
+	(wire
+		(pts
 			(xy 180.34 96.52) (xy 177.8 96.52)
 		)
 		(stroke
@@ -3414,6 +3444,16 @@
 			(type default)
 		)
 		(uuid "2a9cfdf1-bc66-44c2-81ee-4758f6d818e9")
+	)
+	(wire
+		(pts
+			(xy 38.1 104.14) (xy 35.56 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b5f1ee4-e447-4df8-a3a8-18d1d38bf48b")
 	)
 	(wire
 		(pts
@@ -3504,6 +3544,16 @@
 			(type default)
 		)
 		(uuid "32cb8060-7b00-4ba5-ac3b-28b498b783bc")
+	)
+	(wire
+		(pts
+			(xy 35.56 111.76) (xy 38.1 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33dc648b-1edc-4521-8fb1-744636b20913")
 	)
 	(wire
 		(pts
@@ -3744,6 +3794,16 @@
 			(type default)
 		)
 		(uuid "5c89ad17-2f5f-44cb-b0f0-4aa6e7822f22")
+	)
+	(wire
+		(pts
+			(xy 38.1 109.22) (xy 35.56 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fd44e4f-ed51-4292-a071-a8ca3546f7d4")
 	)
 	(wire
 		(pts
@@ -4057,6 +4117,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 99.06) (xy 35.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d99add2-fa8f-4831-9b08-d4c285a16d90")
+	)
+	(wire
+		(pts
 			(xy 76.2 30.48) (xy 101.6 30.48)
 		)
 		(stroke
@@ -4347,6 +4417,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 106.68) (xy 35.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d823f35e-5e4b-45d3-8e18-84d365ba8e2a")
+	)
+	(wire
+		(pts
 			(xy 180.34 73.66) (xy 177.8 73.66)
 		)
 		(stroke
@@ -4424,6 +4504,16 @@
 			(type default)
 		)
 		(uuid "e48f7496-864d-4a39-846a-49cd516bea44")
+	)
+	(wire
+		(pts
+			(xy 38.1 91.44) (xy 35.56 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e7f41e-e065-4718-8321-2350b1fbbb40")
 	)
 	(wire
 		(pts
@@ -4525,6 +4615,16 @@
 		)
 		(uuid "04a52325-be4e-4b90-b039-19a4f0799095")
 	)
+	(label "MCU_CAM_EN"
+		(at 38.1 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "075d4410-dbf2-41d6-9d6a-bbc948a6a80a")
+	)
 	(label "VCC"
 		(at 34.29 166.37 180)
 		(effects
@@ -4595,6 +4695,16 @@
 		)
 		(uuid "1d04a6cf-07e8-427b-a06d-44920257c2da")
 	)
+	(label "GPIO0"
+		(at 38.1 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d67e660-e91a-4e82-8f23-d272039f84a8")
+	)
 	(label "I2C1SDA"
 		(at 35.56 68.58 0)
 		(effects
@@ -4614,6 +4724,16 @@
 			(justify left bottom)
 		)
 		(uuid "1e7c02a5-de67-4c60-bf3e-1b82bd3125fa")
+	)
+	(label "MCU_CAM_U0RXD"
+		(at 38.1 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22cdf126-e0e6-4e4f-94c9-e6c61de14d5d")
 	)
 	(label "CAM_PIN_VSYNC"
 		(at 222.25 53.34 180)
@@ -4865,6 +4985,16 @@
 		)
 		(uuid "617ac03b-0db0-42a4-88e7-e2c2d00841ce")
 	)
+	(label "U0RXD"
+		(at 38.1 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62c23134-97cf-4933-b873-aaff93291bd7")
+	)
 	(label "MCU_CAM_EN"
 		(at 180.34 50.8 0)
 		(effects
@@ -5054,6 +5184,26 @@
 			(justify right bottom)
 		)
 		(uuid "8d168dfe-0f1f-4c84-91b8-909598deedce")
+	)
+	(label "EN"
+		(at 38.1 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8e4af056-ffbc-4501-a1f5-b5c41be532df")
+	)
+	(label "GND"
+		(at 38.1 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95a92633-d219-4617-8bcc-3dc21cb62311")
 	)
 	(label "SPI2CS0"
 		(at 34.29 161.29 180)
@@ -5295,6 +5445,16 @@
 		)
 		(uuid "c94eafe7-9694-4fea-97cb-c869c0a4acda")
 	)
+	(label "U0TXD"
+		(at 38.1 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cd1ed4df-ec28-429a-af2b-471405c4bd70")
+	)
 	(label "CAM_PIN_RESET"
 		(at 180.34 71.12 0)
 		(effects
@@ -5435,6 +5595,16 @@
 		)
 		(uuid "e47a7d22-3c87-4b79-bae5-5391a04131b0")
 	)
+	(label "MCU_CAM_U0TXD"
+		(at 38.1 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5f73f87-e37a-4621-b570-0c7ccd7a26f6")
+	)
 	(label "VCC"
 		(at 88.9 152.4 180)
 		(effects
@@ -5524,6 +5694,16 @@
 			(justify right bottom)
 		)
 		(uuid "f29b4128-c977-4e55-b185-937410590c6d")
+	)
+	(label "MCU_CAM_GPIO0"
+		(at 38.1 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f3791c52-9ddc-4b3f-939b-32956fd2c48d")
 	)
 	(label "CAM_PIN_D4"
 		(at 180.34 93.98 0)
@@ -8530,6 +8710,142 @@
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 88.9)
+		(size 17.78 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d5d4a4a7-5338-4696-88da-8b87543276d8")
+		(property "Sheetname" "USB"
+			(at 17.78 88.1884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 17.78 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" output
+			(at 35.56 91.44 0)
+			(uuid "52f963f9-bece-4a37-9db0-dcb977d884fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 35.56 111.76 0)
+			(uuid "c9d05a5c-9dd3-4bc9-af0b-a47585f33699")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GPIO0" output
+			(at 35.56 93.98 0)
+			(uuid "cbb3d5d5-4bff-4514-91dd-2e409b11bf8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_CAM_EN" output
+			(at 35.56 101.6 0)
+			(uuid "b8bd6802-ffbc-492a-af86-833554933092")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_CAM_GPIO0" output
+			(at 35.56 104.14 0)
+			(uuid "19916d99-6d94-4d90-8e29-8520c381a64d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_CAM_U0RXD" input
+			(at 35.56 106.68 0)
+			(uuid "66bcff74-07f5-441b-84fe-121a20bd4656")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_CAM_U0TXD" output
+			(at 35.56 109.22 0)
+			(uuid "452b0f8e-5bac-4e62-a548-50bea8864c5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U0RXD" input
+			(at 35.56 96.52 0)
+			(uuid "7ec1bd7f-f8d3-4f12-a876-93e8a2018a88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "U0TXD" output
+			(at 35.56 99.06 0)
+			(uuid "348b1f57-9e6e-4da6-9347-f25c73994580")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
+					(page "11")
 				)
 			)
 		)

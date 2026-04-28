@@ -2736,8 +2736,8 @@
 		)
 		(symbol "Project:TPS62180"
 			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
+			(in_bom yes)
+			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
@@ -3260,8 +3260,8 @@
 		)
 		(symbol "Project:TPS63070"
 			(exclude_from_sim no)
-			(in_bom no)
-			(on_board no)
+			(in_bom yes)
+			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
@@ -3617,7 +3617,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project:TPS70912DBV"
+		(symbol "Project:TPS70912DRV"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3633,7 +3633,7 @@
 					)
 				)
 			)
-			(property "Value" "TPS70912"
+			(property "Value" "TPS70912DRV"
 				(at 2.794 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3643,7 +3643,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 				(at -7.62 3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3687,11 +3687,11 @@
 					)
 				)
 			)
-			(symbol "TPS70912DBV_0_0"
-				(pin power_in line
-					(at -7.62 0 0)
+			(symbol "TPS70912DRV_0_0"
+				(pin power_out line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "IN"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3716,7 +3716,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3734,7 +3734,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3742,10 +3742,50 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "OUT"
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TPS70912DRV_1_0"
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3760,20 +3800,18 @@
 						)
 					)
 				)
-			)
-			(symbol "TPS70912DBV_1_0"
-				(pin no_connect line
-					(at 5.08 -2.54 180)
+				(pin power_in line
+					(at 0 -6.35 90)
 					(length 2.54)
 					(hide yes)
-					(name "NC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3782,7 +3820,7 @@
 					)
 				)
 			)
-			(symbol "TPS70912DBV_1_1"
+			(symbol "TPS70912DRV_1_1"
 				(rectangle
 					(start -5.08 1.27)
 					(end 5.08 -3.81)
@@ -4786,12 +4824,6 @@
 		(uuid "4cbd0a1f-814a-4be1-ba74-29128823616d")
 	)
 	(junction
-		(at 139.7 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "512d6599-1181-42be-95d9-0ac884f0267f")
-	)
-	(junction
 		(at 179.07 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5002,16 +5034,16 @@
 		(uuid "a89c5841-3d4d-41ba-a7e5-d895c14b2557")
 	)
 	(junction
-		(at 137.16 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a8e6c32d-f62b-45b4-a364-8b5f8769cb9d")
-	)
-	(junction
 		(at 190.5 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a935ad37-7195-492f-8f38-1d7c8b0f3d4c")
+	)
+	(junction
+		(at 137.16 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa7156be-b00e-488b-90f6-534dc60b490f")
 	)
 	(junction
 		(at 93.98 101.6)
@@ -5024,6 +5056,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae2cb844-b8c0-4493-86a8-84ecbe9964f4")
+	)
+	(junction
+		(at 139.7 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b38cdc88-f581-4248-ad9c-5646506f71c0")
 	)
 	(junction
 		(at 214.63 132.08)
@@ -5098,12 +5136,6 @@
 		(uuid "df92b86a-c824-4cc5-8d3f-93b5dbf6faf1")
 	)
 	(junction
-		(at 139.7 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e01bb289-2016-4924-9a16-44feefa5a8f3")
-	)
-	(junction
 		(at 214.63 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5137,7 +5169,13 @@
 		(at 139.7 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eedd2e39-2e76-4714-933f-77d83d61ff91")
+		(uuid "eeb52651-7f79-4851-9165-1d13a5282ded")
+	)
+	(junction
+		(at 139.7 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0a71ae1-cacf-4416-bdc2-ee16b936726c")
 	)
 	(junction
 		(at 96.52 161.29)
@@ -5282,16 +5320,6 @@
 			(type default)
 		)
 		(uuid "0429af15-8bc1-4408-b8a7-ffc91f835cf2")
-	)
-	(wire
-		(pts
-			(xy 137.16 186.69) (xy 139.7 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04536415-2fea-4174-8c7a-4e823ccca9d3")
 	)
 	(wire
 		(pts
@@ -5442,6 +5470,16 @@
 			(type default)
 		)
 		(uuid "173bde84-fef0-499a-9f4b-53a5fcb61ad6")
+	)
+	(wire
+		(pts
+			(xy 139.7 149.86) (xy 179.07 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1abe779a-83e9-402e-a078-120f1e2cd088")
 	)
 	(wire
 		(pts
@@ -6125,6 +6163,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 119.38) (xy 179.07 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7313c6a5-eab3-427d-aed7-aea46f232ba0")
+	)
+	(wire
+		(pts
 			(xy 203.2 109.22) (xy 203.2 119.38)
 		)
 		(stroke
@@ -6525,6 +6573,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 186.69) (xy 149.86 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97910013-a367-45ff-90a2-abbcc8a1f4fd")
+	)
+	(wire
+		(pts
 			(xy 88.9 27.94) (xy 101.6 27.94)
 		)
 		(stroke
@@ -6775,6 +6833,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 186.69) (xy 139.7 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77d42bf-657b-44ff-8028-301f7c607017")
+	)
+	(wire
+		(pts
 			(xy 214.63 119.38) (xy 226.06 119.38)
 		)
 		(stroke
@@ -6925,16 +6993,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 119.38) (xy 179.07 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5ee37d1-62d2-4430-a0cb-7d02df1bd463")
-	)
-	(wire
-		(pts
 			(xy 88.9 20.32) (xy 101.6 20.32)
 		)
 		(stroke
@@ -7062,16 +7120,6 @@
 			(type default)
 		)
 		(uuid "d09c2adb-6cb0-4962-be13-a3608edde107")
-	)
-	(wire
-		(pts
-			(xy 139.7 149.86) (xy 179.07 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d24e476a-06ec-44ae-b22d-f4e208ee6cec")
 	)
 	(wire
 		(pts
@@ -7382,16 +7430,6 @@
 			(type default)
 		)
 		(uuid "e9f6a56b-26a3-4576-a44a-c4fdf2e3708a")
-	)
-	(wire
-		(pts
-			(xy 139.7 186.69) (xy 149.86 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec559354-d67b-443f-ae62-00c69741fbfb")
 	)
 	(wire
 		(pts
@@ -7902,6 +7940,16 @@
 			(justify right bottom)
 		)
 		(uuid "e02de902-c4f7-4ff6-81ca-27d6c65d913c")
+	)
+	(label "MASTER_SW"
+		(at 40.64 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e4330032-6889-4077-b313-7c0266a817a0")
 	)
 	(label "MASTER_EN"
 		(at 123.19 71.12 0)
@@ -8463,7 +8511,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS561201"
+		(property "Value" "TPS561201DDC"
 			(at 139.7 34.29 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8507,6 +8555,17 @@
 			)
 		)
 		(property "DigiKey Part" ""
+			(at 139.7 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C220433"
 			(at 139.7 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9689,152 +9748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Project:TPS62180")
-		(at 139.7 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bd1c097-942b-4f91-b4ee-c6efdf108bf1")
-		(property "Reference" "U208"
-			(at 139.7 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS62180"
-			(at 139.7 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project:TPS62180YZF"
-			(at 127 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62180.pdf"
-			(at 129.54 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B4"
-			(uuid "e0677a0a-cdae-458d-be37-557cf0c56a48")
-		)
-		(pin "C2"
-			(uuid "4609fd0e-ee9e-4f82-aba6-61c21bb2d982")
-		)
-		(pin "B2"
-			(uuid "856f6948-b910-4fc0-86b9-4729a409ca6b")
-		)
-		(pin "A4"
-			(uuid "0cdf2cf8-3730-415c-9850-2721ddc9cd45")
-		)
-		(pin "B1"
-			(uuid "ffcf3d24-a832-4c18-8f9b-8271be01cd8e")
-		)
-		(pin "A3"
-			(uuid "ccfb4149-7ca3-4496-a10f-ea80943ae3a7")
-		)
-		(pin "B3"
-			(uuid "32c62926-5ca5-42df-b59f-a65a61bb2734")
-		)
-		(pin "C1"
-			(uuid "9383002c-ef67-4bc1-a0e6-cd75078c632a")
-		)
-		(pin "C3"
-			(uuid "19df1ef5-bd74-4ca3-a4cb-a4f593ec6900")
-		)
-		(pin "E2"
-			(uuid "c6db04d8-234a-48ea-b95b-15a9d38cf396")
-		)
-		(pin "F4"
-			(uuid "ade22bd7-a767-41bc-8d00-9eed8a042ee0")
-		)
-		(pin "C4"
-			(uuid "076970d1-c05a-40e5-ad93-1c7e701f3868")
-		)
-		(pin "A1"
-			(uuid "b1543ebf-f9c6-41c1-a13c-b3d5fb70f9fe")
-		)
-		(pin "A2"
-			(uuid "74b0423f-e938-4228-8447-eea2b19bca19")
-		)
-		(pin "D4"
-			(uuid "2610af0b-12d7-4b43-b204-076b7c8b48c9")
-		)
-		(pin "D2"
-			(uuid "63b81e88-18c1-481a-a327-e59d2924dc57")
-		)
-		(pin "E3"
-			(uuid "23860b11-ff80-4e65-b432-72e750741be7")
-		)
-		(pin "D1"
-			(uuid "b8cb4992-ec3a-44e6-a364-27c07fbae2ec")
-		)
-		(pin "E4"
-			(uuid "956f1489-a75f-44f8-ac81-72118f48bf65")
-		)
-		(pin "F1"
-			(uuid "f017dea8-8340-4acf-ad6a-efbf8403a5fd")
-		)
-		(pin "D3"
-			(uuid "bfe978fa-ed3c-4679-8ed3-b7fa8575585e")
-		)
-		(pin "F2"
-			(uuid "4237a485-34da-466a-bc2c-e67e794199d5")
-		)
-		(pin "F3"
-			(uuid "609c5445-e767-44b8-952e-615493bd1a22")
-		)
-		(pin "E1"
-			(uuid "93e8f578-3cf8-4c0e-969b-d321829dba12")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 203.2 135.89 0)
 		(unit 1)
@@ -9922,125 +9835,6 @@
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
 					(reference "C227")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Project:TPS63070")
-		(at 139.7 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d260f05-4f40-4b9f-8966-51401b2faa00")
-		(property "Reference" "U209"
-			(at 139.7 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS63070"
-			(at 139.7 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project:QFN-16_2.4x2.9_Pitch0.5mm"
-			(at 129.54 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63070.pdf"
-			(at 129.54 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Buck-Boost Converter, 2-16V Input Voltage, 3.6A Switch Current, Adjustable 2.5-9V Output Voltage, VQFN10-15"
-			(at 129.54 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "11"
-			(uuid "4d416004-4eb5-4598-871a-30600e249f8b")
-		)
-		(pin "8"
-			(uuid "03e12225-adab-4dca-84cf-39242e6979ee")
-		)
-		(pin "9"
-			(uuid "716a93a5-991d-4e6a-9a4f-62e83d7db7b2")
-		)
-		(pin "12"
-			(uuid "27326797-bfd7-425b-82e3-09e5a3da77f0")
-		)
-		(pin "10"
-			(uuid "05ed3217-331d-4fd2-ad81-4503cd059724")
-		)
-		(pin "13"
-			(uuid "386522cc-43db-4f64-a0f9-1339444d43b2")
-		)
-		(pin "14"
-			(uuid "ea91e34e-220d-4c3c-b3b8-556249c60a44")
-		)
-		(pin "15"
-			(uuid "c7db83b8-8a5b-4f00-94b3-df8affda0bbe")
-		)
-		(pin "3"
-			(uuid "07296277-1a70-4d5b-ab01-f65d05f132fd")
-		)
-		(pin "6"
-			(uuid "92bbe4f8-7478-47ca-b8bc-33fa8a329440")
-		)
-		(pin "2"
-			(uuid "e9c4b73b-c065-4a71-9446-e50f6e1f4aa6")
-		)
-		(pin "1"
-			(uuid "0c7adc1c-7c84-4feb-bd75-b342c5699277")
-		)
-		(pin "4"
-			(uuid "d28cfca7-3a43-47b0-9aa4-6c36f0d5b271")
-		)
-		(pin "5"
-			(uuid "ef89f344-20d4-46de-b10b-2c1b3252702e")
-		)
-		(pin "7"
-			(uuid "b32abe24-fb4b-46ba-82a3-e01e2ed07769")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U209")
 					(unit 1)
 				)
 			)
@@ -11379,6 +11173,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Project:TPS63070")
+		(at 139.7 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b31b086-776d-4bb7-96b5-a884a5823b3a")
+		(property "Reference" "U209"
+			(at 139.7 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS63070"
+			(at 139.7 156.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:QFN-16_2.4x2.9_Pitch0.5mm"
+			(at 129.54 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63070.pdf"
+			(at 129.54 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Buck-Boost Converter, 2-16V Input Voltage, 3.6A Switch Current, Adjustable 2.5-9V Output Voltage, VQFN10-15"
+			(at 129.54 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "7a3ae5ea-8af6-4b76-aad2-b510ae8b6a2b")
+		)
+		(pin "3"
+			(uuid "1b4aa92c-06a3-4030-89de-ff5c9dd8edb5")
+		)
+		(pin "5"
+			(uuid "021e5ab2-a93b-4c18-a352-d335769c9892")
+		)
+		(pin "13"
+			(uuid "5462f103-b3d4-459c-8676-2863dd4bf867")
+		)
+		(pin "12"
+			(uuid "b674c57a-3113-4a23-8f89-120f7f694be4")
+		)
+		(pin "1"
+			(uuid "57ce5481-9666-462d-8dd8-9d36f8b89fd6")
+		)
+		(pin "6"
+			(uuid "a94b5f2b-0f30-4369-b312-470f696ed94d")
+		)
+		(pin "7"
+			(uuid "51bb4a15-5824-4a6c-b9fb-c407ac46e9ae")
+		)
+		(pin "8"
+			(uuid "e05f9825-f1a1-44c6-b186-9f76f6fdc2d0")
+		)
+		(pin "9"
+			(uuid "a17d0c47-7ad0-4fe7-aa02-6582f842aeb6")
+		)
+		(pin "4"
+			(uuid "0d977fb0-54c4-432a-bb59-d976158a5629")
+		)
+		(pin "11"
+			(uuid "33af66c0-b5bc-4dca-a912-175b53286325")
+		)
+		(pin "14"
+			(uuid "538910f6-7e13-4497-b792-31bc070f5557")
+		)
+		(pin "10"
+			(uuid "952af1b8-3001-4a14-bb8a-77cff72c8a3f")
+		)
+		(pin "15"
+			(uuid "56027a01-d876-4b8d-adb8-ccb2d7cd8408")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
+					(reference "U209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 156.21 68.58 90)
 		(unit 1)
@@ -12259,152 +12172,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Project:TPS62180")
-		(at 139.7 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f63f939-15e4-4ebf-884e-9c2ef67ab64c")
-		(property "Reference" "U207"
-			(at 139.7 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS62180"
-			(at 139.7 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Project:TPS62180YZF"
-			(at 127 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62180.pdf"
-			(at 129.54 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "B4"
-			(uuid "6dc31d77-dc69-47f8-9b5c-777ad5058b7d")
-		)
-		(pin "C2"
-			(uuid "5416acb1-bc9a-4699-8c1f-c419b1fab8bf")
-		)
-		(pin "B2"
-			(uuid "efc4d369-294e-414f-8088-c6439ef61139")
-		)
-		(pin "A4"
-			(uuid "5dfb98cc-665d-44f1-ad29-3dbd3e89006c")
-		)
-		(pin "B1"
-			(uuid "5baba538-8bfc-449e-9482-9a0301624285")
-		)
-		(pin "A3"
-			(uuid "2e425f5a-ab34-45f8-957a-85369f79fcce")
-		)
-		(pin "B3"
-			(uuid "5e21127f-dcf8-440d-9998-bc539226e016")
-		)
-		(pin "C1"
-			(uuid "3ee72a50-4dd4-4a7a-8536-9a122f7e164d")
-		)
-		(pin "C3"
-			(uuid "ab680940-218c-40e4-ab85-6da419ebaaae")
-		)
-		(pin "E2"
-			(uuid "8f73ca2b-51b2-43e8-b2fa-0f0bdcdfe43c")
-		)
-		(pin "F4"
-			(uuid "8202d7e8-a13d-42b7-a37a-cd9fae700379")
-		)
-		(pin "C4"
-			(uuid "97d024f6-9ee7-4d43-9cb6-8169c8968de5")
-		)
-		(pin "A1"
-			(uuid "516cb62f-2040-4e89-916f-177f6ba8ef93")
-		)
-		(pin "A2"
-			(uuid "b6f080aa-2c15-4242-aaf0-38537b3b76f2")
-		)
-		(pin "D4"
-			(uuid "bec9afd1-ffaa-436d-a1f3-46657b1727a0")
-		)
-		(pin "D2"
-			(uuid "044b3ae1-735d-4fe6-8903-c77e9fb7102e")
-		)
-		(pin "E3"
-			(uuid "1a9758ed-b5e2-4d08-94bc-a74d75333fa4")
-		)
-		(pin "D1"
-			(uuid "3f4773ea-c93a-4112-a126-8aaac79e7098")
-		)
-		(pin "E4"
-			(uuid "695d60b1-021d-49a6-96ac-99fd6a4e7927")
-		)
-		(pin "F1"
-			(uuid "2560bc6a-9f0b-4835-b685-f2417bfc5fa9")
-		)
-		(pin "D3"
-			(uuid "eadd6b85-b117-4ea2-8453-a0de05593d05")
-		)
-		(pin "F2"
-			(uuid "011a24f3-8520-4060-b22a-c670e6db8822")
-		)
-		(pin "F3"
-			(uuid "036f00ac-bc94-4c60-b08d-27b69fc960cf")
-		)
-		(pin "E1"
-			(uuid "6852826f-105f-457d-81f1-60540a780e19")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:L")
 		(at 124.46 177.8 180)
 		(unit 1)
@@ -12652,19 +12419,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "2569e179-7fe6-44ae-af30-f6eed2e67147")
+			(uuid "2569e179-7fe6-44ae-af30-f6eed2e67148")
 		)
 		(pin "14"
 			(uuid "045830db-e5be-4e28-afbc-0476378229c6")
 		)
 		(pin "12"
-			(uuid "9bb75dbc-e61b-4b31-b480-5a24e74f239a")
+			(uuid "9bb75dbc-e61b-4b31-b480-5a24e74f239b")
 		)
 		(pin "4"
-			(uuid "579befc6-a113-4e86-8924-584e794945c1")
+			(uuid "579befc6-a113-4e86-8924-584e794945c2")
 		)
 		(pin "5"
-			(uuid "55bac40e-f4f8-4552-831d-fe6fecfdd908")
+			(uuid "55bac40e-f4f8-4552-831d-fe6fecfdd909")
 		)
 		(pin "8"
 			(uuid "8c784a98-0847-4778-b8a8-ebfb6886889a")
@@ -12673,22 +12440,22 @@
 			(uuid "81a9ef83-725f-4008-bc1d-341bcc5fb610")
 		)
 		(pin "6"
-			(uuid "61ce0eb8-61d4-4846-b721-d44aa85e4432")
+			(uuid "61ce0eb8-61d4-4846-b721-d44aa85e4433")
 		)
 		(pin "10"
 			(uuid "aa91b6c9-2c51-4121-a5d1-78164ddb9395")
 		)
 		(pin "1"
-			(uuid "de68c2d4-a6ec-4e0f-a676-412e2cf43f47")
+			(uuid "de68c2d4-a6ec-4e0f-a676-412e2cf43f48")
 		)
 		(pin "2"
-			(uuid "71d8e781-709c-474d-9ab8-4a3c0f235951")
+			(uuid "71d8e781-709c-474d-9ab8-4a3c0f235952")
 		)
 		(pin "11"
-			(uuid "12fdd1b9-f9ea-4293-9cde-3fb75b7cdd9c")
+			(uuid "12fdd1b9-f9ea-4293-9cde-3fb75b7cdd9d")
 		)
 		(pin "13"
-			(uuid "490a864d-3d67-4787-ad1b-25d1e48641c2")
+			(uuid "490a864d-3d67-4787-ad1b-25d1e48641c3")
 		)
 		(pin "7"
 			(uuid "4751ee7d-300d-4791-ae6e-150b9974b0fc")
@@ -14153,7 +13920,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Project:TPS70912DBV")
+		(lib_id "Project:TPS70912DRV")
 		(at 139.7 20.32 0)
 		(unit 1)
 		(body_style 1)
@@ -14174,7 +13941,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS70912"
+		(property "Value" "TPS70912DRVR"
 			(at 139.7 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14184,7 +13951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
 			(at 132.08 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -14228,6 +13995,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2863472"
+			(at 139.7 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "04ae517a-b5f6-4b8e-957b-33b3387797e4")
 		)
@@ -14242,6 +14020,12 @@
 		)
 		(pin "4"
 			(uuid "8410df45-d916-4500-8acc-00ad85063ee3")
+		)
+		(pin "7"
+			(uuid "6a100bb3-bf3b-4b1d-a8ce-b8d582957ca9")
+		)
+		(pin "6"
+			(uuid "5bc185d2-10da-48ea-a01d-c15cb2e33972")
 		)
 		(instances
 			(project "cansat2026"
@@ -14625,46 +14409,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "2569e179-7fe6-44ae-af30-f6eed2e67147")
+			(uuid "2569e179-7fe6-44ae-af30-f6eed2e67149")
 		)
 		(pin "14"
-			(uuid "045830db-e5be-4e28-afbc-0476378229c6")
+			(uuid "045830db-e5be-4e28-afbc-0476378229c7")
 		)
 		(pin "12"
-			(uuid "9bb75dbc-e61b-4b31-b480-5a24e74f239a")
+			(uuid "9bb75dbc-e61b-4b31-b480-5a24e74f239c")
 		)
 		(pin "4"
-			(uuid "579befc6-a113-4e86-8924-584e794945c1")
+			(uuid "579befc6-a113-4e86-8924-584e794945c3")
 		)
 		(pin "5"
-			(uuid "55bac40e-f4f8-4552-831d-fe6fecfdd908")
+			(uuid "55bac40e-f4f8-4552-831d-fe6fecfdd90a")
 		)
 		(pin "8"
-			(uuid "34508205-4e7c-4d7c-b6fd-74854d00f89a")
+			(uuid "34508205-4e7c-4d7c-b6fd-74854d00f89b")
 		)
 		(pin "9"
-			(uuid "91b72b8f-24c4-465b-852a-d17f97fc5214")
+			(uuid "91b72b8f-24c4-465b-852a-d17f97fc5215")
 		)
 		(pin "6"
-			(uuid "61ce0eb8-61d4-4846-b721-d44aa85e4432")
+			(uuid "61ce0eb8-61d4-4846-b721-d44aa85e4434")
 		)
 		(pin "10"
-			(uuid "e4ddd175-c2bb-49d4-941a-92ba64def7e8")
+			(uuid "e4ddd175-c2bb-49d4-941a-92ba64def7e9")
 		)
 		(pin "1"
-			(uuid "de68c2d4-a6ec-4e0f-a676-412e2cf43f47")
+			(uuid "de68c2d4-a6ec-4e0f-a676-412e2cf43f49")
 		)
 		(pin "2"
-			(uuid "71d8e781-709c-474d-9ab8-4a3c0f235951")
+			(uuid "71d8e781-709c-474d-9ab8-4a3c0f235953")
 		)
 		(pin "11"
-			(uuid "12fdd1b9-f9ea-4293-9cde-3fb75b7cdd9c")
+			(uuid "12fdd1b9-f9ea-4293-9cde-3fb75b7cdd9e")
 		)
 		(pin "13"
-			(uuid "490a864d-3d67-4787-ad1b-25d1e48641c2")
+			(uuid "490a864d-3d67-4787-ad1b-25d1e48641c4")
 		)
 		(pin "7"
-			(uuid "4751ee7d-300d-4791-ae6e-150b9974b0fc")
+			(uuid "4751ee7d-300d-4791-ae6e-150b9974b0fd")
 		)
 		(instances
 			(project "cansat2026"
@@ -14978,46 +14762,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "2569e179-7fe6-44ae-af30-f6eed2e67147")
+			(uuid "2569e179-7fe6-44ae-af30-f6eed2e6714a")
 		)
 		(pin "14"
-			(uuid "045830db-e5be-4e28-afbc-0476378229c6")
+			(uuid "045830db-e5be-4e28-afbc-0476378229c8")
 		)
 		(pin "12"
-			(uuid "9bb75dbc-e61b-4b31-b480-5a24e74f239a")
+			(uuid "9bb75dbc-e61b-4b31-b480-5a24e74f239d")
 		)
 		(pin "4"
-			(uuid "579befc6-a113-4e86-8924-584e794945c1")
+			(uuid "579befc6-a113-4e86-8924-584e794945c4")
 		)
 		(pin "5"
-			(uuid "55bac40e-f4f8-4552-831d-fe6fecfdd908")
+			(uuid "55bac40e-f4f8-4552-831d-fe6fecfdd90b")
 		)
 		(pin "8"
-			(uuid "34508205-4e7c-4d7c-b6fd-74854d00f89a")
+			(uuid "34508205-4e7c-4d7c-b6fd-74854d00f89c")
 		)
 		(pin "9"
-			(uuid "91b72b8f-24c4-465b-852a-d17f97fc5214")
+			(uuid "91b72b8f-24c4-465b-852a-d17f97fc5216")
 		)
 		(pin "6"
-			(uuid "61ce0eb8-61d4-4846-b721-d44aa85e4432")
+			(uuid "61ce0eb8-61d4-4846-b721-d44aa85e4435")
 		)
 		(pin "10"
-			(uuid "e4ddd175-c2bb-49d4-941a-92ba64def7e8")
+			(uuid "e4ddd175-c2bb-49d4-941a-92ba64def7ea")
 		)
 		(pin "1"
-			(uuid "de68c2d4-a6ec-4e0f-a676-412e2cf43f47")
+			(uuid "de68c2d4-a6ec-4e0f-a676-412e2cf43f4a")
 		)
 		(pin "2"
-			(uuid "71d8e781-709c-474d-9ab8-4a3c0f235951")
+			(uuid "71d8e781-709c-474d-9ab8-4a3c0f235954")
 		)
 		(pin "11"
-			(uuid "12fdd1b9-f9ea-4293-9cde-3fb75b7cdd9c")
+			(uuid "12fdd1b9-f9ea-4293-9cde-3fb75b7cdd9f")
 		)
 		(pin "13"
-			(uuid "490a864d-3d67-4787-ad1b-25d1e48641c2")
+			(uuid "490a864d-3d67-4787-ad1b-25d1e48641c5")
 		)
 		(pin "7"
-			(uuid "4751ee7d-300d-4791-ae6e-150b9974b0fc")
+			(uuid "4751ee7d-300d-4791-ae6e-150b9974b0fe")
 		)
 		(instances
 			(project "cansat2026"
@@ -15346,46 +15130,46 @@
 			)
 		)
 		(pin "3"
-			(uuid "2569e179-7fe6-44ae-af30-f6eed2e67147")
+			(uuid "2569e179-7fe6-44ae-af30-f6eed2e6714b")
 		)
 		(pin "14"
-			(uuid "045830db-e5be-4e28-afbc-0476378229c6")
+			(uuid "045830db-e5be-4e28-afbc-0476378229c9")
 		)
 		(pin "12"
-			(uuid "9bb75dbc-e61b-4b31-b480-5a24e74f239a")
+			(uuid "9bb75dbc-e61b-4b31-b480-5a24e74f239e")
 		)
 		(pin "4"
-			(uuid "579befc6-a113-4e86-8924-584e794945c1")
+			(uuid "579befc6-a113-4e86-8924-584e794945c5")
 		)
 		(pin "5"
-			(uuid "55bac40e-f4f8-4552-831d-fe6fecfdd908")
+			(uuid "55bac40e-f4f8-4552-831d-fe6fecfdd90c")
 		)
 		(pin "8"
-			(uuid "34508205-4e7c-4d7c-b6fd-74854d00f89a")
+			(uuid "34508205-4e7c-4d7c-b6fd-74854d00f89d")
 		)
 		(pin "9"
-			(uuid "91b72b8f-24c4-465b-852a-d17f97fc5214")
+			(uuid "91b72b8f-24c4-465b-852a-d17f97fc5217")
 		)
 		(pin "6"
-			(uuid "61ce0eb8-61d4-4846-b721-d44aa85e4432")
+			(uuid "61ce0eb8-61d4-4846-b721-d44aa85e4436")
 		)
 		(pin "10"
-			(uuid "e4ddd175-c2bb-49d4-941a-92ba64def7e8")
+			(uuid "e4ddd175-c2bb-49d4-941a-92ba64def7eb")
 		)
 		(pin "1"
-			(uuid "de68c2d4-a6ec-4e0f-a676-412e2cf43f47")
+			(uuid "de68c2d4-a6ec-4e0f-a676-412e2cf43f4b")
 		)
 		(pin "2"
-			(uuid "71d8e781-709c-474d-9ab8-4a3c0f235951")
+			(uuid "71d8e781-709c-474d-9ab8-4a3c0f235955")
 		)
 		(pin "11"
-			(uuid "12fdd1b9-f9ea-4293-9cde-3fb75b7cdd9c")
+			(uuid "12fdd1b9-f9ea-4293-9cde-3fb75b7cdda0")
 		)
 		(pin "13"
-			(uuid "490a864d-3d67-4787-ad1b-25d1e48641c2")
+			(uuid "490a864d-3d67-4787-ad1b-25d1e48641c6")
 		)
 		(pin "7"
-			(uuid "4751ee7d-300d-4791-ae6e-150b9974b0fc")
+			(uuid "4751ee7d-300d-4791-ae6e-150b9974b0ff")
 		)
 		(instances
 			(project "cansat2026"
@@ -16061,6 +15845,17 @@
 			)
 		)
 		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-36V) with I2C Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)"
+			(at 50.8 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C49851"
 			(at 50.8 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16907,6 +16702,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Project:TPS62180")
+		(at 139.7 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2f78243-1170-4c5e-8547-a25783a0c330")
+		(property "Reference" "U208"
+			(at 139.7 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS62180"
+			(at 139.7 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:TPS62180YZF"
+			(at 127 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62180.pdf"
+			(at 129.54 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "F4"
+			(uuid "53a7ce8c-c28d-4124-9103-f63389d9cfd1")
+		)
+		(pin "F2"
+			(uuid "16768a38-409b-4cd6-a237-6d8a009e6292")
+		)
+		(pin "A4"
+			(uuid "966dc4a8-2f3c-4458-ab4d-9f9ad9eae79f")
+		)
+		(pin "A1"
+			(uuid "fcae1bf6-4b35-4f27-89f9-3e2873622695")
+		)
+		(pin "B3"
+			(uuid "8ede5a84-b056-4e4a-acf6-0d7d85aef557")
+		)
+		(pin "A3"
+			(uuid "f2b1e8cf-fc01-408a-93ab-4f746db7b620")
+		)
+		(pin "B4"
+			(uuid "a288c200-fe91-4745-8067-24065c5cf642")
+		)
+		(pin "C3"
+			(uuid "05277498-ef68-4646-b0b1-76b14fab04c0")
+		)
+		(pin "C1"
+			(uuid "d8d2ece0-6945-4a6f-8a8f-1f677bf6f1a0")
+		)
+		(pin "C2"
+			(uuid "9070f385-26c0-4f48-85c3-ad992c8def5b")
+		)
+		(pin "B1"
+			(uuid "b45287c8-66b5-44a2-8ccb-6a037b07ea4c")
+		)
+		(pin "D1"
+			(uuid "5ed2c8a7-c9cb-427e-a6f8-a23fb04cc080")
+		)
+		(pin "D2"
+			(uuid "0e9a0fa5-cd69-410b-91f8-a86d56b1443e")
+		)
+		(pin "D3"
+			(uuid "f2310e37-edbb-4d48-b9f4-03bf8917ec54")
+		)
+		(pin "E2"
+			(uuid "0c618b6a-3fe2-44a1-aa52-f555201aa368")
+		)
+		(pin "E3"
+			(uuid "92c4003b-fc21-42cf-a565-f2a3c6466d97")
+		)
+		(pin "B2"
+			(uuid "cf841000-da95-46d7-bbf3-8b4cd19bbb4d")
+		)
+		(pin "E1"
+			(uuid "6a4d04b1-8d30-4754-90f2-c6a4fd7cdb4e")
+		)
+		(pin "E4"
+			(uuid "9c448a40-0c7a-4e34-9e8c-5e6268ba8f9b")
+		)
+		(pin "A2"
+			(uuid "c1bfe428-a227-43c7-adff-d63c3c9eae8d")
+		)
+		(pin "F1"
+			(uuid "44e71a6d-add5-4bfb-9bd0-0a2720dc1b38")
+		)
+		(pin "D4"
+			(uuid "3b6d9ad8-b825-4a5e-a191-eb0c4156c6a3")
+		)
+		(pin "F3"
+			(uuid "8a7ba1de-8cec-4757-9f79-f9feecc9571f")
+		)
+		(pin "C4"
+			(uuid "67cbbe86-177a-451c-a5cd-c646d8e1d06b")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
+					(reference "U208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 123.19 77.47 180)
 		(unit 1)
@@ -17657,6 +17598,152 @@
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
 					(reference "C204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project:TPS62180")
+		(at 139.7 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de89084f-e247-4682-be81-2a2b6530102a")
+		(property "Reference" "U207"
+			(at 139.7 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS62180"
+			(at 139.7 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:TPS62180YZF"
+			(at 127 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps62180.pdf"
+			(at 129.54 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 127 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "F4"
+			(uuid "f1ebf576-c37d-4d25-8b4e-c9f6986ba59e")
+		)
+		(pin "F2"
+			(uuid "2c8826e2-e7f4-4a3d-bb7e-d2609e1f7928")
+		)
+		(pin "A4"
+			(uuid "4503ac81-748c-416d-a91e-024dcf0bf142")
+		)
+		(pin "A1"
+			(uuid "99fb5b69-c287-40dc-8231-2a7914da51a2")
+		)
+		(pin "B3"
+			(uuid "4cabaa25-4279-488b-a12e-6e4079062fab")
+		)
+		(pin "A3"
+			(uuid "b1c0f2fd-dd38-429b-9e20-56c0890e832d")
+		)
+		(pin "B4"
+			(uuid "d78d048f-196d-4471-b3dd-b11a87a0a145")
+		)
+		(pin "C3"
+			(uuid "02c052f6-2155-40f6-8fd4-3ac8f946bb92")
+		)
+		(pin "C1"
+			(uuid "5208dfd0-37ef-417d-8873-2f3f75306cca")
+		)
+		(pin "C2"
+			(uuid "d97cb613-0aae-4d66-9a2a-f860c029d2ea")
+		)
+		(pin "B1"
+			(uuid "3a045420-91d0-43dc-91e2-6fe0b86681cd")
+		)
+		(pin "D1"
+			(uuid "1845595a-a103-4b9d-9bab-20fe6687dcc0")
+		)
+		(pin "D2"
+			(uuid "25863c5b-f919-461a-be67-74bfcde91111")
+		)
+		(pin "D3"
+			(uuid "5c569d5a-2f06-4094-abdc-424ca6487e63")
+		)
+		(pin "E2"
+			(uuid "bd55c713-eab3-402a-9908-e42838abe536")
+		)
+		(pin "E3"
+			(uuid "ece011c1-4e41-43c1-b890-4c7d4ef0112c")
+		)
+		(pin "B2"
+			(uuid "ef39751b-dcf8-4642-b047-d37044f4276e")
+		)
+		(pin "E1"
+			(uuid "6a39803c-8048-4cc1-979c-66d19d194f48")
+		)
+		(pin "E4"
+			(uuid "507f9288-4fd3-4184-8a4a-bc65aab85239")
+		)
+		(pin "A2"
+			(uuid "b30e2c94-8215-4720-bc3a-942e57de03ac")
+		)
+		(pin "F1"
+			(uuid "3dd31efd-d960-4355-aa25-ad8fa69b3e39")
+		)
+		(pin "D4"
+			(uuid "d0a2c736-b183-4ca2-b3f3-bb25c023bd13")
+		)
+		(pin "F3"
+			(uuid "68748b20-08fd-4e7a-81c5-06960118ee49")
+		)
+		(pin "C4"
+			(uuid "e3552c2d-8b11-4dcd-be6e-a4940b160768")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
+					(reference "U207")
 					(unit 1)
 				)
 			)
@@ -18855,6 +18942,17 @@
 			)
 		)
 		(property "DigiKey Part" ""
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19272253"
 			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)

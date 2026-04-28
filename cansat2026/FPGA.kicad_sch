@@ -161,6 +161,209 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at -1.27 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at -4.445 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
@@ -302,7 +505,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "FPGA_Lattice:ICE5LP1K-SG48"
+		(symbol "FPGA_Lattice:ICE40UP5K-SG48ITR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -318,7 +521,7 @@
 					)
 				)
 			)
-			(property "Value" "ICE5LP1K-SG48"
+			(property "Value" "ICE40UP5K-SG48ITR"
 				(at 0 -31.75 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -350,7 +553,7 @@
 					)
 				)
 			)
-			(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
+			(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -393,7 +596,7 @@
 					)
 				)
 			)
-			(symbol "ICE5LP1K-SG48_1_1"
+			(symbol "ICE40UP5K-SG48ITR_1_1"
 				(rectangle
 					(start -7.62 25.4)
 					(end 7.62 -27.94)
@@ -730,7 +933,7 @@
 					)
 				)
 			)
-			(symbol "ICE5LP1K-SG48_2_1"
+			(symbol "ICE40UP5K-SG48ITR_2_1"
 				(rectangle
 					(start -10.16 25.4)
 					(end 10.16 -25.4)
@@ -1049,7 +1252,7 @@
 					)
 				)
 			)
-			(symbol "ICE5LP1K-SG48_3_1"
+			(symbol "ICE40UP5K-SG48ITR_3_1"
 				(rectangle
 					(start -7.62 15.24)
 					(end 7.62 -15.24)
@@ -1224,7 +1427,7 @@
 					)
 				)
 			)
-			(symbol "ICE5LP1K-SG48_4_1"
+			(symbol "ICE40UP5K-SG48ITR_4_1"
 				(rectangle
 					(start -5.08 7.62)
 					(end 5.08 -7.62)
@@ -1380,6 +1583,12 @@
 		(uuid "88475870-d62b-4fce-9ff5-3e1f18d7cf1e")
 	)
 	(junction
+		(at 27.94 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d8ef965-8f15-4d0e-b314-95f192fba159")
+	)
+	(junction
 		(at 88.9 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1410,6 +1619,12 @@
 		(uuid "bbd36f06-73e4-466b-9d87-eef07b5883eb")
 	)
 	(junction
+		(at 17.78 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c403fd36-37ed-4438-94aa-54f6e0ec0724")
+	)
+	(junction
 		(at 189.23 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1434,16 +1649,8 @@
 		(uuid "fbc59b17-0f0c-4292-916f-ecf1f7b0d228")
 	)
 	(no_connect
-		(at 48.26 114.3)
-		(uuid "1b6e4b5b-00f3-4f75-9647-d150f6a4b14b")
-	)
-	(no_connect
 		(at 99.06 99.06)
 		(uuid "3aef0883-927d-4f01-8dc6-1513b530d5ba")
-	)
-	(no_connect
-		(at 48.26 111.76)
-		(uuid "3fef6b6a-e9ff-4373-a842-4100b74e605e")
 	)
 	(no_connect
 		(at 48.26 104.14)
@@ -1480,10 +1687,6 @@
 	(no_connect
 		(at 99.06 83.82)
 		(uuid "a55ec849-cba6-400d-9b67-30c5a3beab64")
-	)
-	(no_connect
-		(at 48.26 109.22)
-		(uuid "a7ffb919-68d2-4ae4-806c-61123faa44bd")
 	)
 	(no_connect
 		(at 99.06 78.74)
@@ -1617,6 +1820,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 114.3) (xy 27.94 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2190ae6c-12f6-475e-b166-d30d2821527e")
+	)
+	(wire
+		(pts
 			(xy 177.8 43.18) (xy 189.23 43.18)
 		)
 		(stroke
@@ -1654,6 +1867,16 @@
 			(type default)
 		)
 		(uuid "2fabd9ac-5ebb-410b-aefa-67f231399d79")
+	)
+	(wire
+		(pts
+			(xy 43.18 111.76) (xy 43.18 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b6ff828-58fd-4128-a83e-57987bb8de33")
 	)
 	(wire
 		(pts
@@ -1727,6 +1950,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 109.22) (xy 48.26 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678027f4-3dde-48fb-88f6-7450f8f38cb7")
+	)
+	(wire
+		(pts
 			(xy 160.02 50.8) (xy 151.13 50.8)
 		)
 		(stroke
@@ -1737,6 +1970,36 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 99.06) (xy 17.78 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f414bb5-50e8-476f-b07f-0909fd7c43ee")
+	)
+	(wire
+		(pts
+			(xy 48.26 116.84) (xy 48.26 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f8312b-0293-4181-a0e5-c79083453856")
+	)
+	(wire
+		(pts
+			(xy 45.72 114.3) (xy 27.94 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77925a84-1da9-4946-9275-4128f76fae7d")
+	)
+	(wire
+		(pts
 			(xy 165.1 38.1) (xy 165.1 25.4)
 		)
 		(stroke
@@ -1744,6 +2007,16 @@
 			(type default)
 		)
 		(uuid "77edd46c-2e78-49d4-958e-ceda71002e5d")
+	)
+	(wire
+		(pts
+			(xy 17.78 116.84) (xy 48.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5d8058-e3d4-4269-9c43-e5832e6eec63")
 	)
 	(wire
 		(pts
@@ -1784,6 +2057,16 @@
 			(type default)
 		)
 		(uuid "80d0e994-4225-475d-9491-60f5abaef797")
+	)
+	(wire
+		(pts
+			(xy 38.1 111.76) (xy 43.18 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8819b128-1b49-41ca-8d4a-3ac13f0c33d3")
 	)
 	(wire
 		(pts
@@ -1837,6 +2120,26 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 101.6) (xy 38.1 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77dc7cb-de73-4f28-a4da-e60aa162d95a")
+	)
+	(wire
+		(pts
+			(xy 45.72 111.76) (xy 45.72 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8688b2e-ad61-4780-8679-dfb5a9753577")
+	)
+	(wire
+		(pts
 			(xy 111.76 50.8) (xy 100.33 50.8)
 		)
 		(stroke
@@ -1844,6 +2147,16 @@
 			(type default)
 		)
 		(uuid "af994674-e84e-4613-a5a2-3dfe591a4918")
+	)
+	(wire
+		(pts
+			(xy 17.78 101.6) (xy 27.94 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66606f2-6937-4972-8392-188a1487d218")
 	)
 	(wire
 		(pts
@@ -1887,6 +2200,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 111.76) (xy 45.72 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10379ff-5acf-4cc1-9686-983c66b3f254")
+	)
+	(wire
+		(pts
 			(xy 111.76 60.96) (xy 111.76 50.8)
 		)
 		(stroke
@@ -1894,6 +2217,16 @@
 			(type default)
 		)
 		(uuid "d18c7821-1f0b-45b6-a9c3-2970603ec40d")
+	)
+	(wire
+		(pts
+			(xy 17.78 111.76) (xy 17.78 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d56c15ef-e303-4d82-be73-efdb74bde370")
 	)
 	(wire
 		(pts
@@ -2024,6 +2357,16 @@
 			(justify right bottom)
 		)
 		(uuid "d9abdf88-d3f3-48b2-9ecb-1b22b6245c89")
+	)
+	(label "3.3V"
+		(at 17.78 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd6bb7e9-cb46-4332-9325-7f8e233061bd")
 	)
 	(label "3.3V"
 		(at 139.7 50.8 180)
@@ -2275,6 +2618,333 @@
 			(justify right)
 		)
 		(uuid "ffad7d46-f266-40b6-b8be-2f6deb9fb927")
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
+		(at 160.02 78.74 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cfe59fe-7aea-46f4-a9d5-b554fb71d16f")
+		(property "Reference" "U1001"
+			(at 168.91 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICE40UP5K-SG48ITR"
+			(at 168.91 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at 160.02 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 149.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 160.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2678152"
+			(at 160.02 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "2792caa5-9793-4e65-9a14-b64db3f67f39")
+		)
+		(pin "8"
+			(uuid "2d43f9d2-cd1f-4ef7-811e-61afc52aeb57")
+		)
+		(pin "11"
+			(uuid "5cb02801-6123-4cbc-9195-de5b3a15063d")
+		)
+		(pin "13"
+			(uuid "a26d3d20-4490-491c-88ff-0c14c979128a")
+		)
+		(pin "34"
+			(uuid "ef034f04-db3c-4973-8786-a28d8af9e5d2")
+		)
+		(pin "26"
+			(uuid "09121864-01d4-4d65-9531-61ca5cc4614c")
+		)
+		(pin "32"
+			(uuid "df9fc814-47b1-4211-a3b6-4bf59c1bd12a")
+		)
+		(pin "39"
+			(uuid "e7c701d2-9671-4573-b139-991b7e1c34ce")
+		)
+		(pin "10"
+			(uuid "2342bfd6-2c9a-4775-9c6f-93ff87b836f7")
+		)
+		(pin "20"
+			(uuid "8c2531ec-a431-4630-b57b-68b58d9d5835")
+		)
+		(pin "31"
+			(uuid "dedb0840-8270-4ed0-8b5e-152996f017ad")
+		)
+		(pin "37"
+			(uuid "c8e0e792-886c-4016-a290-a986cb1c401d")
+		)
+		(pin "25"
+			(uuid "464ac260-a20b-4573-a43d-fe40202d784c")
+		)
+		(pin "36"
+			(uuid "6d8b2c61-ee05-4fce-823c-48718ed0be22")
+		)
+		(pin "41"
+			(uuid "9a831e90-6e51-41e9-9678-9ab4831ba79a")
+		)
+		(pin "40"
+			(uuid "27fdb592-3296-4a70-8ebf-0890504f9a8f")
+		)
+		(pin "33"
+			(uuid "e2b041b0-0a95-48e0-9952-3afdbf97fdfe")
+		)
+		(pin "27"
+			(uuid "597dbac5-1207-421c-b4bf-f38c8edb16bc")
+		)
+		(pin "38"
+			(uuid "edfed437-0396-4ece-815f-a8f8e4064a83")
+		)
+		(pin "28"
+			(uuid "e368124a-1ce0-4d6f-8a95-9ae0b3ee98b6")
+		)
+		(pin "23"
+			(uuid "1b97897f-7a57-484c-9ffb-99cc7111e337")
+		)
+		(pin "35"
+			(uuid "9cdf7355-bffb-4e2f-9bab-eabcfe1fa281")
+		)
+		(pin "42"
+			(uuid "01c40e0c-e537-4146-a215-3bd260c9ab17")
+		)
+		(pin "43"
+			(uuid "2e016ec6-293b-4fad-9f28-e9bdb20ebda0")
+		)
+		(pin "7"
+			(uuid "aae97e44-2b6d-4bd0-aa90-7d195cfa0b37")
+		)
+		(pin "9"
+			(uuid "69132192-693b-4437-941e-b7f8ecd3e7dc")
+		)
+		(pin "12"
+			(uuid "cd47b06f-1b7c-4789-a4de-66c4a4003398")
+		)
+		(pin "14"
+			(uuid "595f5c3d-a784-4dcd-a679-33fc855c27da")
+		)
+		(pin "17"
+			(uuid "21fa46ec-3331-4fb6-92f2-a3397bc0001a")
+		)
+		(pin "15"
+			(uuid "4767a1c5-788d-47ae-9825-217b795702ca")
+		)
+		(pin "18"
+			(uuid "0ea250a3-8cdc-4e87-bb20-49d0fb025779")
+		)
+		(pin "19"
+			(uuid "dc6997b7-ec3b-46dc-9d12-0f61b50221d2")
+		)
+		(pin "16"
+			(uuid "774f9fdd-3fff-472f-b1ee-93d603ba846c")
+		)
+		(pin "46"
+			(uuid "105de004-e77c-4705-a609-482576985217")
+		)
+		(pin "22"
+			(uuid "36f6b484-dea1-4850-9ee4-4841b0cf1c3b")
+		)
+		(pin "4"
+			(uuid "ab01d348-3d55-437f-97e6-78163c534ccf")
+		)
+		(pin "44"
+			(uuid "c17461ad-1111-461e-b3a5-5b80dcfa01a5")
+		)
+		(pin "3"
+			(uuid "c5b70989-813a-47f8-b7ab-cf5941544716")
+		)
+		(pin "45"
+			(uuid "58d60f91-b1b7-4b66-9d3f-4da7ed2a018f")
+		)
+		(pin "29"
+			(uuid "fbe80775-8a49-4460-93fa-538c7b7cb037")
+		)
+		(pin "2"
+			(uuid "23f35c00-b2a8-4b82-a5cc-00d19ebdf407")
+		)
+		(pin "30"
+			(uuid "28b066ee-3fd7-4c34-a903-bcf01c302b1a")
+		)
+		(pin "49"
+			(uuid "cce0bfd7-1898-42dc-b2f9-d340e72b2fb4")
+		)
+		(pin "47"
+			(uuid "bd07c9e7-3853-403e-92b3-9886941a70df")
+		)
+		(pin "21"
+			(uuid "e48332b3-3699-4307-90c5-2eea4e663cf6")
+		)
+		(pin "48"
+			(uuid "0c53fa37-98df-439b-8ded-f662fd210e75")
+		)
+		(pin "1"
+			(uuid "cd69b9bd-d247-4479-a8ca-14ecef6c0836")
+		)
+		(pin "5"
+			(uuid "4c567cf1-2634-43f3-aebd-4499ec2b6cc9")
+		)
+		(pin "24"
+			(uuid "56638e44-c40e-48b7-ad38-1248bca41d2e")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "U1001")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 17.78 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f0495c4-d9b3-4c3a-85cc-ea62e0be64a8")
+		(property "Reference" "R1004"
+			(at 20.32 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 20.32 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 17.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 17.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 17.78 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f8113f76-2dce-48ea-800d-aac9c5811645")
+		)
+		(pin "2"
+			(uuid "2a6a382b-9371-46ff-8271-0ca5c4192913")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "R1004")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2901,6 +3571,240 @@
 		)
 	)
 	(symbol
+		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
+		(at 208.28 71.12 0)
+		(unit 4)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40218a64-83cc-4bb5-8466-6312092b1dcf")
+		(property "Reference" "U1001"
+			(at 214.63 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICE40UP5K-SG48ITR"
+			(at 214.63 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at 208.28 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 198.12 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 208.28 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2678152"
+			(at 208.28 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "2792caa5-9793-4e65-9a14-b64db3f67f3a")
+		)
+		(pin "8"
+			(uuid "2d43f9d2-cd1f-4ef7-811e-61afc52aeb58")
+		)
+		(pin "11"
+			(uuid "5cb02801-6123-4cbc-9195-de5b3a15063e")
+		)
+		(pin "13"
+			(uuid "a26d3d20-4490-491c-88ff-0c14c979128b")
+		)
+		(pin "34"
+			(uuid "ef034f04-db3c-4973-8786-a28d8af9e5d3")
+		)
+		(pin "26"
+			(uuid "09121864-01d4-4d65-9531-61ca5cc4614d")
+		)
+		(pin "32"
+			(uuid "df9fc814-47b1-4211-a3b6-4bf59c1bd12b")
+		)
+		(pin "39"
+			(uuid "e7c701d2-9671-4573-b139-991b7e1c34cf")
+		)
+		(pin "10"
+			(uuid "2342bfd6-2c9a-4775-9c6f-93ff87b836f8")
+		)
+		(pin "20"
+			(uuid "8c2531ec-a431-4630-b57b-68b58d9d5836")
+		)
+		(pin "31"
+			(uuid "dedb0840-8270-4ed0-8b5e-152996f017ae")
+		)
+		(pin "37"
+			(uuid "c8e0e792-886c-4016-a290-a986cb1c401e")
+		)
+		(pin "25"
+			(uuid "464ac260-a20b-4573-a43d-fe40202d784d")
+		)
+		(pin "36"
+			(uuid "6d8b2c61-ee05-4fce-823c-48718ed0be23")
+		)
+		(pin "41"
+			(uuid "9a831e90-6e51-41e9-9678-9ab4831ba79b")
+		)
+		(pin "40"
+			(uuid "27fdb592-3296-4a70-8ebf-0890504f9a90")
+		)
+		(pin "33"
+			(uuid "e2b041b0-0a95-48e0-9952-3afdbf97fdff")
+		)
+		(pin "27"
+			(uuid "597dbac5-1207-421c-b4bf-f38c8edb16bd")
+		)
+		(pin "38"
+			(uuid "edfed437-0396-4ece-815f-a8f8e4064a84")
+		)
+		(pin "28"
+			(uuid "e368124a-1ce0-4d6f-8a95-9ae0b3ee98b7")
+		)
+		(pin "23"
+			(uuid "1b97897f-7a57-484c-9ffb-99cc7111e338")
+		)
+		(pin "35"
+			(uuid "9cdf7355-bffb-4e2f-9bab-eabcfe1fa282")
+		)
+		(pin "42"
+			(uuid "01c40e0c-e537-4146-a215-3bd260c9ab18")
+		)
+		(pin "43"
+			(uuid "2e016ec6-293b-4fad-9f28-e9bdb20ebda1")
+		)
+		(pin "7"
+			(uuid "aae97e44-2b6d-4bd0-aa90-7d195cfa0b38")
+		)
+		(pin "9"
+			(uuid "69132192-693b-4437-941e-b7f8ecd3e7dd")
+		)
+		(pin "12"
+			(uuid "cd47b06f-1b7c-4789-a4de-66c4a4003399")
+		)
+		(pin "14"
+			(uuid "595f5c3d-a784-4dcd-a679-33fc855c27db")
+		)
+		(pin "17"
+			(uuid "21fa46ec-3331-4fb6-92f2-a3397bc0001b")
+		)
+		(pin "15"
+			(uuid "4767a1c5-788d-47ae-9825-217b795702cb")
+		)
+		(pin "18"
+			(uuid "0ea250a3-8cdc-4e87-bb20-49d0fb02577a")
+		)
+		(pin "19"
+			(uuid "dc6997b7-ec3b-46dc-9d12-0f61b50221d3")
+		)
+		(pin "16"
+			(uuid "774f9fdd-3fff-472f-b1ee-93d603ba846d")
+		)
+		(pin "46"
+			(uuid "105de004-e77c-4705-a609-482576985218")
+		)
+		(pin "22"
+			(uuid "36f6b484-dea1-4850-9ee4-4841b0cf1c3c")
+		)
+		(pin "4"
+			(uuid "ab01d348-3d55-437f-97e6-78163c534cd0")
+		)
+		(pin "44"
+			(uuid "c17461ad-1111-461e-b3a5-5b80dcfa01a6")
+		)
+		(pin "3"
+			(uuid "c5b70989-813a-47f8-b7ab-cf5941544717")
+		)
+		(pin "45"
+			(uuid "58d60f91-b1b7-4b66-9d3f-4da7ed2a0190")
+		)
+		(pin "29"
+			(uuid "fbe80775-8a49-4460-93fa-538c7b7cb038")
+		)
+		(pin "2"
+			(uuid "23f35c00-b2a8-4b82-a5cc-00d19ebdf408")
+		)
+		(pin "30"
+			(uuid "28b066ee-3fd7-4c34-a903-bcf01c302b1b")
+		)
+		(pin "49"
+			(uuid "cce0bfd7-1898-42dc-b2f9-d340e72b2fb5")
+		)
+		(pin "47"
+			(uuid "bd07c9e7-3853-403e-92b3-9886941a70e0")
+		)
+		(pin "21"
+			(uuid "e48332b3-3699-4307-90c5-2eea4e663cf7")
+		)
+		(pin "48"
+			(uuid "0c53fa37-98df-439b-8ded-f662fd210e76")
+		)
+		(pin "1"
+			(uuid "cd69b9bd-d247-4479-a8ca-14ecef6c0837")
+		)
+		(pin "5"
+			(uuid "4c567cf1-2634-43f3-aebd-4499ec2b6cca")
+		)
+		(pin "24"
+			(uuid "56638e44-c40e-48b7-ad38-1248bca41d2f")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "U1001")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 38.1 53.34 0)
 		(unit 1)
@@ -3104,240 +4008,6 @@
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
 					(reference "C1001")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FPGA_Lattice:ICE5LP1K-SG48")
-		(at 208.28 71.12 0)
-		(unit 4)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cc3272e-af00-4c0a-8e53-82db8597c677")
-		(property "Reference" "U1001"
-			(at 214.63 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ICE5LP1K-SG48"
-			(at 214.63 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-			(at 208.28 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
-			(at 198.12 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part" ""
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "32"
-			(uuid "5b614931-d86e-4e49-bf30-bba1db892e67")
-		)
-		(pin "26"
-			(uuid "17f65d07-4c42-405c-8c01-221d946f216d")
-		)
-		(pin "10"
-			(uuid "e5c8d82a-ff52-457c-a506-6f25ba92af9d")
-		)
-		(pin "12"
-			(uuid "44b7beac-a805-4e66-9105-58f2cfc43089")
-		)
-		(pin "14"
-			(uuid "71be6a08-e389-4d5c-b357-fc7c48f5fc81")
-		)
-		(pin "33"
-			(uuid "389ddcea-e5c3-4344-ac25-ecba0c910c9d")
-		)
-		(pin "39"
-			(uuid "3263462d-597b-4c9f-8286-cdb17754cca0")
-		)
-		(pin "34"
-			(uuid "fa608637-ff83-48dc-9796-5a9a0d7c8a55")
-		)
-		(pin "41"
-			(uuid "35e22bfb-3d85-42ea-bb23-38eb9246aada")
-		)
-		(pin "19"
-			(uuid "f3060dcf-fce6-4202-bd32-50d765c02566")
-		)
-		(pin "8"
-			(uuid "1e333e2d-08f1-4e05-96ad-1d18b42919d5")
-		)
-		(pin "35"
-			(uuid "cdebd78b-24f9-4f68-9639-ec173787aa32")
-		)
-		(pin "42"
-			(uuid "e04d542a-d49e-45bd-9d0b-4d1475542241")
-		)
-		(pin "25"
-			(uuid "3aeb6ad1-3053-4b71-935c-a810c2daf193")
-		)
-		(pin "36"
-			(uuid "09b92005-d18d-46af-a402-cd145ceac42f")
-		)
-		(pin "37"
-			(uuid "91a853a8-bfcc-4ba6-84ca-28665589c34a")
-		)
-		(pin "43"
-			(uuid "2d7b5d71-6d13-4047-bde6-70cdc3202bf1")
-		)
-		(pin "6"
-			(uuid "687a38c5-ea29-411c-9cc9-8fe6eaae220d")
-		)
-		(pin "31"
-			(uuid "ac58f19e-3f83-48fa-8560-7b83e5eabb78")
-		)
-		(pin "23"
-			(uuid "609b3dbb-31c5-4d7c-ab06-9e9727cbf4c9")
-		)
-		(pin "27"
-			(uuid "f9f959b1-ae0a-45b1-9da0-d202f6044d30")
-		)
-		(pin "28"
-			(uuid "38fcf125-bd51-4437-a734-a8f4aa57b3ac")
-		)
-		(pin "38"
-			(uuid "1c0dcd02-964a-4708-a9ff-a53b3be26afb")
-		)
-		(pin "40"
-			(uuid "e9f55962-8c61-4201-b864-0462b3ee6498")
-		)
-		(pin "7"
-			(uuid "409a8946-05fc-4947-a220-07f736245348")
-		)
-		(pin "9"
-			(uuid "bc50681f-63e5-49d1-8634-40c5b7e73b1c")
-		)
-		(pin "11"
-			(uuid "d12b7937-7e0e-4c25-97ee-836df3d08972")
-		)
-		(pin "13"
-			(uuid "ebb20801-fc66-484e-bdb7-6f7a917ef9ec")
-		)
-		(pin "15"
-			(uuid "9e454c4a-1265-4e7d-b208-0956ce480cdc")
-		)
-		(pin "16"
-			(uuid "abdd659f-a0e1-4ec3-8639-0e9bf941750a")
-		)
-		(pin "17"
-			(uuid "fc45b78b-bf97-4fe8-b173-b3fe172a4925")
-		)
-		(pin "18"
-			(uuid "0fc8b140-e24f-405e-a59c-55681fc6fd91")
-		)
-		(pin "47"
-			(uuid "09f5f16c-f348-4e88-a610-d0898cdd8663")
-		)
-		(pin "2"
-			(uuid "94ad0528-68ae-49d7-b723-48706492ca1f")
-		)
-		(pin "1"
-			(uuid "af0352d0-0cd3-4874-95f8-51dc0ef8205e")
-		)
-		(pin "46"
-			(uuid "46afd2a8-895f-4937-a100-bdc9c7e67ff9")
-		)
-		(pin "21"
-			(uuid "525ef3d8-6c50-4747-961d-fe11682e4dc8")
-		)
-		(pin "5"
-			(uuid "9263b58f-1237-4150-88cf-3569fb6e23f2")
-		)
-		(pin "49"
-			(uuid "fd180784-3cfe-48a4-aafb-9dd5853b570d")
-		)
-		(pin "30"
-			(uuid "b2990310-5901-42ad-9553-78374ecc9abd")
-		)
-		(pin "3"
-			(uuid "4b2c6d02-0f81-42bd-8dfe-58b393adab62")
-		)
-		(pin "20"
-			(uuid "ae5564a5-b88b-48f1-8a00-0a755e56dd14")
-		)
-		(pin "44"
-			(uuid "13bcbc57-6dfd-4aa3-91ff-e8eb5d5ecc07")
-		)
-		(pin "22"
-			(uuid "278055ec-ecb3-4ce2-ace7-c114a3e55046")
-		)
-		(pin "48"
-			(uuid "aaaf3c52-66e5-445e-b663-f52b0cc4c23f")
-		)
-		(pin "4"
-			(uuid "a9a10916-adf7-42f7-a5a8-d19224bf15e5")
-		)
-		(pin "45"
-			(uuid "15174a0f-4615-497e-8d1a-ff87e6fcad86")
-		)
-		(pin "24"
-			(uuid "1422e5e3-fc54-4896-b7a0-4b6aeb4e25cd")
-		)
-		(pin "29"
-			(uuid "bdb92c44-80c2-4ea6-b87b-700f1019adb1")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
-					(reference "U1001")
-					(unit 4)
 				)
 			)
 		)
@@ -3551,9 +4221,9 @@
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Lattice:ICE5LP1K-SG48")
-		(at 160.02 78.74 0)
-		(unit 3)
+		(lib_id "Device:R_Small")
+		(at 38.1 109.22 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3561,9 +4231,20 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "78c5ab3b-0fe2-4096-bafd-97f91b513cab")
-		(property "Reference" "U1001"
-			(at 168.91 77.4699 0)
+		(uuid "5b9b372f-c97c-4d68-be57-a553c584d43c")
+		(property "Reference" "R1006"
+			(at 40.64 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 40.64 110.4899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3573,19 +4254,203 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ICE5LP1K-SG48"
-			(at 168.91 80.0099 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 38.1 109.22 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 38.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 38.1 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2303316-7779-4ee1-a27c-b1297f99f542")
+		)
+		(pin "2"
+			(uuid "403015d5-2fe5-4ffa-86d2-31c35b13d11d")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "R1006")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 17.78 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6bc7c591-424d-4778-a9a6-e5445342b308")
+		(property "Reference" "D1001"
+			(at 20.32 102.8064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 20.32 105.3464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 17.78 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 17.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 17.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2286"
+			(at 17.78 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9b9fcda-8cdf-4dfd-b9b5-d5ed2552405d")
+		)
+		(pin "2"
+			(uuid "f9acca6d-4be1-41bb-9744-c2810efa887d")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "D1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
+		(at 111.76 88.9 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90193e7a-c977-484d-a712-f3a7c8d32533")
+		(property "Reference" "U1001"
+			(at 111.76 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ICE40UP5K-SG48ITR"
+			(at 111.76 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-			(at 160.02 113.03 0)
+			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3596,7 +4461,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
-			(at 149.86 53.34 0)
+			(at 101.6 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,8 +4471,8 @@
 				)
 			)
 		)
-		(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
-			(at 160.02 78.74 0)
+		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 111.76 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3617,8 +4482,8 @@
 				)
 			)
 		)
-		(property "DigiKey Part" ""
-			(at 160.02 78.74 0)
+		(property "LCSC Part" "C2678152"
+			(at 111.76 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3627,159 +4492,356 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "32"
-			(uuid "5b614931-d86e-4e49-bf30-bba1db892e68")
-		)
-		(pin "26"
-			(uuid "17f65d07-4c42-405c-8c01-221d946f216e")
-		)
-		(pin "10"
-			(uuid "e5c8d82a-ff52-457c-a506-6f25ba92af9e")
-		)
-		(pin "12"
-			(uuid "44b7beac-a805-4e66-9105-58f2cfc4308a")
-		)
-		(pin "14"
-			(uuid "71be6a08-e389-4d5c-b357-fc7c48f5fc82")
-		)
-		(pin "33"
-			(uuid "389ddcea-e5c3-4344-ac25-ecba0c910c9e")
-		)
-		(pin "39"
-			(uuid "3263462d-597b-4c9f-8286-cdb17754cca1")
-		)
-		(pin "34"
-			(uuid "fa608637-ff83-48dc-9796-5a9a0d7c8a56")
-		)
-		(pin "41"
-			(uuid "35e22bfb-3d85-42ea-bb23-38eb9246aadb")
-		)
-		(pin "19"
-			(uuid "f3060dcf-fce6-4202-bd32-50d765c02567")
-		)
-		(pin "8"
-			(uuid "1e333e2d-08f1-4e05-96ad-1d18b42919d6")
-		)
-		(pin "35"
-			(uuid "cdebd78b-24f9-4f68-9639-ec173787aa33")
-		)
-		(pin "42"
-			(uuid "e04d542a-d49e-45bd-9d0b-4d1475542242")
-		)
-		(pin "25"
-			(uuid "3aeb6ad1-3053-4b71-935c-a810c2daf194")
-		)
-		(pin "36"
-			(uuid "09b92005-d18d-46af-a402-cd145ceac430")
-		)
-		(pin "37"
-			(uuid "91a853a8-bfcc-4ba6-84ca-28665589c34b")
-		)
-		(pin "43"
-			(uuid "2d7b5d71-6d13-4047-bde6-70cdc3202bf2")
 		)
 		(pin "6"
-			(uuid "687a38c5-ea29-411c-9cc9-8fe6eaae220e")
+			(uuid "2792caa5-9793-4e65-9a14-b64db3f67f3b")
 		)
-		(pin "31"
-			(uuid "ac58f19e-3f83-48fa-8560-7b83e5eabb79")
-		)
-		(pin "23"
-			(uuid "609b3dbb-31c5-4d7c-ab06-9e9727cbf4ca")
-		)
-		(pin "27"
-			(uuid "f9f959b1-ae0a-45b1-9da0-d202f6044d31")
-		)
-		(pin "28"
-			(uuid "38fcf125-bd51-4437-a734-a8f4aa57b3ad")
-		)
-		(pin "38"
-			(uuid "1c0dcd02-964a-4708-a9ff-a53b3be26afc")
-		)
-		(pin "40"
-			(uuid "e9f55962-8c61-4201-b864-0462b3ee6499")
-		)
-		(pin "7"
-			(uuid "409a8946-05fc-4947-a220-07f736245349")
-		)
-		(pin "9"
-			(uuid "bc50681f-63e5-49d1-8634-40c5b7e73b1d")
+		(pin "8"
+			(uuid "2d43f9d2-cd1f-4ef7-811e-61afc52aeb59")
 		)
 		(pin "11"
-			(uuid "d12b7937-7e0e-4c25-97ee-836df3d08973")
+			(uuid "5cb02801-6123-4cbc-9195-de5b3a15063f")
 		)
 		(pin "13"
-			(uuid "ebb20801-fc66-484e-bdb7-6f7a917ef9ed")
+			(uuid "a26d3d20-4490-491c-88ff-0c14c979128c")
 		)
-		(pin "15"
-			(uuid "9e454c4a-1265-4e7d-b208-0956ce480cdd")
+		(pin "34"
+			(uuid "ef034f04-db3c-4973-8786-a28d8af9e5d4")
 		)
-		(pin "16"
-			(uuid "abdd659f-a0e1-4ec3-8639-0e9bf941750b")
+		(pin "26"
+			(uuid "09121864-01d4-4d65-9531-61ca5cc4614e")
 		)
-		(pin "17"
-			(uuid "fc45b78b-bf97-4fe8-b173-b3fe172a4926")
+		(pin "32"
+			(uuid "df9fc814-47b1-4211-a3b6-4bf59c1bd12c")
 		)
-		(pin "18"
-			(uuid "0fc8b140-e24f-405e-a59c-55681fc6fd92")
+		(pin "39"
+			(uuid "e7c701d2-9671-4573-b139-991b7e1c34d0")
 		)
-		(pin "47"
-			(uuid "c5f036ba-7d1f-43da-8e75-0e636be81b1e")
-		)
-		(pin "2"
-			(uuid "9f37e8d3-411d-466f-a726-f02de2e41ef3")
-		)
-		(pin "1"
-			(uuid "05948025-41cf-43ad-9fc3-39d415416e7b")
-		)
-		(pin "46"
-			(uuid "9676f22f-d525-43e5-bc24-455e311acef5")
-		)
-		(pin "21"
-			(uuid "525ef3d8-6c50-4747-961d-fe11682e4dc9")
-		)
-		(pin "5"
-			(uuid "b5c1cbb2-37e7-4c3d-ba5a-1a667b0202f9")
-		)
-		(pin "49"
-			(uuid "e63053a2-ead5-4108-acd0-0207bf6b715e")
-		)
-		(pin "30"
-			(uuid "f7875b11-05c1-4e69-b015-ac0344140a6b")
-		)
-		(pin "3"
-			(uuid "48959dbc-0591-417c-baea-26399ea662b3")
+		(pin "10"
+			(uuid "2342bfd6-2c9a-4775-9c6f-93ff87b836f9")
 		)
 		(pin "20"
-			(uuid "ae5564a5-b88b-48f1-8a00-0a755e56dd15")
+			(uuid "8c2531ec-a431-4630-b57b-68b58d9d5837")
 		)
-		(pin "44"
-			(uuid "4c32809d-5a60-4b04-a47d-8bae2bade41c")
+		(pin "31"
+			(uuid "dedb0840-8270-4ed0-8b5e-152996f017af")
+		)
+		(pin "37"
+			(uuid "c8e0e792-886c-4016-a290-a986cb1c401f")
+		)
+		(pin "25"
+			(uuid "464ac260-a20b-4573-a43d-fe40202d784e")
+		)
+		(pin "36"
+			(uuid "6d8b2c61-ee05-4fce-823c-48718ed0be24")
+		)
+		(pin "41"
+			(uuid "9a831e90-6e51-41e9-9678-9ab4831ba79c")
+		)
+		(pin "40"
+			(uuid "27fdb592-3296-4a70-8ebf-0890504f9a91")
+		)
+		(pin "33"
+			(uuid "e2b041b0-0a95-48e0-9952-3afdbf97fe00")
+		)
+		(pin "27"
+			(uuid "597dbac5-1207-421c-b4bf-f38c8edb16be")
+		)
+		(pin "38"
+			(uuid "edfed437-0396-4ece-815f-a8f8e4064a85")
+		)
+		(pin "28"
+			(uuid "e368124a-1ce0-4d6f-8a95-9ae0b3ee98b8")
+		)
+		(pin "23"
+			(uuid "1b97897f-7a57-484c-9ffb-99cc7111e339")
+		)
+		(pin "35"
+			(uuid "9cdf7355-bffb-4e2f-9bab-eabcfe1fa283")
+		)
+		(pin "42"
+			(uuid "01c40e0c-e537-4146-a215-3bd260c9ab19")
+		)
+		(pin "43"
+			(uuid "2e016ec6-293b-4fad-9f28-e9bdb20ebda2")
+		)
+		(pin "7"
+			(uuid "aae97e44-2b6d-4bd0-aa90-7d195cfa0b39")
+		)
+		(pin "9"
+			(uuid "69132192-693b-4437-941e-b7f8ecd3e7de")
+		)
+		(pin "12"
+			(uuid "cd47b06f-1b7c-4789-a4de-66c4a400339a")
+		)
+		(pin "14"
+			(uuid "595f5c3d-a784-4dcd-a679-33fc855c27dc")
+		)
+		(pin "17"
+			(uuid "21fa46ec-3331-4fb6-92f2-a3397bc0001c")
+		)
+		(pin "15"
+			(uuid "4767a1c5-788d-47ae-9825-217b795702cc")
+		)
+		(pin "18"
+			(uuid "0ea250a3-8cdc-4e87-bb20-49d0fb02577b")
+		)
+		(pin "19"
+			(uuid "dc6997b7-ec3b-46dc-9d12-0f61b50221d4")
+		)
+		(pin "16"
+			(uuid "774f9fdd-3fff-472f-b1ee-93d603ba846e")
+		)
+		(pin "46"
+			(uuid "105de004-e77c-4705-a609-482576985219")
 		)
 		(pin "22"
-			(uuid "278055ec-ecb3-4ce2-ace7-c114a3e55047")
-		)
-		(pin "48"
-			(uuid "c3e2705d-aab2-4224-a53e-610ff7796dff")
+			(uuid "36f6b484-dea1-4850-9ee4-4841b0cf1c3d")
 		)
 		(pin "4"
-			(uuid "9f3a7bca-b3db-4904-9e21-f9cd3d9fd51b")
+			(uuid "ab01d348-3d55-437f-97e6-78163c534cd1")
+		)
+		(pin "44"
+			(uuid "c17461ad-1111-461e-b3a5-5b80dcfa01a7")
+		)
+		(pin "3"
+			(uuid "c5b70989-813a-47f8-b7ab-cf5941544718")
 		)
 		(pin "45"
-			(uuid "a1d9fe4a-af4c-444b-9c4c-474617a654c9")
-		)
-		(pin "24"
-			(uuid "3f770edf-670e-49c6-aa20-a7d6879f6191")
+			(uuid "58d60f91-b1b7-4b66-9d3f-4da7ed2a0191")
 		)
 		(pin "29"
-			(uuid "eb004f77-8e54-4103-bbfd-c55e6b1e35b6")
+			(uuid "fbe80775-8a49-4460-93fa-538c7b7cb039")
+		)
+		(pin "2"
+			(uuid "23f35c00-b2a8-4b82-a5cc-00d19ebdf409")
+		)
+		(pin "30"
+			(uuid "28b066ee-3fd7-4c34-a903-bcf01c302b1c")
+		)
+		(pin "49"
+			(uuid "cce0bfd7-1898-42dc-b2f9-d340e72b2fb6")
+		)
+		(pin "47"
+			(uuid "bd07c9e7-3853-403e-92b3-9886941a70e1")
+		)
+		(pin "21"
+			(uuid "e48332b3-3699-4307-90c5-2eea4e663cf8")
+		)
+		(pin "48"
+			(uuid "0c53fa37-98df-439b-8ded-f662fd210e77")
+		)
+		(pin "1"
+			(uuid "cd69b9bd-d247-4479-a8ca-14ecef6c0838")
+		)
+		(pin "5"
+			(uuid "4c567cf1-2634-43f3-aebd-4499ec2b6ccb")
+		)
+		(pin "24"
+			(uuid "56638e44-c40e-48b7-ad38-1248bca41d30")
 		)
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
 					(reference "U1001")
-					(unit 3)
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 27.94 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dfb40ba-a98c-46f3-962c-6d4be2e9e6a7")
+		(property "Reference" "R1005"
+			(at 30.48 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1k"
+			(at 30.48 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 27.94 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 27.94 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 27.94 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cc94d2c-9581-492e-b0ed-b9a0a7583989")
+		)
+		(pin "2"
+			(uuid "0acef30f-70d9-4efc-9080-da277b8bcea5")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "R1005")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 27.94 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1632150-67e8-43d2-af17-bceaa82573b2")
+		(property "Reference" "D1002"
+			(at 30.48 102.8064 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 30.48 105.3464 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 27.94 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 27.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 27.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2286"
+			(at 27.94 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6c5e0f6-38ea-42f7-915c-303f4eec757e")
+		)
+		(pin "2"
+			(uuid "d5f38cd7-8eab-4f7c-a0aa-d7b42c1f1bfd")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "D1002")
+					(unit 1)
 				)
 			)
 		)
@@ -3889,8 +4951,8 @@
 		)
 	)
 	(symbol
-		(lib_id "FPGA_Lattice:ICE5LP1K-SG48")
-		(at 58.42 88.9 0)
+		(lib_id "Device:LED_Small")
+		(at 38.1 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3899,31 +4961,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b23509a7-5215-4fe4-825a-7580e7ab6e2c")
-		(property "Reference" "U1001"
-			(at 67.31 88.8999 0)
+		(uuid "c06eb596-210c-449a-9d29-7b3f7a4b577f")
+		(property "Reference" "D1003"
+			(at 40.64 102.8064 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "ICE5LP1K-SG48"
-			(at 67.31 91.4399 0)
+		(property "Value" "LED"
+			(at 40.64 105.3464 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-			(at 58.42 123.19 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 38.1 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3933,8 +4995,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
-			(at 48.26 63.5 0)
+		(property "Datasheet" ""
+			(at 38.1 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3944,8 +5006,8 @@
 				)
 			)
 		)
-		(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
-			(at 58.42 88.9 0)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3955,8 +5017,8 @@
 				)
 			)
 		)
-		(property "DigiKey Part" ""
-			(at 58.42 88.9 0)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 38.1 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3966,157 +5028,27 @@
 				)
 			)
 		)
-		(pin "32"
-			(uuid "42c0d2ee-3b57-4cab-99eb-a9b618fb0630")
-		)
-		(pin "26"
-			(uuid "4d6187ee-a3ad-4762-a7c8-50285fcd2ea0")
-		)
-		(pin "10"
-			(uuid "e5c8d82a-ff52-457c-a506-6f25ba92af9f")
-		)
-		(pin "12"
-			(uuid "44b7beac-a805-4e66-9105-58f2cfc4308b")
-		)
-		(pin "14"
-			(uuid "71be6a08-e389-4d5c-b357-fc7c48f5fc83")
-		)
-		(pin "33"
-			(uuid "1e9887b4-f169-4f48-b807-66b6b767a5ce")
-		)
-		(pin "39"
-			(uuid "00fdfc1c-46f0-4cad-9111-5e864416b7f0")
-		)
-		(pin "34"
-			(uuid "78c98513-3bca-4b8a-bcb5-a42c6d2509bc")
-		)
-		(pin "41"
-			(uuid "95bb4a24-3003-419f-ba42-27be6392e0d8")
-		)
-		(pin "19"
-			(uuid "f3060dcf-fce6-4202-bd32-50d765c02568")
-		)
-		(pin "8"
-			(uuid "1e333e2d-08f1-4e05-96ad-1d18b42919d7")
-		)
-		(pin "35"
-			(uuid "b6417e15-5b1d-4c4c-bbfa-e2fc7fd12882")
-		)
-		(pin "42"
-			(uuid "8e748b1d-8702-4440-8624-103bc172a58a")
-		)
-		(pin "25"
-			(uuid "e6c38307-d78b-4ac0-8595-22eae39432e5")
-		)
-		(pin "36"
-			(uuid "5926e125-b38e-4d61-9552-b8aba2b96e0e")
-		)
-		(pin "37"
-			(uuid "c6db7e84-3bb6-4230-9aff-ef7b8bf8f53a")
-		)
-		(pin "43"
-			(uuid "78b112d4-c5b6-4548-ba24-1321bc8d1583")
-		)
-		(pin "6"
-			(uuid "687a38c5-ea29-411c-9cc9-8fe6eaae220f")
-		)
-		(pin "31"
-			(uuid "5559516d-f79c-4f35-9084-fa2313ca03db")
-		)
-		(pin "23"
-			(uuid "28c0502f-a982-4104-8e3e-cf3734bf5b79")
-		)
-		(pin "27"
-			(uuid "1f43c03a-ce99-46f8-baae-1e01859a7c33")
-		)
-		(pin "28"
-			(uuid "ebaab73f-a51b-413c-b9fc-d17cfee7bdf2")
-		)
-		(pin "38"
-			(uuid "e3fa0353-57d9-4629-904e-5be5701a1af9")
-		)
-		(pin "40"
-			(uuid "8f1c2a78-4da1-46f8-be76-62e059093ca4")
-		)
-		(pin "7"
-			(uuid "409a8946-05fc-4947-a220-07f73624534a")
-		)
-		(pin "9"
-			(uuid "bc50681f-63e5-49d1-8634-40c5b7e73b1e")
-		)
-		(pin "11"
-			(uuid "d12b7937-7e0e-4c25-97ee-836df3d08974")
-		)
-		(pin "13"
-			(uuid "ebb20801-fc66-484e-bdb7-6f7a917ef9ee")
-		)
-		(pin "15"
-			(uuid "9e454c4a-1265-4e7d-b208-0956ce480cde")
-		)
-		(pin "16"
-			(uuid "abdd659f-a0e1-4ec3-8639-0e9bf941750c")
-		)
-		(pin "17"
-			(uuid "fc45b78b-bf97-4fe8-b173-b3fe172a4927")
-		)
-		(pin "18"
-			(uuid "0fc8b140-e24f-405e-a59c-55681fc6fd93")
-		)
-		(pin "47"
-			(uuid "09f5f16c-f348-4e88-a610-d0898cdd8665")
-		)
-		(pin "2"
-			(uuid "94ad0528-68ae-49d7-b723-48706492ca21")
+		(property "LCSC Part" "C2286"
+			(at 38.1 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "1"
-			(uuid "af0352d0-0cd3-4874-95f8-51dc0ef82060")
+			(uuid "f0b041d0-b618-436e-a11a-0c5cd921e8a5")
 		)
-		(pin "46"
-			(uuid "46afd2a8-895f-4937-a100-bdc9c7e67ffb")
-		)
-		(pin "21"
-			(uuid "525ef3d8-6c50-4747-961d-fe11682e4dca")
-		)
-		(pin "5"
-			(uuid "b5c1cbb2-37e7-4c3d-ba5a-1a667b0202fa")
-		)
-		(pin "49"
-			(uuid "e63053a2-ead5-4108-acd0-0207bf6b715f")
-		)
-		(pin "30"
-			(uuid "f7875b11-05c1-4e69-b015-ac0344140a6c")
-		)
-		(pin "3"
-			(uuid "4b2c6d02-0f81-42bd-8dfe-58b393adab64")
-		)
-		(pin "20"
-			(uuid "ae5564a5-b88b-48f1-8a00-0a755e56dd16")
-		)
-		(pin "44"
-			(uuid "13bcbc57-6dfd-4aa3-91ff-e8eb5d5ecc09")
-		)
-		(pin "22"
-			(uuid "278055ec-ecb3-4ce2-ace7-c114a3e55048")
-		)
-		(pin "48"
-			(uuid "aaaf3c52-66e5-445e-b663-f52b0cc4c241")
-		)
-		(pin "4"
-			(uuid "a9a10916-adf7-42f7-a5a8-d19224bf15e7")
-		)
-		(pin "45"
-			(uuid "15174a0f-4615-497e-8d1a-ff87e6fcad88")
-		)
-		(pin "24"
-			(uuid "3f770edf-670e-49c6-aa20-a7d6879f6192")
-		)
-		(pin "29"
-			(uuid "eb004f77-8e54-4103-bbfd-c55e6b1e35b7")
+		(pin "2"
+			(uuid "3b6cbedf-42d4-4a71-b77a-574ab05ccfe4")
 		)
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
-					(reference "U1001")
+					(reference "D1003")
 					(unit 1)
 				)
 			)
@@ -4225,6 +5157,240 @@
 		)
 	)
 	(symbol
+		(lib_id "FPGA_Lattice:ICE40UP5K-SG48ITR")
+		(at 58.42 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dba7e886-a0b9-4044-99b6-62ed2b754389")
+		(property "Reference" "U1001"
+			(at 67.31 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ICE40UP5K-SG48ITR"
+			(at 67.31 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
+			(at 58.42 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
+			(at 48.26 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "iCE40 UltraPlus FPGA, 5280 LUTs, 1.2V, 48-pin QFN"
+			(at 58.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2678152"
+			(at 58.42 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "2792caa5-9793-4e65-9a14-b64db3f67f3c")
+		)
+		(pin "8"
+			(uuid "2d43f9d2-cd1f-4ef7-811e-61afc52aeb5a")
+		)
+		(pin "11"
+			(uuid "5cb02801-6123-4cbc-9195-de5b3a150640")
+		)
+		(pin "13"
+			(uuid "a26d3d20-4490-491c-88ff-0c14c979128d")
+		)
+		(pin "34"
+			(uuid "ef034f04-db3c-4973-8786-a28d8af9e5d5")
+		)
+		(pin "26"
+			(uuid "09121864-01d4-4d65-9531-61ca5cc4614f")
+		)
+		(pin "32"
+			(uuid "df9fc814-47b1-4211-a3b6-4bf59c1bd12d")
+		)
+		(pin "39"
+			(uuid "e7c701d2-9671-4573-b139-991b7e1c34d1")
+		)
+		(pin "10"
+			(uuid "2342bfd6-2c9a-4775-9c6f-93ff87b836fa")
+		)
+		(pin "20"
+			(uuid "8c2531ec-a431-4630-b57b-68b58d9d5838")
+		)
+		(pin "31"
+			(uuid "dedb0840-8270-4ed0-8b5e-152996f017b0")
+		)
+		(pin "37"
+			(uuid "c8e0e792-886c-4016-a290-a986cb1c4020")
+		)
+		(pin "25"
+			(uuid "464ac260-a20b-4573-a43d-fe40202d784f")
+		)
+		(pin "36"
+			(uuid "6d8b2c61-ee05-4fce-823c-48718ed0be25")
+		)
+		(pin "41"
+			(uuid "9a831e90-6e51-41e9-9678-9ab4831ba79d")
+		)
+		(pin "40"
+			(uuid "27fdb592-3296-4a70-8ebf-0890504f9a92")
+		)
+		(pin "33"
+			(uuid "e2b041b0-0a95-48e0-9952-3afdbf97fe01")
+		)
+		(pin "27"
+			(uuid "597dbac5-1207-421c-b4bf-f38c8edb16bf")
+		)
+		(pin "38"
+			(uuid "edfed437-0396-4ece-815f-a8f8e4064a86")
+		)
+		(pin "28"
+			(uuid "e368124a-1ce0-4d6f-8a95-9ae0b3ee98b9")
+		)
+		(pin "23"
+			(uuid "1b97897f-7a57-484c-9ffb-99cc7111e33a")
+		)
+		(pin "35"
+			(uuid "9cdf7355-bffb-4e2f-9bab-eabcfe1fa284")
+		)
+		(pin "42"
+			(uuid "01c40e0c-e537-4146-a215-3bd260c9ab1a")
+		)
+		(pin "43"
+			(uuid "2e016ec6-293b-4fad-9f28-e9bdb20ebda3")
+		)
+		(pin "7"
+			(uuid "aae97e44-2b6d-4bd0-aa90-7d195cfa0b3a")
+		)
+		(pin "9"
+			(uuid "69132192-693b-4437-941e-b7f8ecd3e7df")
+		)
+		(pin "12"
+			(uuid "cd47b06f-1b7c-4789-a4de-66c4a400339b")
+		)
+		(pin "14"
+			(uuid "595f5c3d-a784-4dcd-a679-33fc855c27dd")
+		)
+		(pin "17"
+			(uuid "21fa46ec-3331-4fb6-92f2-a3397bc0001d")
+		)
+		(pin "15"
+			(uuid "4767a1c5-788d-47ae-9825-217b795702cd")
+		)
+		(pin "18"
+			(uuid "0ea250a3-8cdc-4e87-bb20-49d0fb02577c")
+		)
+		(pin "19"
+			(uuid "dc6997b7-ec3b-46dc-9d12-0f61b50221d5")
+		)
+		(pin "16"
+			(uuid "774f9fdd-3fff-472f-b1ee-93d603ba846f")
+		)
+		(pin "46"
+			(uuid "105de004-e77c-4705-a609-48257698521a")
+		)
+		(pin "22"
+			(uuid "36f6b484-dea1-4850-9ee4-4841b0cf1c3e")
+		)
+		(pin "4"
+			(uuid "ab01d348-3d55-437f-97e6-78163c534cd2")
+		)
+		(pin "44"
+			(uuid "c17461ad-1111-461e-b3a5-5b80dcfa01a8")
+		)
+		(pin "3"
+			(uuid "c5b70989-813a-47f8-b7ab-cf5941544719")
+		)
+		(pin "45"
+			(uuid "58d60f91-b1b7-4b66-9d3f-4da7ed2a0192")
+		)
+		(pin "29"
+			(uuid "fbe80775-8a49-4460-93fa-538c7b7cb03a")
+		)
+		(pin "2"
+			(uuid "23f35c00-b2a8-4b82-a5cc-00d19ebdf40a")
+		)
+		(pin "30"
+			(uuid "28b066ee-3fd7-4c34-a903-bcf01c302b1d")
+		)
+		(pin "49"
+			(uuid "cce0bfd7-1898-42dc-b2f9-d340e72b2fb7")
+		)
+		(pin "47"
+			(uuid "bd07c9e7-3853-403e-92b3-9886941a70e2")
+		)
+		(pin "21"
+			(uuid "e48332b3-3699-4307-90c5-2eea4e663cf9")
+		)
+		(pin "48"
+			(uuid "0c53fa37-98df-439b-8ded-f662fd210e78")
+		)
+		(pin "1"
+			(uuid "cd69b9bd-d247-4479-a8ca-14ecef6c0839")
+		)
+		(pin "5"
+			(uuid "4c567cf1-2634-43f3-aebd-4499ec2b6ccc")
+		)
+		(pin "24"
+			(uuid "56638e44-c40e-48b7-ad38-1248bca41d31")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
+					(reference "U1001")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 151.13 53.34 0)
 		(unit 1)
@@ -4324,238 +5490,6 @@
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
 					(reference "C1010")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FPGA_Lattice:ICE5LP1K-SG48")
-		(at 111.76 88.9 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9943fc0-c7c3-4653-b073-a32023527f94")
-		(property "Reference" "U1001"
-			(at 111.76 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ICE5LP1K-SG48"
-			(at 111.76 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm"
-			(at 111.76 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.latticesemi.com/Products/FPGAandCPLD/iCE40Ultra"
-			(at 101.6 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "iCE40 Ultra FPGA, 1100 LUTs, 1.2V, 48-pin QFN"
-			(at 111.76 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part" ""
-			(at 111.76 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "32"
-			(uuid "5b614931-d86e-4e49-bf30-bba1db892e6a")
-		)
-		(pin "26"
-			(uuid "17f65d07-4c42-405c-8c01-221d946f2170")
-		)
-		(pin "10"
-			(uuid "e2be6751-c4e2-4cd3-8b51-43715dc58b1a")
-		)
-		(pin "12"
-			(uuid "f047db37-2b66-4b4b-9958-8805ba365487")
-		)
-		(pin "14"
-			(uuid "ea480f2a-7540-4ce3-b181-bf9a01b0fb31")
-		)
-		(pin "33"
-			(uuid "389ddcea-e5c3-4344-ac25-ecba0c910ca0")
-		)
-		(pin "39"
-			(uuid "3263462d-597b-4c9f-8286-cdb17754cca3")
-		)
-		(pin "34"
-			(uuid "fa608637-ff83-48dc-9796-5a9a0d7c8a58")
-		)
-		(pin "41"
-			(uuid "35e22bfb-3d85-42ea-bb23-38eb9246aadd")
-		)
-		(pin "19"
-			(uuid "5be4469b-9e4b-48e5-b449-11eed2c34ef5")
-		)
-		(pin "8"
-			(uuid "18358cba-18b7-437f-9068-d1be0c59b86e")
-		)
-		(pin "35"
-			(uuid "cdebd78b-24f9-4f68-9639-ec173787aa35")
-		)
-		(pin "42"
-			(uuid "e04d542a-d49e-45bd-9d0b-4d1475542244")
-		)
-		(pin "25"
-			(uuid "3aeb6ad1-3053-4b71-935c-a810c2daf196")
-		)
-		(pin "36"
-			(uuid "09b92005-d18d-46af-a402-cd145ceac432")
-		)
-		(pin "37"
-			(uuid "91a853a8-bfcc-4ba6-84ca-28665589c34d")
-		)
-		(pin "43"
-			(uuid "2d7b5d71-6d13-4047-bde6-70cdc3202bf4")
-		)
-		(pin "6"
-			(uuid "db8575df-b7cf-4c38-b15d-b86d16860dab")
-		)
-		(pin "31"
-			(uuid "ac58f19e-3f83-48fa-8560-7b83e5eabb7b")
-		)
-		(pin "23"
-			(uuid "609b3dbb-31c5-4d7c-ab06-9e9727cbf4cc")
-		)
-		(pin "27"
-			(uuid "f9f959b1-ae0a-45b1-9da0-d202f6044d33")
-		)
-		(pin "28"
-			(uuid "38fcf125-bd51-4437-a734-a8f4aa57b3af")
-		)
-		(pin "38"
-			(uuid "1c0dcd02-964a-4708-a9ff-a53b3be26afe")
-		)
-		(pin "40"
-			(uuid "e9f55962-8c61-4201-b864-0462b3ee649b")
-		)
-		(pin "7"
-			(uuid "6c25a6d2-aa46-4ec4-a01d-d25a40b8b953")
-		)
-		(pin "9"
-			(uuid "3ec1a152-9dba-48e0-81fe-cb1cd565bc8e")
-		)
-		(pin "11"
-			(uuid "3b7c190a-89b5-4fa7-9ed3-e6d4aee7a28a")
-		)
-		(pin "13"
-			(uuid "3ce7fc3f-9bb5-4773-9900-761fe6e5ea60")
-		)
-		(pin "15"
-			(uuid "caaef82b-2fdd-45d9-8cb8-aaa17aed69ea")
-		)
-		(pin "16"
-			(uuid "7f3e0b56-e191-4afc-9b89-1bd0c0759d52")
-		)
-		(pin "17"
-			(uuid "868ce162-e657-4a3d-9224-f9d383d2ff7e")
-		)
-		(pin "18"
-			(uuid "429bc306-b808-4718-b58c-7d062e125b8d")
-		)
-		(pin "47"
-			(uuid "09f5f16c-f348-4e88-a610-d0898cdd8666")
-		)
-		(pin "2"
-			(uuid "94ad0528-68ae-49d7-b723-48706492ca22")
-		)
-		(pin "1"
-			(uuid "af0352d0-0cd3-4874-95f8-51dc0ef82061")
-		)
-		(pin "46"
-			(uuid "46afd2a8-895f-4937-a100-bdc9c7e67ffc")
-		)
-		(pin "21"
-			(uuid "154b4eca-56ba-4bd4-8ffa-50206153772f")
-		)
-		(pin "5"
-			(uuid "b5c1cbb2-37e7-4c3d-ba5a-1a667b0202fb")
-		)
-		(pin "49"
-			(uuid "e63053a2-ead5-4108-acd0-0207bf6b7160")
-		)
-		(pin "30"
-			(uuid "f7875b11-05c1-4e69-b015-ac0344140a6d")
-		)
-		(pin "3"
-			(uuid "4b2c6d02-0f81-42bd-8dfe-58b393adab65")
-		)
-		(pin "20"
-			(uuid "27109371-f466-410d-9aa4-80154852c1da")
-		)
-		(pin "44"
-			(uuid "13bcbc57-6dfd-4aa3-91ff-e8eb5d5ecc0a")
-		)
-		(pin "22"
-			(uuid "d5aad2d5-8fb3-42f7-a3f3-26e6645e5842")
-		)
-		(pin "48"
-			(uuid "aaaf3c52-66e5-445e-b663-f52b0cc4c242")
-		)
-		(pin "4"
-			(uuid "a9a10916-adf7-42f7-a5a8-d19224bf15e8")
-		)
-		(pin "45"
-			(uuid "15174a0f-4615-497e-8d1a-ff87e6fcad89")
-		)
-		(pin "24"
-			(uuid "3f770edf-670e-49c6-aa20-a7d6879f6193")
-		)
-		(pin "29"
-			(uuid "eb004f77-8e54-4103-bbfd-c55e6b1e35b8")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63/2b3e5160-899f-49a5-86d1-dab64b2d097a"
-					(reference "U1001")
-					(unit 2)
 				)
 			)
 		)
