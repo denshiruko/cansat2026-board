@@ -3359,6 +3359,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C36936538"
+			(at 76.2 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B5"
 			(uuid "059745a0-03d3-4f0d-9334-1c0b0aa6b09b")
 		)
@@ -3635,6 +3646,17 @@
 				)
 			)
 		)
+		(property "秋月 Part" "116306"
+			(at 152.4 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "2cabc579-8b8c-4096-a217-d474a4351af1")
 		)
@@ -3825,6 +3847,17 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 76.2 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C36936538"
 			(at 76.2 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4358,6 +4391,17 @@
 				)
 			)
 		)
+		(property "秋月 Part" "116306"
+			(at 152.4 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "81fd9215-9273-4d12-9b1e-75c2e81fd951")
 		)
@@ -4470,6 +4514,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5180249"
+			(at 114.3 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "08eba233-360d-4490-94a3-797815dbe30d")
 		)
@@ -4557,6 +4612,17 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 114.3 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5180249"
 			(at 114.3 125.73 0)
 			(hide yes)
 			(show_name no)

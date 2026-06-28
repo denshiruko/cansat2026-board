@@ -2338,6 +2338,17 @@
 				)
 			)
 		)
+		(property "秋月 Part" "118301"
+			(at 152.4 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "17d4a041-30aa-4b2d-8c5c-78fbeaee1a86")
 		)
@@ -2557,6 +2568,17 @@
 				)
 			)
 		)
+		(property "秋月 Part" "112247"
+			(at 182.88 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "09a7774b-3826-4df5-b7e9-e86ddd73fd88")
 		)
@@ -2743,7 +2765,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 			(at 185.42 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -2799,6 +2821,17 @@
 			)
 		)
 		(property "DigiKey Part" ""
+			(at 185.42 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "112815"
 			(at 185.42 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -3136,7 +3169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 			(at 185.42 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3192,6 +3225,17 @@
 			)
 		)
 		(property "DigiKey Part" ""
+			(at 185.42 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "112815"
 			(at 185.42 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3437,7 +3481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.76 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3470,7 +3514,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15850"
+		(property "LCSC Part" "C19702"
 			(at 111.76 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -3530,7 +3574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 111.76 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3563,7 +3607,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15850"
+		(property "LCSC Part" "C19702"
 			(at 111.76 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -3623,7 +3667,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 134.62 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3656,7 +3700,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15850"
+		(property "LCSC Part" "C19702"
 			(at 134.62 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3716,7 +3760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 115.57 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -3749,7 +3793,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15850"
+		(property "LCSC Part" "C19702"
 			(at 115.57 134.62 0)
 			(hide yes)
 			(show_name no)

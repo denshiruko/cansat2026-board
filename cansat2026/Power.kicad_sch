@@ -2348,6 +2348,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Project:TCR2LN18"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U6"
+				(at 0 9.3218 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TCR2LN18"
+				(at 0 7.0104 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Project:SDFN4"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://toshiba.semicon-storage.com/info/TCR2LN18_datasheet_ja_20210831.pdf?did=139783&prodName=TCR2LN18"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "200mA Low-dropout Voltage Regulator, Vout 1.8V, Vin up to 5.5V, SDFN4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TOSHIBA LDO voltage regulator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TCR2LN18_0_1"
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TCR2LN18_1_1"
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "CTRL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Project:TPS561201"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3835,14 +4013,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project:XC6201P332MR"
+		(symbol "Regulator_Linear:XC6206PxxxMR"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 0 8.89 0)
+				(at -3.81 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -3851,17 +4032,30 @@
 					)
 				)
 			)
-			(property "Value" "XC6201P332MR"
-				(at 0 6.35 0)
+			(property "Value" "XC6206PxxxMR"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+				(at 0 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3872,18 +4066,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.torexsemi.com/file/xc6210/XC6210.pdf"
-				(at 19.05 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "150mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-25"
+			(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3894,7 +4077,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LDO Voltage Regulator 150mA"
+			(property "ki_keywords" "Torex LDO Voltage Regulator Fixed Positive"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3905,7 +4088,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?23?3*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3916,10 +4099,10 @@
 					)
 				)
 			)
-			(symbol "XC6201P332MR_0_1"
+			(symbol "XC6206PxxxMR_0_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3929,11 +4112,11 @@
 					)
 				)
 			)
-			(symbol "XC6201P332MR_1_1"
+			(symbol "XC6206PxxxMR_1_1"
 				(pin power_in line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "VIN"
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3948,10 +4131,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 5.08)
-					(name "GND"
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3966,11 +4149,10 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3978,43 +4160,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 -2.54 180)
-					(length 5.08)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4638,16 +4783,16 @@
 		(uuid "02c0c55c-c264-44c5-adee-53defbac33ae")
 	)
 	(junction
-		(at 177.8 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0336f21a-5a80-4fd7-a761-2aa7de8e1e91")
-	)
-	(junction
 		(at 181.61 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04ac7c1a-e7be-4594-a261-9836e1a965bf")
+	)
+	(junction
+		(at 195.58 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05e42b9b-a9fe-4c76-a9d9-c55409d4b034")
 	)
 	(junction
 		(at 160.02 132.08)
@@ -4686,6 +4831,12 @@
 		(uuid "1314b786-0cc4-4c5b-9b06-f7326b2ac793")
 	)
 	(junction
+		(at 172.72 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19cb46a6-c0f4-4225-a7fe-5a4711c07ce0")
+	)
+	(junction
 		(at 24.13 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4716,6 +4867,12 @@
 		(uuid "24a9391e-ddbd-471c-ad89-5774347d0b2f")
 	)
 	(junction
+		(at 238.76 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "267dbdd9-6f59-48ec-8cbc-1ddefab2b269")
+	)
+	(junction
 		(at 203.2 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4732,12 +4889,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a1568de-4bd9-4f81-b0f0-6f8e0912953c")
-	)
-	(junction
-		(at 189.23 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b16ff61-cc00-42a8-963e-91931ccdba20")
 	)
 	(junction
 		(at 226.06 132.08)
@@ -4836,16 +4987,28 @@
 		(uuid "53c1baf7-9867-47ed-8fb5-46cccfc924f2")
 	)
 	(junction
+		(at 210.82 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "567d8dc0-1b29-4bb9-80e3-25a0ed8c9e84")
+	)
+	(junction
+		(at 210.82 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56e865f3-ddce-4b4c-b319-3245ae9ebcd3")
+	)
+	(junction
 		(at 179.07 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "597a9c94-2f2d-4187-9694-a4d06c67e943")
 	)
 	(junction
-		(at 40.64 137.16)
+		(at 226.06 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "59e96ac7-ba6b-472f-afde-5c5cc875cd16")
+		(uuid "5ae0ee67-1a64-4b8a-b690-f04882ba3ee0")
 	)
 	(junction
 		(at 191.77 132.08)
@@ -4876,6 +5039,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fa81800-27cb-4094-8a0c-baea4e96b95a")
+	)
+	(junction
+		(at 172.72 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "729418ae-f075-4b71-a6ec-cb90b95e2a2d")
 	)
 	(junction
 		(at 160.02 101.6)
@@ -4920,6 +5089,12 @@
 		(uuid "7ec05711-ade8-430a-aeae-b35aac4e3293")
 	)
 	(junction
+		(at 215.9 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84ee0aa9-a95d-40bc-bb39-03fcbbb40bc9")
+	)
+	(junction
 		(at 107.95 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4930,6 +5105,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "861dcca8-0c14-4745-bfad-1f97ef9efab3")
+	)
+	(junction
+		(at 40.64 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8686cc54-f89c-430a-9080-f00d285e8c7b")
 	)
 	(junction
 		(at 256.54 48.26)
@@ -4956,7 +5137,7 @@
 		(uuid "8ad961dc-c3b6-469f-930d-9c22c48a129a")
 	)
 	(junction
-		(at 189.23 154.94)
+		(at 195.58 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f5188c4-3534-46dc-a68a-b8aa8b0a6f04")
@@ -4978,6 +5159,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f357a85-dfe6-480a-b63c-9d5437bcf392")
+	)
+	(junction
+		(at 184.15 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f5a27ea-83fe-44f5-a2f9-9f0a86b1b994")
 	)
 	(junction
 		(at 264.16 101.6)
@@ -5010,28 +5197,16 @@
 		(uuid "a5d5a745-cfae-4fe6-a2cc-372bc46d7860")
 	)
 	(junction
-		(at 177.8 154.94)
+		(at 184.15 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5f42555-e71b-48a0-8dde-d360c8fc260b")
-	)
-	(junction
-		(at 160.02 161.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a63e58ec-eb06-4533-8e1d-e9b39cf37f9a")
 	)
 	(junction
 		(at 139.7 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6c8e2ca-db11-4f1f-99f2-c25149245e88")
-	)
-	(junction
-		(at 55.88 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a89c5841-3d4d-41ba-a7e5-d895c14b2557")
 	)
 	(junction
 		(at 190.5 38.1)
@@ -5050,12 +5225,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac6bea42-5a30-4fc0-9b73-3cf5f8480c10")
-	)
-	(junction
-		(at 55.88 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae2cb844-b8c0-4493-86a8-84ecbe9964f4")
 	)
 	(junction
 		(at 139.7 149.86)
@@ -5148,6 +5317,18 @@
 		(uuid "e303cf70-3123-44be-878f-9bf5dc5005f8")
 	)
 	(junction
+		(at 55.88 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8372312-d784-437a-9edf-5e37d97bf252")
+	)
+	(junction
+		(at 160.02 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e96977ab-eae1-4760-b60a-a4097fd560b7")
+	)
+	(junction
 		(at 214.63 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5202,6 +5383,12 @@
 		(uuid "f3a8a650-d01b-41fe-a862-d2d6873582b1")
 	)
 	(junction
+		(at 40.64 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f58d4280-4f7e-4499-af37-0e05f9fd405c")
+	)
+	(junction
 		(at 123.19 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5220,7 +5407,7 @@
 		(uuid "fa4ecb51-8bbd-42b1-9e27-924a1e7b3265")
 	)
 	(junction
-		(at 200.66 154.94)
+		(at 207.01 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa89f426-e8ee-4102-8248-51a748715200")
@@ -5270,6 +5457,16 @@
 	(no_connect
 		(at 149.86 171.45)
 		(uuid "eb7cc380-6106-4ff8-93ba-9bf359d63f90")
+	)
+	(wire
+		(pts
+			(xy 40.64 134.62) (xy 40.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01964833-59db-4ae8-a644-20abaeb4ea9d")
 	)
 	(wire
 		(pts
@@ -5353,16 +5550,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 127) (xy 55.88 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0982a097-c59e-47d1-afc8-ba12d05ef6f7")
-	)
-	(wire
-		(pts
 			(xy 177.8 38.1) (xy 190.5 38.1)
 		)
 		(stroke
@@ -5393,6 +5580,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 154.94) (xy 172.72 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d919399-9fb8-4950-b0a5-1376182346a1")
+	)
+	(wire
+		(pts
 			(xy 179.07 104.14) (xy 179.07 106.68)
 		)
 		(stroke
@@ -5420,6 +5617,16 @@
 			(type default)
 		)
 		(uuid "115e0ba6-c80c-424e-b16b-041455081410")
+	)
+	(wire
+		(pts
+			(xy 40.64 142.24) (xy 55.88 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "129937f3-98c8-4dd7-8209-863427ac701d")
 	)
 	(wire
 		(pts
@@ -5470,6 +5677,16 @@
 			(type default)
 		)
 		(uuid "173bde84-fef0-499a-9f4b-53a5fcb61ad6")
+	)
+	(wire
+		(pts
+			(xy 160.02 154.94) (xy 160.02 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1932610d-75c8-4cba-b9ad-a5cd72ded0a6")
 	)
 	(wire
 		(pts
@@ -5553,7 +5770,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 154.94) (xy 177.8 154.94)
+			(xy 195.58 154.94) (xy 184.15 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5573,6 +5790,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 31.75) (xy 238.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267ffc4b-72e5-483e-896c-667f791211d6")
+	)
+	(wire
+		(pts
 			(xy 113.03 68.58) (xy 132.08 68.58)
 		)
 		(stroke
@@ -5583,16 +5810,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 154.94) (xy 160.02 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "290989e6-0b31-42d7-a152-c9afee79f6bc")
-	)
-	(wire
-		(pts
 			(xy 101.6 68.58) (xy 113.03 68.58)
 		)
 		(stroke
@@ -5600,6 +5817,16 @@
 			(type default)
 		)
 		(uuid "295952f9-bb73-4d4e-97b9-c33f243fd3d3")
+	)
+	(wire
+		(pts
+			(xy 55.88 171.45) (xy 40.64 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d12caa-b272-4025-bed1-d4da547d103b")
 	)
 	(wire
 		(pts
@@ -5703,7 +5930,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 129.54) (xy 40.64 137.16)
+			(xy 40.64 129.54) (xy 40.64 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5773,7 +6000,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 154.94) (xy 189.23 154.94)
+			(xy 207.01 154.94) (xy 195.58 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5923,6 +6150,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 106.68) (xy 50.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fac96b1-2498-4bde-bebb-55777efeac84")
+	)
+	(wire
+		(pts
 			(xy 119.38 142.24) (xy 127 142.24)
 		)
 		(stroke
@@ -6033,16 +6270,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 137.16) (xy 40.64 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e49d509-8b04-4e0f-b32e-04fb88f6937d")
-	)
-	(wire
-		(pts
 			(xy 38.1 138.43) (xy 40.64 138.43)
 		)
 		(stroke
@@ -6053,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 99.06) (xy 38.1 99.06)
+			(xy 35.56 99.06) (xy 43.18 99.06)
 		)
 		(stroke
 			(width 0)
@@ -6123,6 +6350,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 29.21) (xy 238.76 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e18c1a3-775d-41bb-987a-32b01b2c3be6")
+	)
+	(wire
+		(pts
 			(xy 172.72 114.3) (xy 172.72 111.76)
 		)
 		(stroke
@@ -6153,7 +6390,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 162.56) (xy 177.8 162.56)
+			(xy 184.15 162.56) (xy 195.58 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6193,7 +6430,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 162.56) (xy 172.72 162.56)
+			(xy 172.72 162.56) (xy 184.15 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6343,6 +6580,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 134.62) (xy 55.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82434c9a-b72e-4477-9ecc-34726dc8e9f4")
+	)
+	(wire
+		(pts
 			(xy 172.72 186.69) (xy 160.02 186.69)
 		)
 		(stroke
@@ -6390,6 +6637,16 @@
 			(type default)
 		)
 		(uuid "87f18da6-e51a-4521-951a-32709a5185a3")
+	)
+	(wire
+		(pts
+			(xy 208.28 21.59) (xy 210.82 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "881f9f05-c4df-4996-9663-a8e54602be17")
 	)
 	(wire
 		(pts
@@ -6513,6 +6770,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 29.21) (xy 210.82 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "925a7ef8-26a8-4355-8555-ea34aa474836")
+	)
+	(wire
+		(pts
 			(xy 50.8 55.88) (xy 50.8 60.96)
 		)
 		(stroke
@@ -6533,6 +6800,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 31.75) (xy 226.06 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93902b5a-28ed-41df-a73d-c4ae8923b979")
+	)
+	(wire
+		(pts
 			(xy 96.52 142.24) (xy 96.52 132.08)
 		)
 		(stroke
@@ -6540,6 +6817,16 @@
 			(type default)
 		)
 		(uuid "94493855-db00-4628-8da9-66c7574631fb")
+	)
+	(wire
+		(pts
+			(xy 238.76 21.59) (xy 241.3 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fba5a0-adfd-4a0c-893f-19d7b41d3760")
 	)
 	(wire
 		(pts
@@ -6613,6 +6900,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 142.24) (xy 40.64 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d3715f-5b7c-4950-af5b-1abe9d3b3d49")
+	)
+	(wire
+		(pts
 			(xy 24.13 62.23) (xy 24.13 64.77)
 		)
 		(stroke
@@ -6640,6 +6937,16 @@
 			(type default)
 		)
 		(uuid "9f09c03a-d77e-428c-8256-4cd12e7e1de1")
+	)
+	(wire
+		(pts
+			(xy 207.01 31.75) (xy 210.82 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f7fa9c9-182b-4ad3-bf6e-1d66628dd7e0")
 	)
 	(wire
 		(pts
@@ -6780,16 +7087,6 @@
 			(type default)
 		)
 		(uuid "b39f5b0e-9906-4e17-ba2c-6e06cd72261b")
-	)
-	(wire
-		(pts
-			(xy 63.5 99.06) (xy 66.04 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4a3625e-af44-4cab-a24f-1f0ca2df79c4")
 	)
 	(wire
 		(pts
@@ -6943,6 +7240,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 21.59) (xy 215.9 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf62bc8a-0208-4032-9d46-9355e1dbe31a")
+	)
+	(wire
+		(pts
 			(xy 214.63 109.22) (xy 214.63 119.38)
 		)
 		(stroke
@@ -6960,6 +7267,16 @@
 			(type default)
 		)
 		(uuid "c28b18fd-d8a9-4cfc-b595-386cc3255231")
+	)
+	(wire
+		(pts
+			(xy 55.88 127) (xy 55.88 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35753fb-6218-4ec9-a9a6-de433cb883f9")
 	)
 	(wire
 		(pts
@@ -7063,16 +7380,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 137.16) (xy 55.88 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccd0d1ab-0013-43a8-b853-ad46a36f029b")
-	)
-	(wire
-		(pts
 			(xy 139.7 26.67) (xy 139.7 27.94)
 		)
 		(stroke
@@ -7113,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 162.56) (xy 189.23 162.56)
+			(xy 207.01 162.56) (xy 195.58 162.56)
 		)
 		(stroke
 			(width 0)
@@ -7170,6 +7477,26 @@
 			(type default)
 		)
 		(uuid "d87d2246-ccc3-46c1-80ed-3415fd78aa5d")
+	)
+	(wire
+		(pts
+			(xy 40.64 142.24) (xy 40.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0f4952-80d1-4216-a25a-c5599040a78b")
+	)
+	(wire
+		(pts
+			(xy 236.22 21.59) (xy 238.76 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da1805de-7acb-4417-adce-46912ae2b6df")
 	)
 	(wire
 		(pts
@@ -7303,13 +7630,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 166.37) (xy 40.64 138.43)
+			(xy 215.9 21.59) (xy 215.9 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e29dec95-4ada-4d8c-a205-4d8371eaea09")
+		(uuid "e26e4b42-ec74-4bb2-8a6f-b09c84b892b5")
 	)
 	(wire
 		(pts
@@ -7403,16 +7730,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 166.37) (xy 40.64 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8742834-eb21-4c6b-b96f-4409c6855671")
-	)
-	(wire
-		(pts
 			(xy 160.02 134.62) (xy 160.02 132.08)
 		)
 		(stroke
@@ -7463,7 +7780,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 154.94) (xy 160.02 154.94)
+			(xy 184.15 154.94) (xy 172.72 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7500,6 +7817,16 @@
 			(type default)
 		)
 		(uuid "ef8497ea-0140-4dac-9e89-15c35df1a536")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 66.04 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f135af46-ff9a-441e-9e5a-3eac91d997d5")
 	)
 	(wire
 		(pts
@@ -7583,7 +7910,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 154.94) (xy 200.66 154.94)
+			(xy 209.55 154.94) (xy 207.01 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7702,6 +8029,16 @@
 		(uuid "51f73d75-29ce-4009-855e-952c8dc00e62")
 	)
 	(label "GND"
+		(at 207.01 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5666f1d7-1892-4e5e-92fa-d5df80c16a29")
+	)
+	(label "GND"
 		(at 38.1 151.13 180)
 		(effects
 			(font
@@ -7710,6 +8047,16 @@
 			(justify right bottom)
 		)
 		(uuid "5a24d124-3919-4168-9622-9bd79e61377c")
+	)
+	(label "3V3"
+		(at 208.28 21.59 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5a77838c-dff6-46ce-a05a-2e4d2f8fc27b")
 	)
 	(label "3V3"
 		(at 269.24 21.59 0)
@@ -8036,6 +8383,17 @@
 		)
 		(uuid "48d15f3f-c28f-4a9b-9cbe-1716184ffd9f")
 	)
+	(hierarchical_label "M3_P_EN"
+		(shape input)
+		(at 55.88 166.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fc67525-76d2-4048-9f7a-2813117a3383")
+	)
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 60.96 76.2 0)
@@ -8058,9 +8416,20 @@
 		)
 		(uuid "6594225f-704e-4d2a-9b00-2e05f149048d")
 	)
+	(hierarchical_label "1.8V"
+		(shape output)
+		(at 241.3 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67c556fd-a276-47c6-96f0-efd8f1638459")
+	)
 	(hierarchical_label "M3Power"
 		(shape output)
-		(at 203.2 154.94 0)
+		(at 209.55 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8079,17 +8448,6 @@
 			(justify left)
 		)
 		(uuid "9e1ffe91-56d3-4650-97a9-a3e088372f83")
-	)
-	(hierarchical_label "M1-2_P_EN"
-		(shape input)
-		(at 55.88 142.24 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b2239e4a-6294-4c0c-83eb-9ef7acb3218f")
 	)
 	(hierarchical_label "M2Power"
 		(shape output)
@@ -8113,16 +8471,16 @@
 		)
 		(uuid "e6c1265f-ed06-43b6-9c5e-7cdee4b776c9")
 	)
-	(hierarchical_label "M3_P_EN"
+	(hierarchical_label "M1-2_P_EN"
 		(shape input)
-		(at 55.88 171.45 180)
+		(at 55.88 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "f2a36253-97df-4b72-8fb2-9cfd1292a27e")
+		(uuid "e8884a79-3429-49a0-b52e-ad55cfb0b063")
 	)
 	(hierarchical_label "COM_P_EN"
 		(shape input)
@@ -8169,7 +8527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "001fc10f-4fba-401b-bd46-44a8f18d8dab")
-		(property "Reference" "C226"
+		(property "Reference" "C228"
 			(at 195.58 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8244,7 +8602,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C226")
+					(reference "C228")
 					(unit 1)
 				)
 			)
@@ -8262,7 +8620,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05f2d893-1900-4a6a-b5db-36eb1a22c802")
-		(property "Reference" "C206"
+		(property "Reference" "C208"
 			(at 259.08 49.5362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8337,7 +8695,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C206")
+					(reference "C208")
 					(unit 1)
 				)
 			)
@@ -8501,7 +8859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16df71db-e1f0-4ec6-bbda-0a067fe8c36a")
-		(property "Reference" "U202"
+		(property "Reference" "U203"
 			(at 139.7 31.75 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8597,7 +8955,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U202")
+					(reference "U203")
 					(unit 1)
 				)
 			)
@@ -8637,7 +8995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 158.242 165.1 90)
 			(hide yes)
 			(show_name no)
@@ -8670,7 +9028,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23137"
+		(property "LCSC Part" "C25778"
 			(at 160.02 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -8730,7 +9088,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.292 146.05 90)
 			(hide yes)
 			(show_name no)
@@ -8796,7 +9154,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22087"
+		(property "LCSC Part" "C25774"
 			(at 179.07 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9060,7 +9418,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9126,7 +9484,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23178"
+		(property "LCSC Part" "C25790"
 			(at 179.07 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9186,7 +9544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2021be12-2e02-4950-96b9-b6b242da0062")
-		(property "Reference" "C217"
+		(property "Reference" "C219"
 			(at 31.75 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9261,7 +9619,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C217")
+					(reference "C219")
 					(unit 1)
 				)
 			)
@@ -9279,7 +9637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22d62f03-bd32-42df-8e39-e257209f2587")
-		(property "Reference" "C222"
+		(property "Reference" "C224"
 			(at 229.87 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9354,7 +9712,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C222")
+					(reference "C224")
 					(unit 1)
 				)
 			)
@@ -9372,7 +9730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23015bda-4ba9-4133-af13-17966be49480")
-		(property "Reference" "C205"
+		(property "Reference" "C207"
 			(at 194.31 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9502,7 +9860,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C205")
+					(reference "C207")
 					(unit 1)
 				)
 			)
@@ -9520,7 +9878,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25b09671-caf5-4e4b-b316-9349bb088aca")
-		(property "Reference" "C208"
+		(property "Reference" "C210"
 			(at 93.98 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9650,7 +10008,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C208")
+					(reference "C210")
 					(unit 1)
 				)
 			)
@@ -9759,7 +10117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c3d8bc7-fbe6-4ff1-b859-3531d96bac2d")
-		(property "Reference" "C227"
+		(property "Reference" "C229"
 			(at 207.01 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9834,7 +10192,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C227")
+					(reference "C229")
 					(unit 1)
 				)
 			)
@@ -10085,6 +10443,17 @@
 				)
 			)
 		)
+		(property "秋月 Part" "112247"
+			(at 256.54 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "136e4b73-39fc-4293-aaec-e4c1f0af2816")
 		)
@@ -10205,7 +10574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "428c2cd8-df16-4d20-8822-89ab3e08ff14")
-		(property "Reference" "C238"
+		(property "Reference" "C241"
 			(at 153.67 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10335,7 +10704,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C238")
+					(reference "C241")
 					(unit 1)
 				)
 			)
@@ -10499,7 +10868,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "453ddd21-9575-463e-94e6-a14bc35ba5d3")
-		(property "Reference" "C213"
+		(property "Reference" "C215"
 			(at 195.58 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10629,7 +10998,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C213")
+					(reference "C215")
 					(unit 1)
 				)
 			)
@@ -10647,7 +11016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4718e913-b081-430f-b035-dc55315c2ce2")
-		(property "Reference" "C220"
+		(property "Reference" "C222"
 			(at 207.01 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10722,7 +11091,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C220")
+					(reference "C222")
 					(unit 1)
 				)
 			)
@@ -10739,7 +11108,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4721a930-001b-47f8-bea5-f96c054263ef")
-		(property "Reference" "C215"
+		(property "Reference" "C217"
 			(at 34.29 73.6662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10814,7 +11183,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C215")
+					(reference "C217")
 					(unit 1)
 				)
 			)
@@ -10832,7 +11201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48a02615-585a-4cf0-9998-c79842b05cbe")
-		(property "Reference" "U203"
+		(property "Reference" "U204"
 			(at 275.59 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10943,7 +11312,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U203")
+					(reference "U204")
 					(unit 5)
 				)
 			)
@@ -11091,7 +11460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a40c061-c1a6-43d1-bf62-67da4f8e396a")
-		(property "Reference" "C207"
+		(property "Reference" "C209"
 			(at 63.5 57.1562 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11113,7 +11482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 60.96 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11146,7 +11515,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C15850"
+		(property "LCSC Part" "C15525"
 			(at 60.96 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11166,7 +11535,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C207")
+					(reference "C209")
 					(unit 1)
 				)
 			)
@@ -11184,7 +11553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b31b086-776d-4bb7-96b5-a884a5823b3a")
-		(property "Reference" "U209"
+		(property "Reference" "U210"
 			(at 139.7 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11228,6 +11597,17 @@
 		)
 		(property "Description" "Buck-Boost Converter, 2-16V Input Voltage, 3.6A Switch Current, Adjustable 2.5-9V Output Voltage, VQFN10-15"
 			(at 129.54 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2072046"
+			(at 139.7 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,7 +11665,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U209")
+					(reference "U210")
 					(unit 1)
 				)
 			)
@@ -11400,7 +11780,7 @@
 				)
 			)
 		)
-		(property "Mouser Part" ""
+		(property "Mouser Part" "963-LSXND5050WDL2R2N"
 			(at 156.21 68.58 90)
 			(hide yes)
 			(show_name no)
@@ -11449,7 +11829,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e090e9d-a988-46c9-9f07-f62e4ac14e4d")
-		(property "Reference" "C221"
+		(property "Reference" "C223"
 			(at 218.44 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11524,7 +11904,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C221")
+					(reference "C223")
 					(unit 1)
 				)
 			)
@@ -11553,7 +11933,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "20k"
 			(at 184.15 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11630,7 +12010,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C25765"
 			(at 181.61 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11942,7 +12322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "594ed65b-a38e-4133-948b-dcb54831fe3d")
-		(property "Reference" "C219"
+		(property "Reference" "C221"
 			(at 195.58 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12017,7 +12397,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C219")
+					(reference "C221")
 					(unit 1)
 				)
 			)
@@ -12046,7 +12426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27k"
+		(property "Value" "47k"
 			(at 184.15 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12057,7 +12437,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.61 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12123,7 +12503,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22967"
+		(property "LCSC Part" "C25792"
 			(at 181.61 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -12354,7 +12734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "697b7924-8afc-45fd-a456-994f07fa8069")
-		(property "Reference" "U203"
+		(property "Reference" "U204"
 			(at 63.4917 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12463,7 +12843,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U203")
+					(reference "U204")
 					(unit 3)
 				)
 			)
@@ -12481,7 +12861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a626a1b-00a8-4d4b-a244-5283fbf05ee8")
-		(property "Reference" "C228"
+		(property "Reference" "C230"
 			(at 218.44 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12556,7 +12936,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C228")
+					(reference "C230")
 					(unit 1)
 				)
 			)
@@ -12720,7 +13100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b9d736b-8f18-48e0-a253-e14b087731b1")
-		(property "Reference" "C224"
+		(property "Reference" "C226"
 			(at 111.76 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12850,7 +13230,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C224")
+					(reference "C226")
 					(unit 1)
 				)
 			)
@@ -13253,7 +13633,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.9k"
+		(property "Value" "15k"
 			(at 184.15 72.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13264,7 +13644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.61 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13330,7 +13710,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23018"
+		(property "LCSC Part" "C25756"
 			(at 181.61 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -13624,6 +14004,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:XC6206PxxxMR")
+		(at 50.8 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "72e531c0-2813-4009-9d7c-02bb392cefd0")
+		(property "Reference" "U207"
+			(at 50.8 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XC6206P332MR"
+			(at 50.8 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 50.8 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.torexsemi.com/file/xc6206/XC6206.pdf"
+			(at 50.8 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"
+			(at 50.8 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5446"
+			(at 50.8 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4dd5548e-3577-446e-80fa-8bf522f261dc")
+		)
+		(pin "3"
+			(uuid "6c9fe896-956e-4892-8542-33ab2b3e2fff")
+		)
+		(pin "1"
+			(uuid "6129994f-7def-48d3-a19b-3d9f1f54fccc")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
+					(reference "U207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 119.38 146.05 0)
 		(unit 1)
@@ -13635,7 +14110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7793b823-91b2-41e3-9a07-e9f717f25f37")
-		(property "Reference" "C232"
+		(property "Reference" "C234"
 			(at 123.19 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13765,7 +14240,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C232")
+					(reference "C234")
 					(unit 1)
 				)
 			)
@@ -13783,7 +14258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7991b03f-0889-4fde-a780-406f4a4d3564")
-		(property "Reference" "C225"
+		(property "Reference" "C227"
 			(at 123.19 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13913,7 +14388,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C225")
+					(reference "C227")
 					(unit 1)
 				)
 			)
@@ -14070,7 +14545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.022 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -14136,7 +14611,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25153"
+		(property "LCSC Part" "C25783"
 			(at 177.8 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -14186,7 +14661,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 158.75 0)
+		(at 195.58 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14196,8 +14671,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "812e6b19-0e9c-4868-a47a-5afb9c070e37")
-		(property "Reference" "C234"
-			(at 193.04 157.4799 0)
+		(property "Reference" "C237"
+			(at 199.39 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14208,7 +14683,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 193.04 160.0199 0)
+			(at 199.39 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14219,7 +14694,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 190.1952 162.56 0)
+			(at 196.5452 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14230,7 +14705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 158.75 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14241,7 +14716,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 158.75 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14252,7 +14727,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 189.23 158.75 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14263,7 +14738,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 189.23 158.75 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14274,7 +14749,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 189.23 158.75 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14285,7 +14760,7 @@
 			)
 		)
 		(property "LCSC Part" "C45783"
-			(at 189.23 158.75 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14296,7 +14771,7 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 189.23 158.75 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14307,7 +14782,7 @@
 			)
 		)
 		(property "DigiKey Part" ""
-			(at 189.23 158.75 0)
+			(at 195.58 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14326,7 +14801,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C234")
+					(reference "C237")
 					(unit 1)
 				)
 			)
@@ -14344,7 +14819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89c0ea1f-f2a5-4299-aaed-577c3be0525d")
-		(property "Reference" "U203"
+		(property "Reference" "U204"
 			(at 124.4517 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14453,7 +14928,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U203")
+					(reference "U204")
 					(unit 4)
 				)
 			)
@@ -14549,7 +15024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d73c2d9-f24f-4de8-b992-c90be2d890a2")
-		(property "Reference" "C216"
+		(property "Reference" "C218"
 			(at 127 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14679,7 +15154,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C216")
+					(reference "C218")
 					(unit 1)
 				)
 			)
@@ -14697,7 +15172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91dcb27c-ff98-4706-b421-91a7469a92bd")
-		(property "Reference" "U203"
+		(property "Reference" "U204"
 			(at 63.4917 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14806,8 +15281,156 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U203")
+					(reference "U204")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 172.72 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "954d7694-7cbc-48db-9747-ca56907e3ee4")
+		(property "Reference" "C235"
+			(at 176.53 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 176.53 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 173.6852 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15850"
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" ""
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 172.72 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "be98107f-238b-4380-9842-687a5513dcfa")
+		)
+		(pin "1"
+			(uuid "0687fee0-a751-47df-bd51-7ceea76b8eab")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
+					(reference "C235")
+					(unit 1)
 				)
 			)
 		)
@@ -14824,7 +15447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99e1fdc9-4b44-4b5d-b568-9624da7fd6dc")
-		(property "Reference" "C218"
+		(property "Reference" "C220"
 			(at 69.85 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14899,7 +15522,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C218")
+					(reference "C220")
 					(unit 1)
 				)
 			)
@@ -14917,7 +15540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9afa60fe-88d3-412e-a5a1-52972c57230b")
-		(property "Reference" "C212"
+		(property "Reference" "C214"
 			(at 173.99 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15047,7 +15670,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C212")
+					(reference "C214")
 					(unit 1)
 				)
 			)
@@ -15065,7 +15688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e6430f5-f502-4e8c-9c55-1277b315b5ff")
-		(property "Reference" "U203"
+		(property "Reference" "U204"
 			(at 63.4917 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15174,7 +15797,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U203")
+					(reference "U204")
 					(unit 1)
 				)
 			)
@@ -15192,7 +15815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fa0345b-14dc-4cb5-a643-8bb54df0a07a")
-		(property "Reference" "C230"
+		(property "Reference" "C232"
 			(at 100.33 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15322,7 +15945,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C230")
+					(reference "C232")
 					(unit 1)
 				)
 			)
@@ -15418,7 +16041,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a3773e-bb5a-486b-86f7-3aaa86d4990a")
-		(property "Reference" "C214"
+		(property "Reference" "C216"
 			(at 207.01 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15548,7 +16171,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C214")
+					(reference "C216")
 					(unit 1)
 				)
 			)
@@ -15701,95 +16324,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Project:XC6201P332MR")
-		(at 50.8 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8af3313-80ad-404b-a6d0-4b66d4c5dd5d")
-		(property "Reference" "U206"
-			(at 50.8 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XC6201P332MR"
-			(at 50.8 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 50.8 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.torexsemi.com/file/xc6210/XC6210.pdf"
-			(at 69.85 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "150mA, Low Drop-out Voltage Regulator, Fixed Output 3.3V, SOT-25"
-			(at 50.8 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "bf45051a-440b-4417-a2dc-79a05b38defa")
-		)
-		(pin "2"
-			(uuid "7372a6aa-71a6-45f8-a8fc-67365b9f34c2")
-		)
-		(pin "1"
-			(uuid "754ad2d4-d248-4efb-adbe-42a0eb890271")
-		)
-		(pin "4"
-			(uuid "85d9fe90-e852-4f51-9270-74504ce4909c")
-		)
-		(pin "5"
-			(uuid "8071e136-efff-4d17-8994-482ec70f131c")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sensor_Energy:INA226")
 		(at 50.8 73.66 0)
 		(unit 1)
@@ -15800,7 +16334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9f5cff9-63f4-45b4-addd-153a05f73c66")
-		(property "Reference" "U204"
+		(property "Reference" "U205"
 			(at 47.6819 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15899,7 +16433,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U204")
+					(reference "U205")
 					(unit 1)
 				)
 			)
@@ -15916,7 +16450,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab1765fe-5dac-4b06-830e-97af22b499c0")
-		(property "Reference" "C211"
+		(property "Reference" "C213"
 			(at 156.21 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16046,7 +16580,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C211")
+					(reference "C213")
 					(unit 1)
 				)
 			)
@@ -16064,7 +16598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab68465b-788f-4f16-9fe3-d897c3fff85f")
-		(property "Reference" "C203"
+		(property "Reference" "C205"
 			(at 105.41 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16194,7 +16728,154 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C203")
+					(reference "C205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 238.76 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b5646a3b-f182-4f33-ab7e-11ce65777216")
+		(property "Reference" "C204"
+			(at 242.57 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 242.57 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 239.7252 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" ""
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 238.76 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51e62390-6542-471d-a7b5-4d4d81bb14b5")
+		)
+		(pin "2"
+			(uuid "136e3b19-3f07-439e-87e2-434975d4286b")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
+					(reference "C204")
 					(unit 1)
 				)
 			)
@@ -16587,7 +17268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.292 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -16653,7 +17334,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C22087"
+		(property "LCSC Part" "C25774"
 			(at 179.07 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -16713,7 +17394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2f78243-1170-4c5e-8547-a25783a0c330")
-		(property "Reference" "U208"
+		(property "Reference" "U209"
 			(at 139.7 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16757,6 +17438,17 @@
 		)
 		(property "Description" ""
 			(at 127 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2071394"
+			(at 139.7 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16841,7 +17533,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U208")
+					(reference "U209")
 					(unit 1)
 				)
 			)
@@ -16964,7 +17656,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 177.8 158.75 0)
+		(at 184.15 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16974,8 +17666,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9eb9db1-7fc8-4280-8748-60909ad2d15f")
-		(property "Reference" "C233"
-			(at 181.61 157.4799 0)
+		(property "Reference" "C236"
+			(at 187.96 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16986,7 +17678,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 181.61 160.0199 0)
+			(at 187.96 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16997,7 +17689,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 178.7652 162.56 0)
+			(at 185.1152 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17008,7 +17700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 158.75 0)
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17019,7 +17711,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 177.8 158.75 0)
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17030,7 +17722,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 177.8 158.75 0)
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17041,7 +17733,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 177.8 158.75 0)
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17052,7 +17744,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 177.8 158.75 0)
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17063,7 +17755,7 @@
 			)
 		)
 		(property "LCSC Part" "C45783"
-			(at 177.8 158.75 0)
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17074,7 +17766,7 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 177.8 158.75 0)
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17085,7 +17777,7 @@
 			)
 		)
 		(property "DigiKey Part" ""
-			(at 177.8 158.75 0)
+			(at 184.15 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17104,7 +17796,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C233")
+					(reference "C236")
 					(unit 1)
 				)
 			)
@@ -17216,7 +17908,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 200.66 158.75 0)
+		(at 207.01 158.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17226,8 +17918,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb198389-58e2-43d0-8fa3-c37fd7074fd5")
-		(property "Reference" "C235"
-			(at 204.47 157.4799 0)
+		(property "Reference" "C238"
+			(at 210.82 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17238,7 +17930,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 204.47 160.0199 0)
+			(at 210.82 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17249,7 +17941,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 201.6252 162.56 0)
+			(at 207.9752 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17260,7 +17952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 158.75 0)
+			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17271,7 +17963,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 200.66 158.75 0)
+			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17282,7 +17974,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 200.66 158.75 0)
+			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17293,7 +17985,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 200.66 158.75 0)
+			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17304,7 +17996,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 200.66 158.75 0)
+			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17315,7 +18007,7 @@
 			)
 		)
 		(property "LCSC Part" "C45783"
-			(at 200.66 158.75 0)
+			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17326,7 +18018,7 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 200.66 158.75 0)
+			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17337,7 +18029,7 @@
 			)
 		)
 		(property "DigiKey Part" ""
-			(at 200.66 158.75 0)
+			(at 207.01 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17356,7 +18048,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C235")
+					(reference "C238")
 					(unit 1)
 				)
 			)
@@ -17374,7 +18066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd7eedfa-2397-42bf-aff9-62bbaef2ba3f")
-		(property "Reference" "C229"
+		(property "Reference" "C231"
 			(at 229.87 134.6199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17449,7 +18141,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C229")
+					(reference "C231")
 					(unit 1)
 				)
 			)
@@ -17467,7 +18159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d123b357-4452-401e-851f-fc915889e01e")
-		(property "Reference" "C204"
+		(property "Reference" "C206"
 			(at 151.13 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17597,7 +18289,155 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C204")
+					(reference "C206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 210.82 25.4 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc20b6a1-ba38-4df1-adae-1b41e1003baf")
+		(property "Reference" "C203"
+			(at 207.01 24.1299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 207.01 26.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 209.8548 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" ""
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 210.82 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "703e0a3a-8eb0-4025-804f-eac8acc00a48")
+		)
+		(pin "2"
+			(uuid "28ac8d35-f66e-4a35-83ad-75dabdc1fc6f")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
+					(reference "C203")
 					(unit 1)
 				)
 			)
@@ -17615,7 +18455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de89084f-e247-4682-be81-2a2b6530102a")
-		(property "Reference" "U207"
+		(property "Reference" "U208"
 			(at 139.7 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17659,6 +18499,17 @@
 		)
 		(property "Description" ""
 			(at 127 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2071394"
+			(at 139.7 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17743,7 +18594,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U207")
+					(reference "U208")
 					(unit 1)
 				)
 			)
@@ -17931,7 +18782,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 179.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -17997,7 +18848,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23178"
+		(property "LCSC Part" "C25790"
 			(at 179.07 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -18057,7 +18908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1d0044-82fe-4e2c-b687-a8e29aeef0a9")
-		(property "Reference" "C210"
+		(property "Reference" "C212"
 			(at 116.84 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18187,7 +19038,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C210")
+					(reference "C212")
 					(unit 1)
 				)
 			)
@@ -18205,7 +19056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea5f9b40-bb68-42b3-a0f7-fed7f25e4c5f")
-		(property "Reference" "C209"
+		(property "Reference" "C211"
 			(at 105.41 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18335,7 +19186,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C209")
+					(reference "C211")
 					(unit 1)
 				)
 			)
@@ -18353,7 +19204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eac0ed77-e075-40b8-b0b3-ee262cb05126")
-		(property "Reference" "C223"
+		(property "Reference" "C225"
 			(at 100.33 114.2999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18483,7 +19334,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C223")
+					(reference "C225")
 					(unit 1)
 				)
 			)
@@ -18888,7 +19739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0acda70-4f65-47b9-a103-9bf2f430748b")
-		(property "Reference" "U205"
+		(property "Reference" "U206"
 			(at 139.7 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18984,7 +19835,107 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "U205")
+					(reference "U206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Project:TCR2LN18")
+		(at 226.06 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f15b811b-f4d9-43eb-a002-5ee0646e4331")
+		(property "Reference" "U202"
+			(at 226.06 13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TCR2LN18"
+			(at 226.06 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Project:SDFN4"
+			(at 226.06 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://toshiba.semicon-storage.com/info/TCR2LN18_datasheet_ja_20210831.pdf?did=139783&prodName=TCR2LN18"
+			(at 219.71 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "200mA Low-dropout Voltage Regulator, Vout 1.8V, Vin up to 5.5V, SDFN4"
+			(at 226.06 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7360727"
+			(at 226.06 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "8af5a942-4059-4f3c-b6ef-ea7d0228ec20")
+		)
+		(pin "2"
+			(uuid "2b9c0df8-30d4-4f6d-9b91-ff6d365bd1af")
+		)
+		(pin "3"
+			(uuid "58341566-1173-4f39-a4d9-ec1f501d12fb")
+		)
+		(pin "1"
+			(uuid "47f0e57b-abb8-4b4c-86d8-baa796724fa9")
+		)
+		(pin "5"
+			(uuid "64175ad8-7a9c-4007-a35f-2630b6eb5041")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
+					(reference "U202")
 					(unit 1)
 				)
 			)
@@ -19002,7 +19953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5d8a886-a170-41e8-80a3-a43bc1bfc8a7")
-		(property "Reference" "C236"
+		(property "Reference" "C239"
 			(at 100.33 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19132,7 +20083,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C236")
+					(reference "C239")
 					(unit 1)
 				)
 			)
@@ -19150,7 +20101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feab18b9-0a71-4189-ab20-87a73fcfc67c")
-		(property "Reference" "C231"
+		(property "Reference" "C233"
 			(at 111.76 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19280,7 +20231,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C231")
+					(reference "C233")
 					(unit 1)
 				)
 			)
@@ -19298,7 +20249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff58691c-55e9-463e-8abe-831fed2fb357")
-		(property "Reference" "C237"
+		(property "Reference" "C240"
 			(at 111.76 181.6099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19428,7 +20379,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/886056d2-5282-44d2-b476-bdbecbe7b2be"
-					(reference "C237")
+					(reference "C240")
 					(unit 1)
 				)
 			)

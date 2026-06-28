@@ -5,6 +5,161 @@
 	(uuid "740d17fd-8f52-427a-91ff-026de7d894c5")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_3_Bridged12"
 			(pin_names
 				(offset 0)
@@ -256,7 +411,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Project:AE-LSM6DSV16X"
+		(symbol "Sensor_Motion:LSM6DS3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -273,7 +428,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "AE-LSM6DSV16X"
+			(property "Value" "LSM6DS3"
 				(at -11.43 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -284,7 +439,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "Project:AE-LSM6DSV16X"
+			(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 				(at -10.16 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -296,7 +451,7 @@
 					(justify left)
 				)
 			)
-			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf"
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf"
 				(at 2.54 -16.51 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -307,7 +462,7 @@
 					)
 				)
 			)
-			(property "Description" "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope, with auxiliary SPI, 1.71V to 3.6V VCC"
+			(property "Description" "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -340,10 +495,10 @@
 					)
 				)
 			)
-			(symbol "AE-LSM6DSV16X_0_1"
+			(symbol "LSM6DS3_0_1"
 				(rectangle
-					(start 11.43 11.43)
-					(end -11.43 -11.43)
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -353,11 +508,11 @@
 					)
 				)
 			)
-			(symbol "AE-LSM6DSV16X_1_1"
-				(pin passive line
-					(at -15.24 5.08 0)
-					(length 3.81)
-					(name "SDX"
+			(symbol "LSM6DS3_1_1"
+				(pin bidirectional line
+					(at -15.24 7.62 0)
+					(length 2.54)
+					(name "SDO/SA0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -372,10 +527,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 2.54 0)
-					(length 3.81)
-					(name "SCX"
+				(pin bidirectional line
+					(at -15.24 5.08 0)
+					(length 2.54)
+					(name "SDX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -390,10 +545,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 15.24 7.62 180)
-					(length 3.81)
-					(name "INT1"
+				(pin input line
+					(at -15.24 2.54 0)
+					(length 2.54)
+					(name "SCX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -409,9 +564,9 @@
 					)
 				)
 				(pin output line
-					(at 15.24 5.08 180)
-					(length 3.81)
-					(name "INT2"
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "INT1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -427,9 +582,9 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -15.24 90)
-					(length 3.81)
-					(name "GND"
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VDDIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -445,9 +600,9 @@
 					)
 				)
 				(pin power_in line
-					(at 2.54 15.24 270)
-					(length 3.81)
-					(name "VDD"
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -463,9 +618,10 @@
 					)
 				)
 				(pin passive line
-					(at -15.24 0 0)
-					(length 3.81)
-					(name "OCS_Aux"
+					(at 0 -15.24 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -480,10 +636,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 10.16 0)
-					(length 3.81)
-					(name "SDO_Aux"
+				(pin power_in line
+					(at 2.54 15.24 270)
+					(length 2.54)
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -498,10 +654,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 -7.62 0)
-					(length 3.81)
-					(name "CS"
+				(pin output line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "INT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -516,10 +672,11 @@
 						)
 					)
 				)
-				(pin input line
-					(at -15.24 -5.08 0)
+				(pin no_connect line
+					(at 12.7 -5.08 180)
 					(length 3.81)
-					(name "SCL"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -534,10 +691,11 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 -2.54 0)
+				(pin no_connect line
+					(at 12.7 -2.54 180)
 					(length 3.81)
-					(name "SDA"
+					(hide yes)
+					(name "NC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -552,10 +710,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -15.24 7.62 0)
-					(length 3.81)
-					(name "SDO/SA0"
+				(pin input line
+					(at -15.24 -7.62 0)
+					(length 2.54)
+					(name "CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -570,9 +728,69 @@
 						)
 					)
 				)
+				(pin input line
+					(at -15.24 -5.08 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -15.24 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
+	)
+	(junction
+		(at 149.86 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02cafbbc-9314-4931-ba5f-93f0db51a43d")
+	)
+	(junction
+		(at 165.1 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c592ee9-c950-49ef-bdc7-8f5398501fde")
+	)
+	(junction
+		(at 152.4 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "677a7d72-f623-4b38-8012-2520e2e2ca4f")
+	)
+	(junction
+		(at 167.64 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "861611b0-3b98-4702-ae97-8dd2e1d4cae5")
 	)
 	(junction
 		(at 130.81 86.36)
@@ -580,31 +798,13 @@
 		(color 0 0 0 0)
 		(uuid "86f786e4-3453-40f4-b089-2754ddea60f2")
 	)
-	(junction
-		(at 149.86 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dac1d473-9522-4ac2-bf3e-0c53631d0add")
-	)
-	(no_connect
-		(at 149.86 109.22)
-		(uuid "4b29252c-5438-409a-95d0-abf7ed906987")
-	)
 	(no_connect
 		(at 180.34 93.98)
 		(uuid "5639de38-c856-4917-b0b8-2d35e34b0b00")
 	)
 	(no_connect
-		(at 149.86 101.6)
-		(uuid "95d2324d-0c6a-4e5b-a663-91621a01079e")
-	)
-	(no_connect
 		(at 180.34 96.52)
 		(uuid "b081ee6c-0418-444c-a48d-09ba73a92f89")
-	)
-	(no_connect
-		(at 149.86 91.44)
-		(uuid "d0a300bf-973b-4ec0-839c-1fc09d597fa7")
 	)
 	(wire
 		(pts
@@ -618,13 +818,63 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 86.36) (xy 167.64 86.36)
+			(xy 158.75 82.55) (xy 158.75 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff1db54-1569-42fe-808b-343ab340e156")
+	)
+	(wire
+		(pts
+			(xy 152.4 86.36) (xy 165.1 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a092e18-d401-4808-b6be-2f05747150c9")
+	)
+	(wire
+		(pts
+			(xy 130.81 86.36) (xy 152.4 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4294d60f-f0c0-4c9d-8e8c-ca79daf5e893")
+	)
+	(wire
+		(pts
+			(xy 168.91 86.36) (xy 168.91 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "464e800d-b95f-4fbd-ad2e-1c7d85bbaab1")
+	)
+	(wire
+		(pts
+			(xy 168.91 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527c57fc-39bd-45ab-bd60-73a407ef0bfb")
+	)
+	(wire
+		(pts
+			(xy 168.91 74.93) (xy 173.99 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6794d4e2-2711-4dc1-8a55-03b05266bc3b")
 	)
 	(wire
 		(pts
@@ -635,6 +885,26 @@
 			(type default)
 		)
 		(uuid "6c67db22-c3fb-4fe6-9854-b15db2e6fb34")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1703eb-917a-43f2-a034-58ecc78002aa")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 149.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802492e5-680b-492e-b288-ecff1a185698")
 	)
 	(wire
 		(pts
@@ -688,6 +958,26 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 86.36) (xy 152.4 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afa87fb3-ade0-422a-9272-bfd0d176e2e9")
+	)
+	(wire
+		(pts
+			(xy 152.4 74.93) (xy 158.75 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e9c691-7c4b-4a19-aa4a-47e189186d4e")
+	)
+	(wire
+		(pts
 			(xy 127 106.68) (xy 149.86 106.68)
 		)
 		(stroke
@@ -698,16 +988,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 96.52) (xy 149.86 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9079d31-b9ca-4bbd-ac3d-67e11af76378")
-	)
-	(wire
-		(pts
 			(xy 135.89 93.98) (xy 149.86 93.98)
 		)
 		(stroke
@@ -715,6 +995,16 @@
 			(type default)
 		)
 		(uuid "f9f3e7dc-cbb5-4728-b25d-f83c87eb5509")
+	)
+	(wire
+		(pts
+			(xy 173.99 82.55) (xy 173.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc59e5ea-f5e5-4ec6-bc03-e193ec1e86da")
 	)
 	(label "GND"
 		(at 143.51 88.9 0)
@@ -727,6 +1017,36 @@
 		(uuid "16ce0a26-d75b-425f-8de2-76a3bcf50cd0")
 	)
 	(label "GND"
+		(at 158.75 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db45f5c2-c8be-4db5-b477-1e3ac629af0e")
+	)
+	(label "VCC"
+		(at 149.86 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e539f23e-1d57-49d8-9b6f-c391a681d001")
+	)
+	(label "GND"
+		(at 173.99 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f124febd-8fff-46f7-b727-87ce44c82b10")
+	)
+	(label "GND"
 		(at 147.32 96.52 180)
 		(effects
 			(font
@@ -734,7 +1054,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "64cb239e-c62f-4d76-8d6f-93804924cfea")
+		(uuid "fafaeb81-542b-4e6a-ac94-4b4638b9a548")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -781,7 +1101,155 @@
 		(uuid "fa3fae84-a3c5-4b85-8140-70a6423a8d96")
 	)
 	(symbol
-		(lib_id "Project:AE-LSM6DSV16X")
+		(lib_id "Device:C")
+		(at 158.75 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d82db35-280f-493b-baf9-037ef8c6d5be")
+		(property "Reference" "C701"
+			(at 162.56 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 162.56 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 159.7152 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 158.75 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8bf3ac91-08f8-4365-a7b7-645a76c9a12f")
+		)
+		(pin "1"
+			(uuid "5ee77ffe-8735-4812-8886-b7fdff2c9e73")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c/3dae0571-a617-4475-ac43-9ed32fe297f9"
+					(reference "C701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Motion:LSM6DS3")
 		(at 165.1 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -791,9 +1259,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "afe6807c-86e5-4bd7-a229-cbe5fc998e65")
+		(uuid "f3acb5a1-8943-4001-9b0c-75323fc7c69a")
 		(property "Reference" "U701"
-			(at 169.7833 85.09 0)
+			(at 167.2433 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -803,8 +1271,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AE-LSM6DSV16X"
-			(at 169.7833 87.63 0)
+		(property "Value" "LSM6DSV"
+			(at 167.2433 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -814,7 +1282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Project:AE-LSM6DSV16X"
+		(property "Footprint" "Package_LGA:LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 			(at 154.94 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -826,7 +1294,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6dsv16x.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf"
 			(at 167.64 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -837,7 +1305,7 @@
 				)
 			)
 		)
-		(property "Description" "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope, with auxiliary SPI, 1.71V to 3.6V VCC"
+		(property "Description" "I2C/SPI, iNEMO inertial module: always-on 3D accelerometer and 3D gyroscope"
 			(at 165.1 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -848,41 +1316,58 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "5510ffe9-7bb2-4aa4-afa1-73bd7905f232")
-		)
-		(pin "5"
-			(uuid "58e2e6fb-dc5f-4dff-a3b6-2d68300d7aff")
-		)
-		(pin "7"
-			(uuid "af350b7c-10bc-4eb9-a958-62ad54f1f639")
-		)
-		(pin "3"
-			(uuid "4370bf2a-0fff-4158-a79c-ce8becec972f")
-		)
-		(pin "11"
-			(uuid "66c1b669-ac7c-4023-9846-a9ddbd422134")
-		)
-		(pin "4"
-			(uuid "94c2bada-5edb-4093-9ac5-452b4bd47834")
-		)
-		(pin "1"
-			(uuid "ec26b04e-633e-415e-9c1c-3b53ca3313d0")
-		)
-		(pin "10"
-			(uuid "93935d52-69e9-435b-afa9-8b8f3879558f")
-		)
-		(pin "6"
-			(uuid "158136a7-2ff7-4a04-b405-2f3ced223298")
-		)
-		(pin "8"
-			(uuid "c659fd57-176f-4f69-ab58-839f8667161e")
+		(property "LCSC Part" "C5267399"
+			(at 165.1 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
 		(pin "9"
-			(uuid "23247d70-051e-4302-83fd-78a08036ece4")
+			(uuid "ec4d4727-a628-4e01-9e7d-25cc242a07b5")
+		)
+		(pin "13"
+			(uuid "4b5cba08-6307-4f49-89cb-ed79097614bb")
+		)
+		(pin "5"
+			(uuid "5cf2061b-a361-4b87-a5b0-5c1a7fd4e46c")
+		)
+		(pin "6"
+			(uuid "4a8a36e2-b7e7-4586-acd5-dcd7811a2ef9")
+		)
+		(pin "7"
+			(uuid "0b12fa50-b11a-4c3e-a753-e8cb898f8be9")
+		)
+		(pin "8"
+			(uuid "7eeea3f7-c01f-43fc-b829-571c5d73ed3a")
 		)
 		(pin "12"
-			(uuid "ea913eca-c5c7-4c58-8d7c-5c1242b138e5")
+			(uuid "915b3cb7-67a6-4372-be24-385a87c1c016")
+		)
+		(pin "14"
+			(uuid "075d2152-4ba3-4724-8f69-61cc3219b705")
+		)
+		(pin "4"
+			(uuid "f532f6b0-f5f4-4614-b260-600e6c7574df")
+		)
+		(pin "2"
+			(uuid "3e097f8d-2e79-4e90-8594-18dbf67f6e62")
+		)
+		(pin "10"
+			(uuid "ebc84e36-508c-4ac0-a2a1-82f839de384a")
+		)
+		(pin "1"
+			(uuid "460036ff-8315-4a01-bb9e-2b051835f6b9")
+		)
+		(pin "3"
+			(uuid "9f620d13-3174-48cd-83ce-78c4156529e6")
+		)
+		(pin "11"
+			(uuid "f815e2ab-0b71-4142-8cdd-d74b470153d3")
 		)
 		(instances
 			(project "cansat2026"
@@ -1004,6 +1489,154 @@
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c/3dae0571-a617-4475-ac43-9ed32fe297f9"
 					(reference "JP701")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 173.99 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc5a6d72-a3b6-46df-a4fb-b9d9f3be2210")
+		(property "Reference" "C702"
+			(at 177.8 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 177.8 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 174.9552 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" ""
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 173.99 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed1cb266-018f-41e3-a023-3f04ac8e9066")
+		)
+		(pin "1"
+			(uuid "388ffa95-ac54-4d38-a7d3-50a9bc7a3dab")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/aa5cb7d0-df1f-4bc0-a855-31204212d19c/3dae0571-a617-4475-ac43-9ed32fe297f9"
+					(reference "C702")
 					(unit 1)
 				)
 			)

@@ -722,192 +722,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_Coaxial"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0.254 3.048 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 0)
-					(mid 0.222 -1.8079)
-					(end -1.778 -0.508)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.778 0.508)
-					(mid 0.2221 1.8084)
-					(end 1.778 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Conn_Coaxial_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "In"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Micro_SD_Card_Det_Hirose_DM3AT"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3154,6 +2968,10 @@
 		(uuid "87aa29b3-e704-4b53-9a31-93ac5540ed46")
 	)
 	(no_connect
+		(at 151.13 144.78)
+		(uuid "954813ae-6626-47b0-8294-5fdb679ceee0")
+	)
+	(no_connect
 		(at 151.13 157.48)
 		(uuid "d58d78de-ff76-4ed9-89a4-d3a1f9e43882")
 	)
@@ -3187,7 +3005,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 68.58) (xy 177.8 68.58)
+			(xy 180.34 71.12) (xy 177.8 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3207,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 66.04) (xy 177.8 66.04)
+			(xy 180.34 68.58) (xy 177.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3217,7 +3035,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 55.88) (xy 177.8 55.88)
+			(xy 180.34 58.42) (xy 177.8 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3257,7 +3075,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 45.72) (xy 177.8 45.72)
+			(xy 180.34 48.26) (xy 177.8 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3267,7 +3085,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 83.82) (xy 177.8 83.82)
+			(xy 180.34 86.36) (xy 177.8 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3307,7 +3125,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 105.41) (xy 177.8 105.41)
+			(xy 180.34 107.95) (xy 177.8 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3317,7 +3135,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 81.28) (xy 177.8 81.28)
+			(xy 180.34 83.82) (xy 177.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3327,7 +3145,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 71.12) (xy 177.8 71.12)
+			(xy 180.34 73.66) (xy 177.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3417,7 +3235,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 96.52) (xy 177.8 96.52)
+			(xy 180.34 99.06) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3537,7 +3355,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 86.36) (xy 63.5 86.36)
+			(xy 60.96 83.82) (xy 63.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3557,7 +3375,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 107.95) (xy 177.8 107.95)
+			(xy 180.34 110.49) (xy 177.8 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3607,7 +3425,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 99.06) (xy 177.8 99.06)
+			(xy 180.34 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3617,7 +3435,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 78.74) (xy 177.8 78.74)
+			(xy 180.34 81.28) (xy 177.8 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3637,7 +3455,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 88.9) (xy 177.8 88.9)
+			(xy 180.34 91.44) (xy 177.8 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3657,7 +3475,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 86.36) (xy 177.8 86.36)
+			(xy 180.34 88.9) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3757,7 +3575,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 58.42) (xy 177.8 58.42)
+			(xy 180.34 60.96) (xy 177.8 60.96)
 		)
 		(stroke
 			(width 0)
@@ -3857,7 +3675,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 110.49) (xy 177.8 110.49)
+			(xy 180.34 113.03) (xy 177.8 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3867,7 +3685,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 91.44) (xy 177.8 91.44)
+			(xy 180.34 93.98) (xy 177.8 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4137,7 +3955,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 63.5) (xy 177.8 63.5)
+			(xy 180.34 66.04) (xy 177.8 66.04)
 		)
 		(stroke
 			(width 0)
@@ -4217,6 +4035,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 86.36) (xy 63.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab02a778-6748-48ab-a218-7307655ec2ec")
+	)
+	(wire
+		(pts
 			(xy 104.14 124.46) (xy 104.14 134.62)
 		)
 		(stroke
@@ -4237,7 +4065,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 76.2) (xy 177.8 76.2)
+			(xy 180.34 78.74) (xy 177.8 78.74)
 		)
 		(stroke
 			(width 0)
@@ -4297,7 +4125,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 101.6) (xy 177.8 101.6)
+			(xy 180.34 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4327,16 +4155,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 149.86) (xy 156.21 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2bea614-7b50-4db6-9d01-67fe2ebc508d")
-	)
-	(wire
-		(pts
 			(xy 99.06 119.38) (xy 127 119.38)
 		)
 		(stroke
@@ -4357,7 +4175,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 93.98) (xy 177.8 93.98)
+			(xy 177.8 45.72) (xy 180.34 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c97be72d-7379-4916-a392-846237e61703")
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4377,7 +4205,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 53.34) (xy 177.8 53.34)
+			(xy 180.34 55.88) (xy 177.8 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4427,7 +4255,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 73.66) (xy 177.8 73.66)
+			(xy 180.34 76.2) (xy 177.8 76.2)
 		)
 		(stroke
 			(width 0)
@@ -4497,7 +4325,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 50.8) (xy 177.8 50.8)
+			(xy 180.34 53.34) (xy 177.8 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4655,18 +4483,8 @@
 		)
 		(uuid "13dfe416-a909-4379-8cd5-964b73ca1c0f")
 	)
-	(label "GND"
-		(at 156.21 152.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "15c03bfb-63de-40cf-9462-ae7e9998d927")
-	)
 	(label "CAM_PIN_VSYNC"
-		(at 180.34 76.2 0)
+		(at 180.34 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4686,7 +4504,7 @@
 		(uuid "1c23a066-9eec-4a65-9dd7-e2a263c99cb8")
 	)
 	(label "MCU_CAM_U0RXD"
-		(at 180.34 55.88 0)
+		(at 180.34 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4766,7 +4584,7 @@
 		(uuid "2682328a-ba70-4f9b-9847-621f09d252f0")
 	)
 	(label "COM_M1"
-		(at 180.34 110.49 0)
+		(at 180.34 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4806,7 +4624,7 @@
 		(uuid "2caa9560-38af-43c0-bf76-5016b225be3d")
 	)
 	(label "MCU_CAM_GPIO0"
-		(at 180.34 53.34 0)
+		(at 180.34 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4836,7 +4654,7 @@
 		(uuid "314a7700-65d9-4bf1-9d0b-89ef10ab4d2a")
 	)
 	(label "MCU_CAM_U0TXD"
-		(at 180.34 58.42 0)
+		(at 180.34 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4846,7 +4664,7 @@
 		(uuid "31c8aa07-afe6-477f-a5a5-91b085c72db5")
 	)
 	(label "CAM_PIN_XCLK"
-		(at 180.34 63.5 0)
+		(at 180.34 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4866,7 +4684,7 @@
 		(uuid "36072067-394d-40fe-b471-7b148d2b6648")
 	)
 	(label "COM_M0"
-		(at 180.34 107.95 0)
+		(at 180.34 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4884,6 +4702,16 @@
 			(justify right bottom)
 		)
 		(uuid "41479883-71b0-482c-b375-f779f093aac3")
+	)
+	(label "1.8V"
+		(at 60.96 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "425d870f-aa53-4bed-a43a-93c8453c5290")
 	)
 	(label "U2TXD"
 		(at 124.46 60.96 180)
@@ -4996,7 +4824,7 @@
 		(uuid "62c23134-97cf-4933-b873-aaff93291bd7")
 	)
 	(label "MCU_CAM_EN"
-		(at 180.34 50.8 0)
+		(at 180.34 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5046,7 +4874,7 @@
 		(uuid "669d7443-7068-4c28-9954-9fd1f84ddc45")
 	)
 	(label "CAM_PIN_SIOD"
-		(at 180.34 68.58 0)
+		(at 180.34 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5146,7 +4974,7 @@
 		(uuid "7f06f22e-6be9-4965-b368-f009ef125b40")
 	)
 	(label "CAM_PIN_D6"
-		(at 180.34 99.06 0)
+		(at 180.34 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5276,7 +5104,7 @@
 		(uuid "a3fef2d0-bbc9-4da7-89db-64b5c49bd452")
 	)
 	(label "CAM_PIN_D5"
-		(at 180.34 96.52 0)
+		(at 180.34 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5306,7 +5134,7 @@
 		(uuid "b008599a-a855-4af1-bd6e-1b43e5a77721")
 	)
 	(label "CAM_PIN_PCLK"
-		(at 180.34 81.28 0)
+		(at 180.34 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5336,7 +5164,7 @@
 		(uuid "b585dc1c-f441-4a00-a642-23497ba4838a")
 	)
 	(label "CAM_PIN_D2"
-		(at 180.34 88.9 0)
+		(at 180.34 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5355,6 +5183,16 @@
 		)
 		(uuid "b8653940-1d8f-47df-8624-3f270b64d58c")
 	)
+	(label "1.8V"
+		(at 180.34 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b9b96884-2d3c-4407-a5c0-e8dda3971fb2")
+	)
 	(label "GND"
 		(at 77.47 181.61 0)
 		(effects
@@ -5366,7 +5204,7 @@
 		(uuid "b9e9164a-327a-4f67-a631-752c06ac8e84")
 	)
 	(label "CAM_PIN_D0"
-		(at 180.34 83.82 0)
+		(at 180.34 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5376,7 +5214,7 @@
 		(uuid "bb7f9426-85bb-486d-8881-d7ab2def49b4")
 	)
 	(label "GND"
-		(at 180.34 45.72 0)
+		(at 180.34 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5416,7 +5254,7 @@
 		(uuid "c33120bb-770f-429f-9a7b-ce546d86394b")
 	)
 	(label "CAM_PIN_D1"
-		(at 180.34 86.36 0)
+		(at 180.34 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5436,7 +5274,7 @@
 		(uuid "c82506af-a11b-4416-b1dc-eba9a9142fc4")
 	)
 	(label "CAM_PIN_HREF"
-		(at 180.34 78.74 0)
+		(at 180.34 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5456,7 +5294,7 @@
 		(uuid "cd1ed4df-ec28-429a-af2b-471405c4bd70")
 	)
 	(label "CAM_PIN_RESET"
-		(at 180.34 71.12 0)
+		(at 180.34 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5566,7 +5404,7 @@
 		(uuid "dc8f8c13-c3a7-4bec-bfe2-3241e845570c")
 	)
 	(label "CAM_PIN_PWDN"
-		(at 180.34 73.66 0)
+		(at 180.34 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5586,7 +5424,7 @@
 		(uuid "e23e9e83-2e54-4ba3-8e22-ce4dd8d76775")
 	)
 	(label "1.2V"
-		(at 60.96 86.36 180)
+		(at 60.96 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5656,7 +5494,7 @@
 		(uuid "ef812794-9a4a-41ff-ab24-25301e1341b7")
 	)
 	(label "COM_AUX"
-		(at 180.34 105.41 0)
+		(at 180.34 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5666,7 +5504,7 @@
 		(uuid "f1160d15-2058-4a48-85ca-b8ce8d3f5569")
 	)
 	(label "CAM_PIN_D3"
-		(at 180.34 91.44 0)
+		(at 180.34 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5706,7 +5544,7 @@
 		(uuid "f3791c52-9ddc-4b3f-939b-32956fd2c48d")
 	)
 	(label "CAM_PIN_D4"
-		(at 180.34 93.98 0)
+		(at 180.34 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5716,7 +5554,7 @@
 		(uuid "f5224fa2-dff2-4ea2-b60c-0609f2000ebb")
 	)
 	(label "CAM_PIN_D7"
-		(at 180.34 101.6 0)
+		(at 180.34 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5736,7 +5574,7 @@
 		(uuid "f6b9d9b5-6334-45ce-9a8d-4dd89385ea0c")
 	)
 	(label "CAM_PIN_SIOC"
-		(at 180.34 66.04 0)
+		(at 180.34 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5887,6 +5725,17 @@
 				)
 			)
 		)
+		(property "秋月 Part" "105779 "
+			(at 22.86 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "9cc216a3-c1c0-4d1e-8cf3-fb4cd2def935")
 		)
@@ -5987,6 +5836,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5373439"
+			(at 227.33 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "f9f3cb54-8b6b-4d21-8a6e-378212182c28")
 		)
@@ -6066,88 +5926,6 @@
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
 					(reference "J102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 156.21 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2a92fd41-4a63-45e5-b37a-303df1f2fed5")
-		(property "Reference" "J107"
-			(at 160.02 143.8031 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 160.02 146.3431 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
-			(at 156.21 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 156.21 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "00ff12ac-dda3-4ebb-8def-3761780dda9e")
-		)
-		(pin "1"
-			(uuid "80a2cbae-0f67-48fc-9d0d-a225be3b7016")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J107")
 					(unit 1)
 				)
 			)
@@ -6418,6 +6196,17 @@
 			)
 		)
 		(property "DigiKey Part" ""
+			(at 241.3 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "112247"
 			(at 241.3 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6828,6 +6617,17 @@
 				)
 			)
 		)
+		(property "秋月 Part" "112247"
+			(at 241.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5c5e28d0-ec02-43c0-887d-4fe29af80a9c")
 		)
@@ -6965,6 +6765,17 @@
 			)
 		)
 		(property "DigiKey Part" ""
+			(at 22.86 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "112248"
 			(at 22.86 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -7273,6 +7084,17 @@
 				)
 			)
 		)
+		(property "秋月 Part" "105779 "
+			(at 22.86 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b8d4fc1f-e3e8-4fe5-8e56-ac717a61f2f3")
 		)
@@ -7309,7 +7131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3aa2d33-4a85-4ed1-a1ad-06738d3f86d3")
-		(property "Reference" "J108"
+		(property "Reference" "J107"
 			(at 57.785 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7428,6 +7250,17 @@
 				)
 			)
 		)
+		(property "秋月 Part" "102395"
+			(at 57.15 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "5e20d4c0-cbe8-43e0-8574-3a33f1709ed1")
 		)
@@ -7464,7 +7297,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J108")
+					(reference "J107")
 					(unit 1)
 				)
 			)
@@ -7613,7 +7446,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 177.8 45.72 0)
+			(at 177.8 48.26 0)
 			(uuid "5cb5c67e-63e1-475f-961d-404126728038")
 			(effects
 				(font
@@ -7643,7 +7476,7 @@
 			)
 		)
 		(pin "CAM_PIN_XCLK" output
-			(at 177.8 63.5 0)
+			(at 177.8 66.04 0)
 			(uuid "1b7d94bf-3a27-464b-8194-d9193a423762")
 			(effects
 				(font
@@ -7653,7 +7486,7 @@
 			)
 		)
 		(pin "CAM_PIN_D7" input
-			(at 177.8 101.6 0)
+			(at 177.8 104.14 0)
 			(uuid "c432ea4f-fdb2-4061-bc44-f554bddd0f4f")
 			(effects
 				(font
@@ -7673,7 +7506,7 @@
 			)
 		)
 		(pin "MCU_CAM_EN" input
-			(at 177.8 50.8 0)
+			(at 177.8 53.34 0)
 			(uuid "b577903f-e608-4706-82a7-a96606c57151")
 			(effects
 				(font
@@ -7853,7 +7686,7 @@
 			)
 		)
 		(pin "CAM_PIN_D1" input
-			(at 177.8 86.36 0)
+			(at 177.8 88.9 0)
 			(uuid "be6858d4-7cbc-4cf5-ba39-28f5f268796b")
 			(effects
 				(font
@@ -7863,7 +7696,7 @@
 			)
 		)
 		(pin "CAM_PIN_D4" input
-			(at 177.8 93.98 0)
+			(at 177.8 96.52 0)
 			(uuid "70312e89-d2bd-4192-99ce-da6a31ef95af")
 			(effects
 				(font
@@ -7873,7 +7706,7 @@
 			)
 		)
 		(pin "CAM_PIN_D0" input
-			(at 177.8 83.82 0)
+			(at 177.8 86.36 0)
 			(uuid "765d1783-689f-4b7d-904e-288d1fbc27b7")
 			(effects
 				(font
@@ -7883,7 +7716,7 @@
 			)
 		)
 		(pin "CAM_PIN_D3" input
-			(at 177.8 91.44 0)
+			(at 177.8 93.98 0)
 			(uuid "da587650-5886-491f-bab8-61636dd28638")
 			(effects
 				(font
@@ -7893,7 +7726,7 @@
 			)
 		)
 		(pin "CAM_PIN_D2" input
-			(at 177.8 88.9 0)
+			(at 177.8 91.44 0)
 			(uuid "bd604190-6fd7-453f-9c29-a0d0111ca76a")
 			(effects
 				(font
@@ -7903,7 +7736,7 @@
 			)
 		)
 		(pin "CAM_PIN_SIOC" output
-			(at 177.8 66.04 0)
+			(at 177.8 68.58 0)
 			(uuid "57ef9780-5d23-4187-b81c-bcca7efa604c")
 			(effects
 				(font
@@ -7913,7 +7746,7 @@
 			)
 		)
 		(pin "CAM_PIN_HREF" input
-			(at 177.8 78.74 0)
+			(at 177.8 81.28 0)
 			(uuid "340c63a4-28f3-4e97-b709-57125c35691d")
 			(effects
 				(font
@@ -7923,7 +7756,7 @@
 			)
 		)
 		(pin "CAM_PIN_VSYNC" input
-			(at 177.8 76.2 0)
+			(at 177.8 78.74 0)
 			(uuid "b86979f5-6eb6-4e85-bd87-214e200a679f")
 			(effects
 				(font
@@ -7933,7 +7766,7 @@
 			)
 		)
 		(pin "MCU_CAM_GPIO0" input
-			(at 177.8 53.34 0)
+			(at 177.8 55.88 0)
 			(uuid "af118d98-b798-49cb-8fe8-c781608646ae")
 			(effects
 				(font
@@ -7943,7 +7776,7 @@
 			)
 		)
 		(pin "CAM_PIN_SIOD" bidirectional
-			(at 177.8 68.58 0)
+			(at 177.8 71.12 0)
 			(uuid "a8bc7013-ff92-4bf8-842c-eb56679810b3")
 			(effects
 				(font
@@ -7953,7 +7786,7 @@
 			)
 		)
 		(pin "MCU_CAM_U0RXD" input
-			(at 177.8 55.88 0)
+			(at 177.8 58.42 0)
 			(uuid "97bff094-f18d-43f3-bfb8-9470971f1cad")
 			(effects
 				(font
@@ -7963,7 +7796,7 @@
 			)
 		)
 		(pin "MCU_CAM_U0TXD" output
-			(at 177.8 58.42 0)
+			(at 177.8 60.96 0)
 			(uuid "9ae10dc7-b5cd-4565-83c4-6f587a83d65d")
 			(effects
 				(font
@@ -7973,7 +7806,7 @@
 			)
 		)
 		(pin "CAM_PIN_D6" input
-			(at 177.8 99.06 0)
+			(at 177.8 101.6 0)
 			(uuid "81dba932-68c7-4be9-8ca4-1a31be518df9")
 			(effects
 				(font
@@ -7983,7 +7816,7 @@
 			)
 		)
 		(pin "CAM_PIN_PWDN" output
-			(at 177.8 73.66 0)
+			(at 177.8 76.2 0)
 			(uuid "2db4a73f-ff31-4963-a90d-4af7de332af5")
 			(effects
 				(font
@@ -7993,7 +7826,7 @@
 			)
 		)
 		(pin "CAM_PIN_RESET" output
-			(at 177.8 71.12 0)
+			(at 177.8 73.66 0)
 			(uuid "627d5f30-6ebb-47a5-be1a-a3e8faaf8c0b")
 			(effects
 				(font
@@ -8003,7 +7836,7 @@
 			)
 		)
 		(pin "CAM_PIN_D5" input
-			(at 177.8 96.52 0)
+			(at 177.8 99.06 0)
 			(uuid "d98cc74a-b445-4e67-89d4-4d373f10612f")
 			(effects
 				(font
@@ -8013,7 +7846,7 @@
 			)
 		)
 		(pin "CAM_PIN_PCLK" input
-			(at 177.8 81.28 0)
+			(at 177.8 83.82 0)
 			(uuid "4eaebb35-36f8-45e5-8c27-6a7e6afd730e")
 			(effects
 				(font
@@ -8033,7 +7866,7 @@
 			)
 		)
 		(pin "COM_AUX" input
-			(at 177.8 105.41 0)
+			(at 177.8 107.95 0)
 			(uuid "8e5bea2c-314b-402e-8daf-f021340ae353")
 			(effects
 				(font
@@ -8043,7 +7876,7 @@
 			)
 		)
 		(pin "COM_M0" output
-			(at 177.8 107.95 0)
+			(at 177.8 110.49 0)
 			(uuid "18bbbea3-9727-4f89-922e-817293096484")
 			(effects
 				(font
@@ -8053,7 +7886,7 @@
 			)
 		)
 		(pin "COM_M1" output
-			(at 177.8 110.49 0)
+			(at 177.8 113.03 0)
 			(uuid "e410984e-9440-4e8c-b76b-be5b578b8de6")
 			(effects
 				(font
@@ -8150,6 +7983,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "1.8V" input
+			(at 177.8 45.72 0)
+			(uuid "888de26d-a38a-4feb-a17e-bc63300c6a3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -8491,7 +8334,7 @@
 			)
 		)
 		(pin "1.2V" output
-			(at 63.5 86.36 180)
+			(at 63.5 83.82 180)
 			(uuid "1a86fcb8-183f-4be5-a72b-a640da8bc0ef")
 			(effects
 				(font
@@ -8618,6 +8461,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "1.8V" output
+			(at 63.5 86.36 180)
+			(uuid "7519b793-1340-48b7-83f3-f8b12c935f8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
