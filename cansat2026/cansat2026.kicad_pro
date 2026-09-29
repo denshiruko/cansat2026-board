@@ -76,7 +76,72 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|100210000|66500000|35f53f0a-61c8-4e6f-9f4b-f1dd7eef0fe0|9b30d7f9-fe7b-4f9a-9896-29d3d3ec31bb",
+          ""
+        ],
+        [
+          "hole_clearance|100210000|80000000|651f8337-6ebc-4421-ac66-bdb08e61e256|ed8d6c06-7c05-4108-b838-5d5bbcdbc221",
+          ""
+        ],
+        [
+          "hole_clearance|100210000|80000000|9a11295b-4e93-4f65-91d3-8e29c04455a7|ed8d6c06-7c05-4108-b838-5d5bbcdbc221",
+          ""
+        ],
+        [
+          "hole_clearance|100710000|66000000|79d7aa49-d3d3-4943-87cb-20eb8f6fb81f|c6b60188-2758-4055-a090-2bace2a44c02",
+          ""
+        ],
+        [
+          "hole_clearance|100710000|79500000|2a3a1373-3f3e-46e2-a725-4becad671f2a|92955397-33b0-4cc9-a792-ee8849122c87",
+          ""
+        ],
+        [
+          "hole_clearance|101210000|66000000|88d89f2b-f3de-4463-9beb-953d66c1646c|eabad65e-4f8d-4194-a26d-429c52ec69ca",
+          ""
+        ],
+        [
+          "hole_clearance|101210000|66000000|c6b60188-2758-4055-a090-2bace2a44c02|eabad65e-4f8d-4194-a26d-429c52ec69ca",
+          ""
+        ],
+        [
+          "hole_clearance|101210000|66500000|70cc1e57-5578-4940-92a7-027d8c814357|88d89f2b-f3de-4463-9beb-953d66c1646c",
+          ""
+        ],
+        [
+          "hole_clearance|101210000|79000000|a25b6599-bdfa-44ef-bc89-e04b62f51892|c9072a0b-3c17-426e-ac09-ef13a51e7838",
+          ""
+        ],
+        [
+          "hole_clearance|98710000|66000000|06a77165-1538-4ff7-8bdb-f03fbe8d14e0|54948c88-d83c-4e0b-b964-6f3b4434f738",
+          ""
+        ],
+        [
+          "hole_clearance|98710000|79000000|87255632-aaa6-4543-8763-50d721744875|b631471b-c5bf-4764-9433-5523a91b8c2c",
+          ""
+        ],
+        [
+          "hole_clearance|98710000|79500000|5144f2c3-f793-4c35-b14f-6c731f7807f9|87255632-aaa6-4543-8763-50d721744875",
+          ""
+        ],
+        [
+          "hole_clearance|99210000|66500000|1b4350a8-5a22-4127-b429-08e350b7b038|57a47f32-4588-4f2e-a53e-e173ab8964e4",
+          ""
+        ],
+        [
+          "hole_clearance|99210000|79500000|9aec8a1b-cb34-4698-a9b0-82a5add3c8cb|bbdd1c40-79ea-464c-bcac-2aedf7fee7d4",
+          ""
+        ],
+        [
+          "hole_clearance|99710000|66500000|b1e463e9-14e9-4aea-b2e1-86573c54a04d|c4fc5fd7-290c-486d-8556-2e7cd108761a",
+          ""
+        ],
+        [
+          "hole_clearance|99710000|80000000|2b396db5-817b-41a4-b45a-436b9f5bcbdd|9a11295b-4e93-4f65-91d3-8e29c04455a7",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -162,7 +227,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -253,8 +318,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 1.6,
-          "drill": 1.0
+          "diameter": 0.6,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -521,7 +586,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -539,7 +604,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.15,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
@@ -570,7 +635,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -633,10 +698,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "cansat2026/svg",
+      "plot": "cansat2026/out/Mission",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -647,7 +716,7 @@
       "method": 1,
       "sort_order": 1
     },
-    "bom_export_filename": "${PROJECTNAME}-JLC-BOM.csv",
+    "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -714,7 +783,7 @@
           "group_by": false,
           "label": "Mouser Part",
           "name": "Mouser Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -756,13 +825,13 @@
           "group_by": false,
           "label": "DigiKey Part",
           "name": "DigiKey Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "秋月 Part",
           "name": "秋月 Part",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
@@ -813,7 +882,7 @@
         "uuid": "bf092721-05bb-4932-a328-528d8d2db6b5"
       }
     ],
-    "used_designators": "U904-905,C908-909,R918-925,JP1001",
+    "used_designators": "U101,U201-211,U301-302,U401-403,U601,U701,U801,U901-906,U1001,U1101-1102,C101-102,C201-243,C301-303,C401-418,C601,C701-702,C801-803,C901-910,C1001-1014,C1101-1102,R101-102,R201-225,R301-320,R801-802,R901-926,R1001-1006,R1101-1102,#FLG201-206,#FLG301-306,#FLG801,#FLG1101,J101-107,J201,J301-302,J401-403,J801,J1101,JP601,JP701,JP801,JP1001,L201-207,L801,D201,D801,D901-903,D1001-1003,Q301-308,Q1101-1102,RV201-202,SW201,SW901,BT801",
     "variants": []
   },
   "sheets": [

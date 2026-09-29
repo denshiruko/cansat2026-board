@@ -2928,12 +2928,6 @@
 		(uuid "b9299d29-56c6-403e-8e14-b88459936af6")
 	)
 	(junction
-		(at 101.6 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba309a36-5b75-4784-9502-9d2de2d30bec")
-	)
-	(junction
 		(at 101.6 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2944,12 +2938,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9807b8c-ac49-4ea6-8c30-efa15aad03b5")
-	)
-	(junction
-		(at 104.14 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0aeeb71-1a61-4e5f-91d8-e4756d460fc5")
 	)
 	(no_connect
 		(at 34.29 179.07)
@@ -3032,16 +3020,6 @@
 			(type default)
 		)
 		(uuid "0661ff83-6c65-4ee0-9f72-71e999f231c2")
-	)
-	(wire
-		(pts
-			(xy 180.34 58.42) (xy 177.8 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06664ccf-dcea-48f9-900d-356f49ee8b4c")
 	)
 	(wire
 		(pts
@@ -3185,16 +3163,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 60.96) (xy 104.14 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ee2cac4-1a52-4604-8398-ac8bf7d7ca48")
-	)
-	(wire
-		(pts
 			(xy 60.96 60.96) (xy 63.5 60.96)
 		)
 		(stroke
@@ -3275,26 +3243,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 63.5) (xy 101.6 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bb2d333-0b20-4fb3-8ef8-92d381eb6296")
-	)
-	(wire
-		(pts
-			(xy 101.6 83.82) (xy 101.6 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d4d141f-6d2e-4ef9-a00b-ff1f86d3b34e")
-	)
-	(wire
-		(pts
 			(xy 177.8 43.18) (xy 180.34 43.18)
 		)
 		(stroke
@@ -3325,16 +3273,6 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 53.34) (xy 27.94 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "302b5bd5-737a-4a2d-897c-33d0f6ed9cf1")
-	)
-	(wire
-		(pts
 			(xy 76.2 27.94) (xy 104.14 27.94)
 		)
 		(stroke
@@ -3342,16 +3280,6 @@
 			(type default)
 		)
 		(uuid "3033e344-fd6e-41fb-af0b-1b5e09d39875")
-	)
-	(wire
-		(pts
-			(xy 35.56 50.8) (xy 27.94 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30c9a104-c452-4cd2-9d18-bbee79f26987")
 	)
 	(wire
 		(pts
@@ -3575,16 +3503,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 60.96) (xy 177.8 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b317c9c-ffd4-4826-9a1d-9f2e9a0c6545")
-	)
-	(wire
-		(pts
 			(xy 88.9 106.68) (xy 127 106.68)
 		)
 		(stroke
@@ -3652,26 +3570,6 @@
 			(type default)
 		)
 		(uuid "6390c20d-bb1f-45a0-9ff6-cce449e75114")
-	)
-	(wire
-		(pts
-			(xy 35.56 58.42) (xy 27.94 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63d1d592-0c25-4ae7-a71e-e8f6d9621cd1")
-	)
-	(wire
-		(pts
-			(xy 35.56 55.88) (xy 27.94 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6842480b-85e5-4be7-ab1c-1960b3d0829e")
 	)
 	(wire
 		(pts
@@ -3925,7 +3823,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 101.6 30.48)
+			(xy 101.6 30.48) (xy 101.6 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4012,16 +3910,6 @@
 			(type default)
 		)
 		(uuid "a935efe0-5bb8-46a9-b3fe-5240c815eceb")
-	)
-	(wire
-		(pts
-			(xy 104.14 60.96) (xy 104.14 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9d58a21-4b69-4438-ac43-823c3896559f")
 	)
 	(wire
 		(pts
@@ -4115,7 +4003,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 60.96) (xy 104.14 81.28)
+			(xy 104.14 27.94) (xy 104.14 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4142,16 +4030,6 @@
 			(type default)
 		)
 		(uuid "be377003-44c0-4690-a5e1-8a2331aa4f09")
-	)
-	(wire
-		(pts
-			(xy 27.94 60.96) (xy 35.56 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf0d9790-72ff-4b60-a2b8-52bb4c9e9472")
 	)
 	(wire
 		(pts
@@ -4202,16 +4080,6 @@
 			(type default)
 		)
 		(uuid "cc12be2b-01fe-4374-94f1-d5e1531ca300")
-	)
-	(wire
-		(pts
-			(xy 180.34 55.88) (xy 177.8 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cea2a66b-436a-48c3-8167-671475f8275d")
 	)
 	(wire
 		(pts
@@ -4322,16 +4190,6 @@
 			(type default)
 		)
 		(uuid "e46e84ea-f05f-4167-9244-29b677ae6d5c")
-	)
-	(wire
-		(pts
-			(xy 180.34 53.34) (xy 177.8 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e48f7496-864d-4a39-846a-49cd516bea44")
 	)
 	(wire
 		(pts
@@ -4503,16 +4361,6 @@
 		)
 		(uuid "1c23a066-9eec-4a65-9dd7-e2a263c99cb8")
 	)
-	(label "MCU_CAM_U0RXD"
-		(at 180.34 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d04a6cf-07e8-427b-a06d-44920257c2da")
-	)
 	(label "GPIO0"
 		(at 38.1 93.98 0)
 		(effects
@@ -4623,16 +4471,6 @@
 		)
 		(uuid "2caa9560-38af-43c0-bf76-5016b225be3d")
 	)
-	(label "MCU_CAM_GPIO0"
-		(at 180.34 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2eed13f0-122f-40cf-88a6-882ec5ec57c2")
-	)
 	(label "SPI2MOSI"
 		(at 34.29 163.83 180)
 		(effects
@@ -4652,16 +4490,6 @@
 			(justify right bottom)
 		)
 		(uuid "314a7700-65d9-4bf1-9d0b-89ef10ab4d2a")
-	)
-	(label "MCU_CAM_U0TXD"
-		(at 180.34 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31c8aa07-afe6-477f-a5a5-91b085c72db5")
 	)
 	(label "CAM_PIN_XCLK"
 		(at 180.34 66.04 0)
@@ -4822,16 +4650,6 @@
 			(justify left bottom)
 		)
 		(uuid "62c23134-97cf-4933-b873-aaff93291bd7")
-	)
-	(label "MCU_CAM_EN"
-		(at 180.34 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "62f2684e-1062-4fcd-8755-1b0b3f87404c")
 	)
 	(label "SPI2MISO"
 		(at 34.29 173.99 180)
@@ -5223,16 +5041,6 @@
 		)
 		(uuid "be6af35c-9711-4b2d-a2cc-9eea880bba3d")
 	)
-	(label "MCU_CAM_U0TXD"
-		(at 35.56 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c17d544e-3a50-4876-8b56-189371f1e1f8")
-	)
 	(label "SPI2MOSI"
 		(at 124.46 71.12 180)
 		(effects
@@ -5242,16 +5050,6 @@
 			(justify right bottom)
 		)
 		(uuid "c2f7578c-bd85-46e0-bf63-de57060ef26e")
-	)
-	(label "MCU_CAM_GPIO0"
-		(at 35.56 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c33120bb-770f-429f-9a7b-ce546d86394b")
 	)
 	(label "CAM_PIN_D1"
 		(at 180.34 88.9 0)
@@ -5364,26 +5162,6 @@
 		(uuid "d18a7a25-3732-4d2c-904e-8df80fe24a7d")
 	)
 	(label "GND"
-		(at 35.56 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d44cb081-2807-438c-8d64-e2a12d68b2ad")
-	)
-	(label "MCU_CAM_EN"
-		(at 35.56 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d6d07db7-42ba-48ac-a146-b5683b3adf66")
-	)
-	(label "GND"
 		(at 231.14 91.44 180)
 		(effects
 			(font
@@ -5412,16 +5190,6 @@
 			(justify left bottom)
 		)
 		(uuid "df57be26-cc3f-49c2-b5ac-6635a3475c5a")
-	)
-	(label "MCU_CAM_U0RXD"
-		(at 35.56 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e23e9e83-2e54-4ba3-8e22-ce4dd8d76775")
 	)
 	(label "1.2V"
 		(at 60.96 83.82 180)
@@ -6085,7 +5853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38447afa-13ca-42ee-8c37-5699a7909114")
-		(property "Reference" "J105"
+		(property "Reference" "J104"
 			(at 242.57 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6226,7 +5994,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J105")
+					(reference "J104")
 					(unit 1)
 				)
 			)
@@ -6496,7 +6264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59682eeb-4807-4ae0-8c4b-b10aba7029fc")
-		(property "Reference" "J106"
+		(property "Reference" "J105"
 			(at 242.57 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6637,7 +6405,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J106")
+					(reference "J105")
 					(unit 1)
 				)
 			)
@@ -6656,7 +6424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f3e2cc6-bc57-46dd-aa9d-422d45e4b4ba")
-		(property "Reference" "J104"
+		(property "Reference" "J103"
 			(at 23.495 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6798,7 +6566,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J104")
+					(reference "J103")
 					(unit 1)
 				)
 			)
@@ -6953,173 +6721,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 22.86 55.88 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a6bf2e45-f329-4fb3-b0be-8325f89ba750")
-		(property "Reference" "J103"
-			(at 23.495 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MCU_CAM_UART_Conn"
-			(at 23.495 48.26 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part" ""
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "秋月 Part" "105779 "
-			(at 22.86 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b8d4fc1f-e3e8-4fe5-8e56-ac717a61f2f3")
-		)
-		(pin "2"
-			(uuid "d22461ad-0609-446f-aa7f-46f80894ad70")
-		)
-		(pin "4"
-			(uuid "82e16b6e-ae43-4f62-85bc-e0be0b38d785")
-		)
-		(pin "5"
-			(uuid "b613f261-671f-4978-a5eb-9ec0f6ecce75")
-		)
-		(pin "3"
-			(uuid "ecb341c8-e37d-4097-a8b2-0ec456536249")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Micro_SD_Card_Det_Hirose_DM3AT")
 		(at 57.15 168.91 0)
 		(unit 1)
@@ -7131,7 +6732,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3aa2d33-4a85-4ed1-a1ad-06738d3f86d3")
-		(property "Reference" "J107"
+		(property "Reference" "J106"
 			(at 57.785 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,7 +6898,7 @@
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5"
-					(reference "J107")
+					(reference "J106")
 					(unit 1)
 				)
 			)
@@ -7503,16 +7104,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "MCU_CAM_EN" input
-			(at 177.8 53.34 0)
-			(uuid "b577903f-e608-4706-82a7-a96606c57151")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "U1RXD" input
@@ -7765,39 +7356,9 @@
 				(justify right)
 			)
 		)
-		(pin "MCU_CAM_GPIO0" input
-			(at 177.8 55.88 0)
-			(uuid "af118d98-b798-49cb-8fe8-c781608646ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "CAM_PIN_SIOD" bidirectional
 			(at 177.8 71.12 0)
 			(uuid "a8bc7013-ff92-4bf8-842c-eb56679810b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCU_CAM_U0RXD" input
-			(at 177.8 58.42 0)
-			(uuid "97bff094-f18d-43f3-bfb8-9470971f1cad")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "MCU_CAM_U0TXD" output
-			(at 177.8 60.96 0)
-			(uuid "9ae10dc7-b5cd-4565-83c4-6f587a83d65d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,26 +7625,6 @@
 		(pin "GPS_TX" output
 			(at 76.2 55.88 0)
 			(uuid "f55dc987-8ba6-4fe9-8851-10cee8f7439c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SCL" input
-			(at 76.2 63.5 0)
-			(uuid "f630eb07-4881-488e-8a93-a4889cc8eea3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 76.2 60.96 0)
-			(uuid "9ee747f5-d394-44f5-8e52-f12da7c5c369")
 			(effects
 				(font
 					(size 1.27 1.27)

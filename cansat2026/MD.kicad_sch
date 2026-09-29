@@ -1124,10 +1124,22 @@
 		(uuid "0cd57f83-af17-453b-a9d9-69191363b6c1")
 	)
 	(junction
+		(at 134.62 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ffa09b7-1cd4-4882-95a6-8245e76b2909")
+	)
+	(junction
 		(at 165.1 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bc8184b-e1ea-4c90-b2d2-a16153bdc243")
+	)
+	(junction
+		(at 114.3 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "214791df-5553-4363-a49a-ebf97366707d")
 	)
 	(junction
 		(at 134.62 83.82)
@@ -1142,10 +1154,16 @@
 		(uuid "2a3d429c-b4b9-4ff2-a73a-4ca94ee1a5ab")
 	)
 	(junction
-		(at 114.3 165.1)
+		(at 114.3 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "41ca30a1-fbe6-434e-b7e2-26b3795c9518")
+		(uuid "2ae7a1e2-c4a3-40e9-ad4c-d5b6d50f25b7")
+	)
+	(junction
+		(at 134.62 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "391caf9d-cdbc-4343-a1b5-b3d66643b159")
 	)
 	(junction
 		(at 170.18 40.64)
@@ -1196,10 +1214,22 @@
 		(uuid "70b3201a-aead-43d6-bae6-6959b5f99b45")
 	)
 	(junction
+		(at 124.46 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f39956e-e4b1-45dc-8b1c-4a6698806182")
+	)
+	(junction
 		(at 127 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9115332d-3718-41d6-a496-54c42c4b8079")
+	)
+	(junction
+		(at 124.46 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92102531-4bae-4ff2-b61c-747ba1c38489")
 	)
 	(junction
 		(at 167.64 96.52)
@@ -1220,12 +1250,6 @@
 		(uuid "9de068eb-a83a-41ec-8d9f-def02ba7d61d")
 	)
 	(junction
-		(at 124.46 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a10c7489-b5e2-4b59-83af-d28b83559578")
-	)
-	(junction
 		(at 111.76 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1238,10 +1262,34 @@
 		(uuid "c26d5d0a-9243-41dc-83aa-963900f730cb")
 	)
 	(junction
+		(at 134.62 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6952897-8a9c-4e9d-8af1-621a34f93557")
+	)
+	(junction
+		(at 124.46 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6beef5f-8bc7-4406-b8c7-ec41c0d616c9")
+	)
+	(junction
 		(at 123.19 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dbd4855f-0ed8-46b4-9cbe-ecd49440d4dd")
+	)
+	(junction
+		(at 134.62 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc3caf11-ed28-4856-bfba-9236fed07227")
+	)
+	(junction
+		(at 114.3 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd9916c2-cf1b-49aa-a2bf-06ab03f43c47")
 	)
 	(junction
 		(at 167.64 45.72)
@@ -1254,6 +1302,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e414766a-0181-4468-aefe-ea2be27953e9")
+	)
+	(junction
+		(at 124.46 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef62c453-d450-4c3f-b282-04ffaba4e573")
+	)
+	(junction
+		(at 114.3 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5f71530-6cca-4514-9fcc-4c3446ba679d")
 	)
 	(junction
 		(at 111.76 88.9)
@@ -1309,6 +1369,36 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 172.72) (xy 134.62 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "126522b9-fc5b-42f9-9210-1609ad187ca3")
+	)
+	(wire
+		(pts
+			(xy 134.62 165.1) (xy 144.78 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "150118a4-be51-49d1-a5f7-343d95848b6d")
+	)
+	(wire
+		(pts
+			(xy 114.3 190.5) (xy 114.3 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b2a08e-ba7d-41db-8a7c-1e9d3e000289")
+	)
+	(wire
+		(pts
 			(xy 106.68 33.02) (xy 111.76 33.02)
 		)
 		(stroke
@@ -1339,6 +1429,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 172.72) (xy 144.78 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d75daa-1c15-4fec-b0f1-c64ac69a109d")
+	)
+	(wire
+		(pts
 			(xy 134.62 33.02) (xy 152.4 33.02)
 		)
 		(stroke
@@ -1346,6 +1446,16 @@
 			(type default)
 		)
 		(uuid "2618459d-0639-437f-8a19-f95439bb41aa")
+	)
+	(wire
+		(pts
+			(xy 124.46 177.8) (xy 134.62 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286c950c-054b-4346-9924-54c6b168d5ce")
 	)
 	(wire
 		(pts
@@ -1369,13 +1479,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 165.1) (xy 134.62 165.1)
+			(xy 124.46 160.02) (xy 134.62 160.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "32b547cd-7174-4dba-b363-aa3ada33e55c")
+		(uuid "34459926-ebb2-4f6e-a44b-e26c66a7cb70")
 	)
 	(wire
 		(pts
@@ -1449,6 +1559,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 177.8) (xy 114.3 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e8908a-1f09-4c80-b35a-29f6d5323a3d")
+	)
+	(wire
+		(pts
 			(xy 106.68 68.58) (xy 152.4 68.58)
 		)
 		(stroke
@@ -1459,13 +1579,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 165.1) (xy 124.46 165.1)
+			(xy 124.46 165.1) (xy 134.62 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e952ad9-1895-407b-a684-3b52aeb9d59e")
+		(uuid "61be851d-64c5-4069-959c-6292480b3ae4")
+	)
+	(wire
+		(pts
+			(xy 134.62 177.8) (xy 144.78 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61dd4688-a96f-426e-9306-49d32931bba3")
 	)
 	(wire
 		(pts
@@ -1649,6 +1779,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 172.72) (xy 124.46 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95e6d0e1-9b36-4784-b901-280e9cf120c3")
+	)
+	(wire
+		(pts
+			(xy 114.3 160.02) (xy 124.46 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "975b6a92-ec3e-477a-9eee-71d0f6af390b")
+	)
+	(wire
+		(pts
 			(xy 115.57 132.08) (xy 127 132.08)
 		)
 		(stroke
@@ -1676,6 +1826,16 @@
 			(type default)
 		)
 		(uuid "a0397d14-aa07-405e-9986-7e486c7c7628")
+	)
+	(wire
+		(pts
+			(xy 114.3 182.88) (xy 114.3 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1652de2-e3c4-4d0e-8ead-6409842788cd")
 	)
 	(wire
 		(pts
@@ -1779,6 +1939,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 177.8) (xy 124.46 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8dbbe3a-c1f8-45db-b0ad-4510d3d034b2")
+	)
+	(wire
+		(pts
 			(xy 123.19 83.82) (xy 134.62 83.82)
 		)
 		(stroke
@@ -1816,6 +1986,16 @@
 			(type default)
 		)
 		(uuid "d3da8c55-01f2-45d7-ad2f-ede33ef69ff2")
+	)
+	(wire
+		(pts
+			(xy 114.3 165.1) (xy 124.46 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47f7f06-4750-4fad-9b52-53714503e4d2")
 	)
 	(wire
 		(pts
@@ -1879,6 +2059,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 160.02) (xy 144.78 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb13711b-e615-47ed-88b1-dc39abd315e1")
+	)
+	(wire
+		(pts
 			(xy 129.54 93.98) (xy 129.54 88.9)
 		)
 		(stroke
@@ -1889,6 +2079,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 157.48) (xy 114.3 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeeba968-3a19-4541-85b1-e1f2aa018813")
+	)
+	(wire
+		(pts
 			(xy 107.95 132.08) (xy 115.57 132.08)
 		)
 		(stroke
@@ -1896,6 +2096,16 @@
 			(type default)
 		)
 		(uuid "f4bdb119-1d51-413e-b2f3-496c94bfaeb8")
+	)
+	(wire
+		(pts
+			(xy 114.3 170.18) (xy 114.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69b09da-2511-48c2-a00e-2fa2feec7562")
 	)
 	(wire
 		(pts
@@ -1948,7 +2158,7 @@
 		(uuid "fffc291f-4881-4564-b053-8e630f1e3d97")
 	)
 	(label "M1PWR"
-		(at 114.3 160.02 180)
+		(at 114.3 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2017,6 +2227,36 @@
 		)
 		(uuid "793965d8-b507-4ef9-baa2-9d66a22b3605")
 	)
+	(label "GND"
+		(at 114.3 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7e09263f-a4da-4ea7-8f05-4b2e4b6971a4")
+	)
+	(label "GND"
+		(at 114.3 193.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a5098861-372f-49b0-862c-2756c70b8980")
+	)
+	(label "M2PWR"
+		(at 114.3 170.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a82b473d-7e5f-4402-bdc4-d539cee49095")
+	)
 	(label "M1-2_EN"
 		(at 106.68 93.98 180)
 		(effects
@@ -2028,24 +2268,14 @@
 		(uuid "b53f0da3-cd28-4136-9899-88d9a4dd09e3")
 	)
 	(label "M3PWR"
-		(at 134.62 160.02 180)
+		(at 114.3 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "eafd9eb2-f8d9-43bf-a0d6-125de0378f13")
-	)
-	(label "M2PWR"
-		(at 124.46 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ecd37098-226d-4949-b0b1-da7f1f5e8ada")
+		(uuid "e27c40c8-d63a-4636-a14c-ba5fbf2e51eb")
 	)
 	(label "GND"
 		(at 111.76 40.64 180)
@@ -2177,6 +2407,433 @@
 			(justify right)
 		)
 		(uuid "fbb62dba-837a-4b6a-a045-26192b167d07")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 114.3 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06cb2c3a-16a3-45c9-b331-e26ad277eafd")
+		(property "Reference" "C414"
+			(at 116.84 173.4438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 116.84 175.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project:MURATA_ECAS_D6"
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/ja-jp/pim/details/?partNum=ECASD61C107M012KA0"
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "117422"
+			(at 114.3 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5823603-86be-4327-991a-4552bbe6adf7")
+		)
+		(pin "1"
+			(uuid "d1b8d695-2660-45da-babe-5fd1bbd16f05")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
+					(reference "C414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 144.78 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08af6eb6-54ab-4288-9a47-29e31698d8e3")
+		(property "Reference" "C417"
+			(at 147.32 173.4438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 147.32 175.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project:MURATA_ECAS_D6"
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/ja-jp/pim/details/?partNum=ECASD61C107M012KA0"
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "117422"
+			(at 144.78 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9ffaa96a-9a4f-4c8f-a9e8-f54e3ec669b8")
+		)
+		(pin "1"
+			(uuid "653b349e-5ca6-4154-8f3c-8a7c53a637cf")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
+					(reference "C417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 134.62 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12dedc42-00cb-4e8d-934d-06a83d23a932")
+		(property "Reference" "C412"
+			(at 137.16 160.7438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 137.16 163.2838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project:MURATA_ECAS_D6"
+			(at 134.62 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/ja-jp/pim/details/?partNum=ECASD61C107M012KA0"
+			(at 134.62 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 134.62 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "117422"
+			(at 134.62 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4cdbc5fe-a6a0-479b-b869-674dc20ccc89")
+		)
+		(pin "1"
+			(uuid "c9eed5e4-76c3-4408-8b8e-caefe63a3531")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
+					(reference "C412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 114.3 187.96 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "137bddc7-d98a-4311-8d87-64eb544f9248")
+		(property "Reference" "C418"
+			(at 116.84 186.6962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 116.84 189.2362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 115.2652 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 114.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 114.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 114.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C45783"
+			(at 114.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" ""
+			(at 114.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 114.3 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be9a9265-b041-46ac-889c-55c8c4ddefe1")
+		)
+		(pin "2"
+			(uuid "534af825-e48e-4cef-b0f1-0cc724b0aa21")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
+					(reference "C418")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -2661,7 +3318,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C37313337"
+		(property "LCSC Part" "C2150463"
 			(at 152.4 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -2858,6 +3515,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 134.62 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6e5c1678-e52d-4fe4-9ab4-5b5ba2754566")
+		(property "Reference" "C416"
+			(at 137.16 173.4438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 137.16 175.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project:MURATA_ECAS_D6"
+			(at 134.62 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/ja-jp/pim/details/?partNum=ECASD61C107M012KA0"
+			(at 134.62 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 134.62 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "117422"
+			(at 134.62 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ccd48f79-0280-4ab9-92e4-340851da65f9")
+		)
+		(pin "1"
+			(uuid "bd9fb3bf-f86f-42a9-ba54-953844fb5551")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
+					(reference "C416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 170.18 43.18 0)
 		(unit 1)
@@ -3038,6 +3788,99 @@
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "C402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 124.46 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d2b782b-cff9-4efe-96c2-7af193d20171")
+		(property "Reference" "C415"
+			(at 127 173.4438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 127 175.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project:MURATA_ECAS_D6"
+			(at 124.46 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/ja-jp/pim/details/?partNum=ECASD61C107M012KA0"
+			(at 124.46 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 124.46 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "117422"
+			(at 124.46 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aba3c11e-3cdb-47d9-848d-3630cbbd6e0d")
+		)
+		(pin "1"
+			(uuid "fa5fda5c-ce22-4606-94e1-2531134cff2b")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
+					(reference "C415")
 					(unit 1)
 				)
 			)
@@ -3256,99 +4099,6 @@
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "J401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 114.3 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b77b6bb4-721e-4668-93c4-ca1c396a2cf6")
-		(property "Reference" "C410"
-			(at 116.84 160.7438 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100uF"
-			(at 116.84 163.2838 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
-			(at 114.3 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 114.3 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "秋月 Part" "108290"
-			(at 114.3 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "12b3e0d7-2c70-4289-b350-7862d16160bb")
-		)
-		(pin "1"
-			(uuid "eff8f42b-78a6-416c-ab0a-473433876f1d")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
-					(reference "C410")
 					(unit 1)
 				)
 			)
@@ -3635,99 +4385,6 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 134.62 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c733350f-ac7e-4a65-a298-2ab188449330")
-		(property "Reference" "C412"
-			(at 137.16 161.2962 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 137.16 163.8362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 134.62 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 134.62 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C19702"
-			(at 134.62 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "23020f3d-a1e6-4e9b-ad0b-974e0cc2e8e4")
-		)
-		(pin "2"
-			(uuid "880f85de-985d-4738-80f0-f137a2ef829f")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
-					(reference "C412")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
 		(at 115.57 134.62 0)
 		(unit 1)
 		(body_style 1)
@@ -3830,7 +4487,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d24e0580-1978-4790-98e0-8f0b606c665e")
+		(uuid "dea97442-0a37-4a99-bf3a-23b5a72206be")
 		(property "Reference" "C411"
 			(at 127 160.7438 0)
 			(show_name no)
@@ -3853,7 +4510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
+		(property "Footprint" "Project:MURATA_ECAS_D6"
 			(at 124.46 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3864,7 +4521,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://pim.murata.com/ja-jp/pim/details/?partNum=ECASD61C107M012KA0"
 			(at 124.46 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3886,7 +4543,7 @@
 				)
 			)
 		)
-		(property "秋月 Part" "108290"
+		(property "秋月 Part" "117422"
 			(at 124.46 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -3898,15 +4555,201 @@
 			)
 		)
 		(pin "2"
-			(uuid "728743da-72b8-4900-9f1b-2af0684dcd34")
+			(uuid "ca2ff34b-aecb-4d78-8b8f-c8da49efef0a")
 		)
 		(pin "1"
-			(uuid "6aa2eaef-b9a0-4726-ae2a-40a06523f88b")
+			(uuid "00b59389-1d28-454e-a992-69e127f6ea49")
 		)
 		(instances
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
 					(reference "C411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 114.3 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaa291a6-307d-4a25-97c1-e7e042d2e647")
+		(property "Reference" "C410"
+			(at 116.84 160.7438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 116.84 163.2838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project:MURATA_ECAS_D6"
+			(at 114.3 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/ja-jp/pim/details/?partNum=ECASD61C107M012KA0"
+			(at 114.3 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 114.3 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "117422"
+			(at 114.3 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4613fa1b-f1b3-4170-98f3-3f330c126ffb")
+		)
+		(pin "1"
+			(uuid "a9b855b6-cbd1-4d15-96a1-684094e1b358")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
+					(reference "C410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_Small")
+		(at 144.78 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb9b0005-593c-4b2f-8b4b-13472f329902")
+		(property "Reference" "C413"
+			(at 147.32 160.7438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100uF"
+			(at 147.32 163.2838 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Project:MURATA_ECAS_D6"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://pim.murata.com/ja-jp/pim/details/?partNum=ECASD61C107M012KA0"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "秋月 Part" "117422"
+			(at 144.78 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2f3d8809-0b2d-4ffe-8b61-e71cc30f2ad8")
+		)
+		(pin "1"
+			(uuid "4657c32c-ab5e-4365-b4f9-cd2c7642c49e")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/677c7cab-135e-4675-a1c6-e0f4681489b7"
+					(reference "C413")
 					(unit 1)
 				)
 			)
@@ -3979,7 +4822,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C37313337"
+		(property "LCSC Part" "C2150463"
 			(at 152.4 50.8 0)
 			(hide yes)
 			(show_name no)

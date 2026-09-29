@@ -1815,8 +1815,16 @@
 		(uuid "540a7ce2-32bf-496b-aa36-6c1b19bbb325")
 	)
 	(no_connect
+		(at 124.46 104.14)
+		(uuid "6562baaf-3e40-429f-be43-f91b6adff6c2")
+	)
+	(no_connect
 		(at 154.94 114.3)
 		(uuid "a6dbf173-43ad-4e2e-9fb8-519970a80547")
+	)
+	(no_connect
+		(at 124.46 106.68)
+		(uuid "f2c5a3a0-2ffc-4c98-a2cd-8887254c8f8c")
 	)
 	(no_connect
 		(at 124.46 111.76)
@@ -2074,16 +2082,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 104.14) (xy 124.46 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8eb1e9b-b378-4deb-b4b4-70f99bda7811")
-	)
-	(wire
-		(pts
 			(xy 177.8 81.28) (xy 190.5 81.28)
 		)
 		(stroke
@@ -2091,16 +2089,6 @@
 			(type default)
 		)
 		(uuid "ea1c8280-9b16-4216-b1bb-ef2a6b1f8f30")
-	)
-	(wire
-		(pts
-			(xy 115.57 106.68) (xy 124.46 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f18468f2-232d-4224-8caa-e50ec5db47e0")
 	)
 	(wire
 		(pts
@@ -2212,17 +2200,6 @@
 		)
 		(uuid "fd911970-0d7d-4079-8e61-53e7b41c98b8")
 	)
-	(hierarchical_label "SCL"
-		(shape input)
-		(at 115.57 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0cb23db4-0e93-411b-987a-cd361557d421")
-	)
 	(hierarchical_label "VCC"
 		(shape input)
 		(at 111.76 83.82 180)
@@ -2233,17 +2210,6 @@
 			(justify right)
 		)
 		(uuid "1a4d676c-9592-4b8b-ae4e-338fd6a2cfa6")
-	)
-	(hierarchical_label "SDA"
-		(shape bidirectional)
-		(at 115.57 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3c92ef15-2740-4ae3-a6d5-66bed2c067de")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2458,7 +2424,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "LCSC Part" "C148128"
 			(at 194.31 81.28 90)
 			(hide yes)
 			(show_name no)

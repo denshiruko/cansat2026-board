@@ -8733,7 +8733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_PMCI-252010"
+		(property "Footprint" "Project:L_Taiyo-Yuden_LSEU-4040"
 			(at 156.21 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -8810,7 +8810,7 @@
 				)
 			)
 		)
-		(property "Mouser Part" "810-VLS6045EX-3R3N"
+		(property "Mouser Part" "963-LSEUB4040WKT1R0M "
 			(at 156.21 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -8821,7 +8821,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part" "CIGT252010EH1R0MNE"
+		(property "DigiKey Part" ""
 			(at 156.21 134.62 90)
 			(hide yes)
 			(show_name no)
@@ -9154,7 +9154,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25774"
+		(property "LCSC Part" "C25755"
 			(at 179.07 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9280,7 +9280,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" ""
 			(at 214.63 72.39 90)
 			(hide yes)
 			(show_name no)
@@ -10079,7 +10079,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25007"
+		(property "LCSC Part" "C25077"
 			(at 27.94 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -10230,7 +10230,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_PMCI-252010"
+		(property "Footprint" "Project:L_Taiyo-Yuden_LSEU-4040"
 			(at 156.21 127 0)
 			(hide yes)
 			(show_name no)
@@ -10307,7 +10307,7 @@
 				)
 			)
 		)
-		(property "Mouser Part" "810-VLS6045EX-3R3N"
+		(property "Mouser Part" "963-LSEUB4040WKT1R0M "
 			(at 156.21 127 90)
 			(hide yes)
 			(show_name no)
@@ -10318,7 +10318,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part" "CIGT252010EH1R0MNE"
+		(property "DigiKey Part" ""
 			(at 156.21 127 90)
 			(hide yes)
 			(show_name no)
@@ -10742,7 +10742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_PMCI-252012"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
 			(at 156.21 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -11430,6 +11430,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C5361820"
+			(at 181.61 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "5aaf06dc-eccd-419a-a47b-e491b9e9cfa9")
 		)
@@ -11703,7 +11714,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-50xx"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-50xx_HandSoldering"
 			(at 156.21 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -12585,7 +12596,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_PMCI-201610"
+		(property "Footprint" "Project:L_Wuerth_PMCI-201610"
 			(at 124.46 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -12974,7 +12985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_PMCI-252010"
+		(property "Footprint" "Project:L_Taiyo-Yuden_LSEU-4040"
 			(at 156.21 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -13051,7 +13062,7 @@
 				)
 			)
 		)
-		(property "Mouser Part" "810-VLS6045EX-3R3N"
+		(property "Mouser Part" "963-LSEUB4040WKT1R0M "
 			(at 156.21 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -13062,7 +13073,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part" "CIGT252010EH1R0MNE"
+		(property "DigiKey Part" ""
 			(at 156.21 104.14 90)
 			(hide yes)
 			(show_name no)
@@ -13975,6 +13986,17 @@
 			)
 		)
 		(property "DigiKey Part" "TC33X-2-204E"
+			(at 181.61 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5361820"
 			(at 181.61 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -16913,7 +16935,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_PMCI-252010"
+		(property "Footprint" "Project:L_Taiyo-Yuden_LSEU-4040"
 			(at 156.21 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -16990,7 +17012,7 @@
 				)
 			)
 		)
-		(property "Mouser Part" "810-VLS6045EX-3R3N"
+		(property "Mouser Part" "963-LSEUB4040WKT1R0M "
 			(at 156.21 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -17001,7 +17023,7 @@
 				)
 			)
 		)
-		(property "DigiKey Part" "CIGT252010EH1R0MNE"
+		(property "DigiKey Part" ""
 			(at 156.21 96.52 90)
 			(hide yes)
 			(show_name no)
@@ -17334,7 +17356,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25774"
+		(property "LCSC Part" "C25755"
 			(at 179.07 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -19405,7 +19427,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25007"
+		(property "LCSC Part" "C25077"
 			(at 27.94 78.74 90)
 			(hide yes)
 			(show_name no)

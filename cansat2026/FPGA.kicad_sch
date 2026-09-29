@@ -1840,6 +1840,12 @@
 		(uuid "69bd8f39-c74a-42d1-bed6-c330916cda36")
 	)
 	(junction
+		(at 58.42 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "828c1b28-2eed-45cf-b346-1c5ce10adcd3")
+	)
+	(junction
 		(at 186.69 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1888,6 +1894,12 @@
 		(uuid "bbd36f06-73e4-466b-9d87-eef07b5883eb")
 	)
 	(junction
+		(at 148.59 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbeeaf8d-9435-49c7-a4f2-b8a971a0c96c")
+	)
+	(junction
 		(at 15.24 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1934,24 +1946,64 @@
 		(uuid "00bd657f-a331-415a-bd98-e961dc2847c8")
 	)
 	(no_connect
-		(at 158.75 83.82)
-		(uuid "2ee5370d-f91c-4053-8557-f887357394ca")
+		(at 158.75 88.9)
+		(uuid "041cf157-e6d4-42ad-86ec-5b7a8eb3430b")
+	)
+	(no_connect
+		(at 107.95 101.6)
+		(uuid "114d1267-fca6-44c1-ac4e-682157b197d4")
+	)
+	(no_connect
+		(at 107.95 88.9)
+		(uuid "295157e5-71e8-49c0-8292-70fcda10a43c")
+	)
+	(no_connect
+		(at 107.95 86.36)
+		(uuid "2db553db-6e86-4112-a60e-c6dde3720341")
+	)
+	(no_connect
+		(at 107.95 83.82)
+		(uuid "2e1bb1cb-8efa-4fbf-bb33-f1193b68b8cb")
+	)
+	(no_connect
+		(at 158.75 81.28)
+		(uuid "3c0db251-8fda-4437-96c1-6df357782597")
 	)
 	(no_connect
 		(at 48.26 101.6)
 		(uuid "3d1b3188-b390-4915-8a84-886a928a5237")
 	)
 	(no_connect
-		(at 158.75 78.74)
-		(uuid "5e45bb7d-30c5-49ca-8fdf-8f665b0d67d6")
+		(at 107.95 96.52)
+		(uuid "5af21e7a-2727-4ac1-9073-65087af306a9")
 	)
 	(no_connect
-		(at 158.75 81.28)
-		(uuid "7276ad1f-ad85-4bb3-b712-22db91b4fb59")
+		(at 158.75 86.36)
+		(uuid "60b49b26-8bc0-412a-a362-b3c9c096373f")
 	)
 	(no_connect
-		(at 158.75 76.2)
-		(uuid "7d058c56-74a0-47cd-99e9-f104f825fda6")
+		(at 107.95 78.74)
+		(uuid "69ebbc25-2023-407c-9f3e-a2a38ca41a2c")
+	)
+	(no_connect
+		(at 107.95 91.44)
+		(uuid "74fcb3e3-18c1-4add-89a6-099fcaa7c993")
+	)
+	(no_connect
+		(at 158.75 91.44)
+		(uuid "af944bd2-745a-4535-aeaa-985590e0c2bb")
+	)
+	(no_connect
+		(at 107.95 99.06)
+		(uuid "c42e3a17-780e-4668-b0e1-c4aea2511730")
+	)
+	(no_connect
+		(at 107.95 81.28)
+		(uuid "dfb84fe0-cf94-4064-bf5d-f350103e4fac")
+	)
+	(no_connect
+		(at 107.95 93.98)
+		(uuid "e9b6b426-a362-4c39-a20d-b2370663033b")
 	)
 	(wire
 		(pts
@@ -2415,6 +2467,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 45.72) (xy 148.59 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c05a5166-b289-4a45-aa32-0496dc9b9442")
+	)
+	(wire
+		(pts
 			(xy 97.79 55.88) (xy 109.22 55.88)
 		)
 		(stroke
@@ -2485,6 +2547,16 @@
 	)
 	(wire
 		(pts
+			(xy 148.59 45.72) (xy 148.59 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dddce3-87eb-40ad-a631-61739f429977")
+	)
+	(wire
+		(pts
 			(xy 97.79 58.42) (xy 97.79 55.88)
 		)
 		(stroke
@@ -2532,6 +2604,16 @@
 			(type default)
 		)
 		(uuid "eb36fe74-83ab-4388-ac37-5baa693ab35a")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 58.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef7af831-b111-49ca-a3cb-f5da7d537c83")
 	)
 	(wire
 		(pts
@@ -2624,16 +2706,6 @@
 		(uuid "dd6bb7e9-cb46-4332-9325-7f8e233061bd")
 	)
 	(label "3.3V"
-		(at 148.59 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef0f32e9-c15b-4e4b-9b66-7f9b23deeabd")
-	)
-	(label "3.3V"
 		(at 186.69 50.8 180)
 		(effects
 			(font
@@ -2654,17 +2726,6 @@
 		)
 		(uuid "077667e5-b8cc-4995-9f5c-928cc9344038")
 	)
-	(hierarchical_label "CP_CAM_PIN_D6"
-		(shape output)
-		(at 107.95 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "16458a25-cc33-4096-bf24-1df292c3a78c")
-	)
 	(hierarchical_label "SPI_SO"
 		(shape output)
 		(at 107.95 104.14 180)
@@ -2675,28 +2736,6 @@
 			(justify right)
 		)
 		(uuid "172e46ee-dc1d-4244-99f4-a31612f65b3c")
-	)
-	(hierarchical_label "CP_CAM_PIN_RESET"
-		(shape output)
-		(at 158.75 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "17e2d25b-a4b7-432a-8973-6cfe183d0bf8")
-	)
-	(hierarchical_label "CP_CAM_PIN_D1"
-		(shape output)
-		(at 107.95 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1a91ac08-21a2-46e6-ae7f-acf142d5e109")
 	)
 	(hierarchical_label "CAM_PIN_D6"
 		(shape input)
@@ -2742,16 +2781,16 @@
 		)
 		(uuid "275bcf6f-f6ab-4ff0-82a2-1c42468b9086")
 	)
-	(hierarchical_label "CP_CAM_PIN_PCLK"
+	(hierarchical_label "CAM_PIN_SIOC"
 		(shape output)
-		(at 107.95 96.52 180)
+		(at 158.75 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "31718684-36e2-42f9-89ec-7d75ea3205f3")
+		(uuid "2ba66e73-2edb-4655-99a5-aa1555952463")
 	)
 	(hierarchical_label "CAM_PIN_VSYNC"
 		(shape input)
@@ -2819,6 +2858,17 @@
 		)
 		(uuid "477540f2-e054-4b0f-86ad-616c699af22f")
 	)
+	(hierarchical_label "CAM_PIN_PWDN"
+		(shape output)
+		(at 158.75 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49f603f4-40e6-46f5-9869-c4a683ad24fc")
+	)
 	(hierarchical_label "CAM_PIN_D3"
 		(shape input)
 		(at 48.26 78.74 180)
@@ -2829,17 +2879,6 @@
 			(justify right)
 		)
 		(uuid "5c5a5f95-cac0-47fc-af37-c652ba8ee93d")
-	)
-	(hierarchical_label "CP_CAM_PIN_PWDN"
-		(shape output)
-		(at 158.75 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "69180113-32a8-4d36-981f-0855ba69f71b")
 	)
 	(hierarchical_label "SPI_SCK"
 		(shape input)
@@ -2852,16 +2891,16 @@
 		)
 		(uuid "6b29063c-9d64-40e7-a800-a33749634518")
 	)
-	(hierarchical_label "LS_EN"
-		(shape output)
-		(at 158.75 73.66 180)
+	(hierarchical_label "CAM_PIN_SIOD"
+		(shape bidirectional)
+		(at 158.75 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6f5b0135-e053-4c02-8cf5-e77347134006")
+		(uuid "72f4f6e6-4892-4f78-b946-41de4a25acf6")
 	)
 	(hierarchical_label "CAM_PIN_D4"
 		(shape input)
@@ -2896,39 +2935,6 @@
 		)
 		(uuid "74925209-d082-49e9-82bf-39dd7c488503")
 	)
-	(hierarchical_label "CP_CAM_PIN_D4"
-		(shape output)
-		(at 107.95 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7b5f9b32-ccec-4e13-8ed5-9bba22796510")
-	)
-	(hierarchical_label "CP_CAM_PIN_D0"
-		(shape output)
-		(at 107.95 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e664220-9427-43a5-b944-41874dfa9e79")
-	)
-	(hierarchical_label "CP_CAM_PIN_D2"
-		(shape output)
-		(at 107.95 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e90db74-94d5-40ae-a914-75bc5ebfd8c7")
-	)
 	(hierarchical_label "CAM_PIN_HREF"
 		(shape input)
 		(at 48.26 93.98 180)
@@ -2939,17 +2945,6 @@
 			(justify right)
 		)
 		(uuid "95c37a76-744f-4efe-87f8-1705dd4be449")
-	)
-	(hierarchical_label "CP_CAM_PIN_VSYNC"
-		(shape output)
-		(at 158.75 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "983d0217-8d7d-446a-9d22-e63c8446b6d1")
 	)
 	(hierarchical_label "GND"
 		(shape input)
@@ -2962,16 +2957,16 @@
 		)
 		(uuid "9c6ef631-59f9-472e-823e-9f43d26350e3")
 	)
-	(hierarchical_label "CP_CAM_PIN_D7"
+	(hierarchical_label "CAM_PIN_RESET"
 		(shape output)
-		(at 107.95 101.6 180)
+		(at 158.75 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "a64801dd-32d8-450f-91eb-64377add7d3c")
+		(uuid "a4fc8a93-5cd8-47a6-b556-c7429400ea5e")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -2984,17 +2979,6 @@
 		)
 		(uuid "a7d0c87b-25eb-45a0-9066-33726dd4b12b")
 	)
-	(hierarchical_label "CP_CAM_PIN_D5"
-		(shape output)
-		(at 107.95 91.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc23c74a-1141-4dcb-8014-8ba88c0f8a68")
-	)
 	(hierarchical_label "CAM_PIN_PCLK"
 		(shape input)
 		(at 48.26 96.52 180)
@@ -3005,28 +2989,6 @@
 			(justify right)
 		)
 		(uuid "cab7ff85-2845-4387-942d-3fed58eb74fe")
-	)
-	(hierarchical_label "CP_CAM_PIN_D3"
-		(shape output)
-		(at 107.95 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e492daae-f0a2-42ac-8661-f1a43a5f244f")
-	)
-	(hierarchical_label "CP_CAM_PIN_HREF"
-		(shape output)
-		(at 107.95 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ec6137f6-1b1b-463a-9d1d-c1c14cce9c08")
 	)
 	(hierarchical_label "CAM_PIN_D7"
 		(shape input)
@@ -3584,7 +3546,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19b032ee-9086-4f64-9619-8bb5b56d8a48")
 		(property "Reference" "C1004"
 			(at 187.96 39.3762 0)
@@ -4811,7 +4772,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" ""
 			(at 15.24 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5460,7 +5421,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" ""
 			(at 25.4 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5772,7 +5733,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2286"
+		(property "LCSC Part" ""
 			(at 35.56 106.68 0)
 			(hide yes)
 			(show_name no)

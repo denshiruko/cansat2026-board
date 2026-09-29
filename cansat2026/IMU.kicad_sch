@@ -1316,7 +1316,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5267399"
+		(property "LCSC Part" ""
 			(at 165.1 101.6 0)
 			(hide yes)
 			(show_name no)

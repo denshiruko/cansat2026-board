@@ -1,0 +1,254 @@
+(footprint "L_Wuerth_PMCI-201610"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Inductor, Wuerth, PMCI-201610, 2.0x1.6x1.0mm, (https://www.we-online.com/en/components/products/WE-PMCI)")
+	(tags "Würth SMT")
+	(property "Reference" "REF**"
+		(at 0 -1.85 0)
+		(layer "F.SilkS")
+		(uuid "874e0aec-e5be-480e-960a-31c2337a0919")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Wuerth_PMCI-201610"
+		(at 0 1.85 0)
+		(layer "F.Fab")
+		(uuid "21f9843b-4f2a-4c38-9796-b385a0bfff12")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2cd26095-6854-487a-99fc-8973e2bda424")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d7f4eed-8007-4fea-adb6-d592bc75c61c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "inductor/SMD"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b7cf8017-0505-4eba-aeb0-1e169789d3b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.11 -1.16)
+		(end 1.11 -1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27b2ec32-7c5f-4eaf-ac07-92bd4bcc27e5")
+	)
+	(fp_line
+		(start 1.11 1.16)
+		(end -1.11 1.16)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3320239-ac4f-4a9e-923d-5ec3ae2f78dc")
+	)
+	(fp_line
+		(start -2.2 -1.15)
+		(end -0.15 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0712688-1587-4158-9cf2-3e2cfd1379b6")
+	)
+	(fp_line
+		(start -2.2 1.15)
+		(end -2.2 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2959f368-3e16-4480-857e-a853f5a82d5a")
+	)
+	(fp_line
+		(start -0.15 -1.15)
+		(end -0.15 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44e76d31-f145-4e7d-bdc8-8aaf9eb2bbcb")
+	)
+	(fp_line
+		(start -0.15 -1.05)
+		(end 0.15 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "046bbc7c-ea49-4a06-aa0c-93aea571d235")
+	)
+	(fp_line
+		(start -0.15 1.05)
+		(end -0.15 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa2a606c-860e-42f7-b0b3-9075c6e18054")
+	)
+	(fp_line
+		(start -0.15 1.15)
+		(end -2.2 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3d5a291a-a608-47f9-bb05-e51596825757")
+	)
+	(fp_line
+		(start 0.15 -1.15)
+		(end 2.2 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "67b153e6-280e-4c1a-9514-2cc169a8c8c9")
+	)
+	(fp_line
+		(start 0.15 -1.05)
+		(end 0.15 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4320b180-8327-462c-9c38-edb3cbb0dbe8")
+	)
+	(fp_line
+		(start 0.15 1.05)
+		(end -0.15 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0379419a-84ef-46dd-ad94-f114c0c05b06")
+	)
+	(fp_line
+		(start 0.15 1.15)
+		(end 0.15 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e604728-d443-4ca7-a3cd-d7401af64d94")
+	)
+	(fp_line
+		(start 2.2 -1.15)
+		(end 2.2 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1aafbce9-0022-4cd1-bb23-6e26c92ca331")
+	)
+	(fp_line
+		(start 2.2 1.15)
+		(end 0.15 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "52a98f63-0666-41dd-a34f-b306e7fb9ca6")
+	)
+	(fp_rect
+		(start -1 -0.8)
+		(end 1 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "bda62955-2558-4b7f-a220-328b4c320b7c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "881aa621-c656-45fa-a10b-413fb69f3ca9")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.2 0)
+		(size 1.6 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "c81a5c60-7b6a-4ec5-82e0-d535855e39ec")
+	)
+	(pad "2" smd roundrect
+		(at 1.2 0)
+		(size 1.6 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "afc8ad03-fb74-484c-acb8-b505684b2964")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Inductor_SMD.3dshapes/L_Wuerth_PMCI-201610.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
