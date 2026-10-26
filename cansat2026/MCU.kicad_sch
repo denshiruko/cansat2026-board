@@ -2420,6 +2420,12 @@
 		(uuid "6626167e-5d5f-4de6-b716-144b8362efb2")
 	)
 	(junction
+		(at 226.06 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70286612-ba52-40f0-a01d-c969fd2bc07c")
+	)
+	(junction
 		(at 25.4 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2444,6 +2450,12 @@
 		(uuid "8f9fa41c-ac82-4151-a868-5f771f6e6ba4")
 	)
 	(junction
+		(at 256.54 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91f0860e-7d31-48df-9ebd-a7d3e16d285c")
+	)
+	(junction
 		(at 205.74 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2462,28 +2474,16 @@
 		(uuid "a7176f58-de40-4693-a78c-8b97dc8c91d9")
 	)
 	(junction
-		(at 256.54 139.7)
+		(at 241.3 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b2457bf7-8728-47bb-8b20-96a7da04c1df")
+		(uuid "c8e6c779-d5a9-4130-9320-80ae85a92836")
 	)
 	(junction
 		(at 180.34 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d8ff3836-71bf-49b4-adfe-3421b528994b")
-	)
-	(junction
-		(at 256.54 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f54c85a0-c1cb-43cc-b7ed-923870f5eb29")
-	)
-	(junction
-		(at 241.3 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fb3376ac-6824-4409-9ce6-90c67ccf0587")
 	)
 	(junction
 		(at 63.5 26.67)
@@ -2639,16 +2639,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 147.32) (xy 256.54 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c20c7fe-37e4-4f69-b367-71322fbd21b7")
-	)
-	(wire
-		(pts
 			(xy 198.12 165.1) (xy 157.48 165.1)
 		)
 		(stroke
@@ -2779,7 +2769,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 147.32) (xy 266.7 149.86)
+			(xy 236.22 147.32) (xy 236.22 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2836,6 +2826,26 @@
 			(type default)
 		)
 		(uuid "451c04f2-591c-49dc-bbf9-f16dbb35dd5a")
+	)
+	(wire
+		(pts
+			(xy 226.06 160.02) (xy 226.06 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b69637-d3c6-435b-a19d-9363b5412bf4")
+	)
+	(wire
+		(pts
+			(xy 241.3 152.4) (xy 256.54 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e8c01f-ebf8-48b4-ac1d-ccb5b842788f")
 	)
 	(wire
 		(pts
@@ -2959,6 +2969,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 152.4) (xy 241.3 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e77c1bf-131d-45ec-a5ac-9974c611b556")
+	)
+	(wire
+		(pts
 			(xy 205.74 149.86) (xy 205.74 147.32)
 		)
 		(stroke
@@ -3039,16 +3059,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 139.7) (xy 256.54 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ce10f57-f72f-42ca-9f1d-1b9034e307b7")
-	)
-	(wire
-		(pts
 			(xy 215.9 149.86) (xy 215.9 147.32)
 		)
 		(stroke
@@ -3059,13 +3069,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 152.4) (xy 256.54 152.4)
+			(xy 224.79 152.4) (xy 226.06 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7e7b59b0-6636-4677-80bb-4c4bb7eb24c2")
+		(uuid "8151bcbf-6ef5-4141-b448-9b0ed72d0826")
 	)
 	(wire
 		(pts
@@ -3159,23 +3169,13 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 139.7) (xy 241.3 139.7)
+			(xy 226.06 139.7) (xy 236.22 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9929302f-9a6e-40e7-b869-1f91a0d1a40f")
-	)
-	(wire
-		(pts
-			(xy 256.54 139.7) (xy 266.7 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c15f3e4-66a1-4dac-b021-1698748a8ffb")
 	)
 	(wire
 		(pts
@@ -3329,16 +3329,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 147.32) (xy 241.3 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9a6ada2-caf3-4ecb-868d-75c7bcc52515")
-	)
-	(wire
-		(pts
 			(xy 137.16 134.62) (xy 137.16 137.16)
 		)
 		(stroke
@@ -3396,6 +3386,16 @@
 			(type default)
 		)
 		(uuid "d5e99cd8-4373-45ee-b0f3-a606ea093a5f")
+	)
+	(wire
+		(pts
+			(xy 241.3 160.02) (xy 241.3 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7bfebfa-f817-4f37-bd2a-fdcff7dbb818")
 	)
 	(wire
 		(pts
@@ -3628,7 +3628,7 @@
 		(uuid "01115e8c-1401-4223-bea0-e3805039fa69")
 	)
 	(label "IOEX_~{INT}"
-		(at 266.7 149.86 180)
+		(at 236.22 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3638,7 +3638,7 @@
 		(uuid "016d9fb0-7525-42a1-b2b4-ac58453b6a04")
 	)
 	(label "1.8V"
-		(at 254 152.4 180)
+		(at 224.79 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4165,6 +4165,17 @@
 		)
 		(uuid "1eba604d-ff47-47e3-8df1-10cd61507cc1")
 	)
+	(hierarchical_label "CAM_PIN_SIOC"
+		(shape output)
+		(at 226.06 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "23f7b3fc-50f9-4339-8f77-f049c972f6fd")
+	)
 	(hierarchical_label "M3_P_EN"
 		(shape output)
 		(at 160.02 177.8 0)
@@ -4186,17 +4197,6 @@
 			(justify left)
 		)
 		(uuid "2f2167c4-876f-4ca5-9355-9349c0f775ce")
-	)
-	(hierarchical_label "CAM_PIN_SIOC"
-		(shape output)
-		(at 241.3 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "31e154aa-180e-4006-ba66-150c7d17d9e8")
 	)
 	(hierarchical_label "MA1"
 		(shape output)
@@ -4307,6 +4307,17 @@
 			(justify left)
 		)
 		(uuid "5cf493ef-8fa8-4a85-9e05-3f1be7639f5d")
+	)
+	(hierarchical_label "CAM_PIN_SIOD"
+		(shape bidirectional)
+		(at 241.3 162.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "662d5fb4-0752-4715-b4fe-941ae16e3189")
 	)
 	(hierarchical_label "MC1"
 		(shape output)
@@ -4494,17 +4505,6 @@
 			(justify left)
 		)
 		(uuid "b9d4ef9f-824b-4a74-9c91-c19b161b0a32")
-	)
-	(hierarchical_label "CAM_PIN_SIOD"
-		(shape bidirectional)
-		(at 256.54 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bf44213b-10c2-47b6-9d4e-b9e7a529d340")
 	)
 	(hierarchical_label "1.8V"
 		(shape input)
@@ -5449,154 +5449,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 256.54 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "44fd5c9a-70dd-40f8-8059-7d9af46bf2da")
-		(property "Reference" "R913"
-			(at 259.08 142.2399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 259.08 144.7799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 254.762 143.51 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 256.54 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 256.54 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 256.54 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 256.54 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25900"
-			(at 256.54 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Mouser Part" ""
-			(at 256.54 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part" ""
-			(at 256.54 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "59386929-fbd7-436a-8cdf-af1e9a68e8fd")
-		)
-		(pin "1"
-			(uuid "d3c88033-e20f-49da-b5b9-55a6e649df18")
-		)
-		(instances
-			(project "cansat2026"
-				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63"
-					(reference "R913")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 30.48 38.1 0)
 		(unit 1)
@@ -6294,7 +6146,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 241.3 143.51 0)
+		(at 226.06 156.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6303,9 +6155,9 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "819d472f-7c7b-42ca-9f18-905f2108448e")
+		(uuid "80ea3abc-35b1-4dbe-b6ce-23c292255c67")
 		(property "Reference" "R912"
-			(at 243.84 142.2399 0)
+			(at 228.6 154.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6316,7 +6168,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 243.84 144.7799 0)
+			(at 228.6 157.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6327,7 +6179,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 239.522 143.51 90)
+			(at 224.282 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6338,7 +6190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 143.51 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6349,7 +6201,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 241.3 143.51 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6360,7 +6212,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 241.3 143.51 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6371,7 +6223,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 241.3 143.51 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6382,7 +6234,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 241.3 143.51 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6393,7 +6245,7 @@
 			)
 		)
 		(property "LCSC Part" "C25900"
-			(at 241.3 143.51 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6404,7 +6256,7 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 241.3 143.51 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6415,7 +6267,7 @@
 			)
 		)
 		(property "DigiKey Part" ""
-			(at 241.3 143.51 0)
+			(at 226.06 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6426,10 +6278,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "811fff9f-9378-4cce-ae71-1641ef49e4a7")
+			(uuid "d25518fc-6b60-43e6-90fa-a9306be1b77a")
 		)
 		(pin "1"
-			(uuid "33c2607e-1e1e-4692-bb49-7e56b31a2d9f")
+			(uuid "1b6e080d-9a1d-4879-84e5-747436093e58")
 		)
 		(instances
 			(project "cansat2026"
@@ -7143,7 +6995,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 266.7 143.51 0)
+		(at 236.22 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7154,7 +7006,7 @@
 		(fields_autoplaced yes)
 		(uuid "acddc091-1d14-47c5-9233-4dd0245e5886")
 		(property "Reference" "R914"
-			(at 269.24 142.2399 0)
+			(at 238.76 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7165,7 +7017,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 269.24 144.7799 0)
+			(at 238.76 144.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7176,7 +7028,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 264.922 143.51 90)
+			(at 234.442 143.51 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7187,7 +7039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 143.51 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7198,7 +7050,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 266.7 143.51 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7209,7 +7061,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 266.7 143.51 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7220,7 +7072,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 266.7 143.51 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7231,7 +7083,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 266.7 143.51 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7242,7 +7094,7 @@
 			)
 		)
 		(property "LCSC Part" "C25900"
-			(at 266.7 143.51 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7253,7 +7105,7 @@
 			)
 		)
 		(property "Mouser Part" ""
-			(at 266.7 143.51 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +7116,7 @@
 			)
 		)
 		(property "DigiKey Part" ""
-			(at 266.7 143.51 0)
+			(at 236.22 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7284,6 +7136,154 @@
 			(project "cansat2026"
 				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63"
 					(reference "R914")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ae717e6b-19e5-403c-bfe6-934223fa8289")
+		(property "Reference" "R913"
+			(at 243.84 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 243.84 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 239.522 156.21 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25900"
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Part" ""
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "DigiKey Part" ""
+			(at 241.3 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c009a085-5175-4f8d-a1f1-147273ef0e8a")
+		)
+		(pin "1"
+			(uuid "4b957b89-0a3f-42c5-8bfd-a187d653866c")
+		)
+		(instances
+			(project "cansat2026"
+				(path "/bf092721-05bb-4932-a328-528d8d2db6b5/51402aa8-1c6c-4ca5-bb0d-7d0f87165c63"
+					(reference "R913")
 					(unit 1)
 				)
 			)
